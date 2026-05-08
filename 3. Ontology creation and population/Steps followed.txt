@@ -1,0 +1,11 @@
+Ontofarm
+
+1. Written tranclations in csv file.
+2. loop over all the owl files, openning one by one and replacing the english terms with their translations.
+	a. made it work with exact match (partial match were making errors as subpart of terms were getting relaced)
+	b. look care of #(domain-range terms)
+3. 
+
+
+
+multifarm

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1673689-6360333"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-1371599-6882880"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8089979-8101834"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-9119472-4566960"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2335658-4726746"/>
+		<entity2 rdf:resource="http://sigkdd_pt#op-5303483-3123361"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9279174-7179203"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9693244-1854086"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-2505021-4105531"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-5598122-8882198"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-0843643-7961746"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1615037-1910053"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8083089-5730338"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-0024038-3462578"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-5125628-8245963"/>
+		<entity2 rdf:resource="http://sigkdd_pt#ent-4962304-7932419"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7434185-7147108"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-7305202-3499801"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2529903-4497315"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-4365151-8149173"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-4099171-3875571"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3459204-3800556"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7651692-9268931"/>
+		<entity2 rdf:resource="http://sigkdd_pt#c-4945358-3196074"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-1147107-7879690"/>
+		<entity2 rdf:resource="http://sigkdd_pt#op-2118615-6560426"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

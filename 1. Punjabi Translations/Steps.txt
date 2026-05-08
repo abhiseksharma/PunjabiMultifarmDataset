@@ -1,0 +1,3 @@
+1. Make JSON from DOCX files. (using docxToJSON.py)
+2. After getting JFSON From docx if there were some JSON files already, merge all the json files. (using jsonMerg.py)
+3. Get Required CSV file from JSON. (using JSONtoCSV.py)

@@ -1,0 +1,1322 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY ekaw_ar "http://ekaw_ar#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://ekaw_ar#"
+     xml:base="http://ekaw_ar"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ekaw_ar="http://ekaw_ar#">
+    <owl:Ontology rdf:about="http://ekaw_ar"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_ar#op-0137481-5561562 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-0137481-5561562">
+        <rdfs:label xml:lang="ar">لديه نسخة محدثة</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-8649396-3027763"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-0343433-2693052 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-0343433-2693052">
+        <rdfs:label xml:lang="ar">تنظم</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-7296199-0622004"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-9672741-8660259"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-0472017-9352405 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-0472017-9352405">
+        <rdfs:label xml:lang="ar">حجم يحتوي البحث</rdfs:label>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-8485700-0884164"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-0832595-5336129 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-0832595-5336129">
+        <rdfs:label xml:lang="ar">تنظيمه من قبل</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-0343433-2693052"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-7296199-0622004"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-9672741-8660259"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1187801-7810765 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1187801-7810765">
+        <rdfs:label xml:lang="ar">موضوع يغطي</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9577975-1692045"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-8551517-4189813"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1526269-1089433"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-9517872-3499900"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1355922-2340090 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1355922-2340090">
+        <rdfs:label xml:lang="ar">موقع ال</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-6343500-3836783"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-5279070-4924293"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1407813-3432479 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1407813-3432479">
+        <rdfs:label xml:lang="ar">جزء معكوس من 7</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-5420677-7497593"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1447142-2954451 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1447142-2954451">
+        <rdfs:label xml:lang="ar">تنظم تقنيا</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-0343433-2693052"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1513004-9645059 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1513004-9645059">
+        <rdfs:label xml:lang="ar">كاتب ال</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1734762-4061583 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1734762-4061583">
+        <rdfs:label xml:lang="ar">مراجعة البحث</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-1949793-8738376 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-1949793-8738376">
+        <rdfs:label xml:lang="ar">لديه مراجعة</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-1734762-4061583"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-2023418-4110423 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-2023418-4110423">
+        <rdfs:label xml:lang="ar">الحدث على القائمة</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-2472816-9844323"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1800921-7891945"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-2663136-5254444"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-2472816-9844323 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-2472816-9844323">
+        <rdfs:label xml:lang="ar">القوائم الاحداث</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1800921-7891945"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-2663136-5254444"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-2547004-0011560 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-2547004-0011560">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="ar">جزء من الحدث</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-8548643-9812133"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-9969725-4808482"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-2663849-4053623 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-2663849-4053623">
+        <rdfs:label xml:lang="ar">مراجع البحث</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-6240326-8710912"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-9572176-3009066"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-5279070-4924293 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-5279070-4924293">
+        <rdfs:label xml:lang="ar">عقد في</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-6343500-3836783"/>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-5420677-7497593 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-5420677-7497593">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="ar">لديه جزء</rdfs:label>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-8548643-9812133"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-5630462-7225418 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-5630462-7225418">
+        <rdfs:label xml:lang="ar">البحث مقدم على شكل</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1526269-1089433"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-3593115-8845158"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-5925207-4160828 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-5925207-4160828">
+        <rdfs:label xml:lang="ar">ينظم علميا</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-6247999-0098365"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-0343433-2693052"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-9510605-6752797"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-6549895-6920495 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-6549895-6920495">
+        <rdfs:label xml:lang="ar">مراجعة كتبت من قبل</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-6240326-8710912"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-7023505-2566760"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-7023505-2566760 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-7023505-2566760">
+        <rdfs:label xml:lang="ar">كتب من قبل</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-1513004-9645059"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-7729615-7683555 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-7729615-7683555">
+        <rdfs:label xml:lang="ar">نظمت تقنيا من قبل</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-0832595-5336129"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-1447142-2954451"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8252311-3781610 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8252311-3781610">
+        <rdfs:label xml:lang="ar">المرجع إليه في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8485700-0884164 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8485700-0884164">
+        <rdfs:label xml:lang="ar">بحث  في حجم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8548643-9812133 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8548643-9812133">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="ar">جزء من</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8551517-4189813 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8551517-4189813">
+        <rdfs:label xml:lang="ar"> تغطية موضوع من قبل</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9577975-1692045"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1526269-1089433"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-9517872-3499900"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8601156-3896611 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8601156-3896611">
+        <rdfs:label xml:lang="ar">المراجع</rdfs:label>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-8252311-3781610"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-8649396-3027763 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-8649396-3027763">
+        <rdfs:label xml:lang="ar">نسخة محدثة من</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-9408844-5377052 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-9408844-5377052">
+        <rdfs:label xml:lang="ar">ناشر ال</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1800921-7891945"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-2663136-5254444"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-4234654-5807287"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-7832259-1855290"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-9510605-6752797 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-9510605-6752797">
+        <rdfs:label xml:lang="ar">نظمت علميا من قبل</rdfs:label>
+        <rdfs:range rdf:resource="&ekaw_ar;c-6247999-0098365"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-0832595-5336129"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-9569582-7475125 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-9569582-7475125">
+        <rdfs:label xml:lang="ar">العرض التقديمي للبحث</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <owl:inverseOf rdf:resource="&ekaw_ar;op-5630462-7225418"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ekaw_ar;c-1526269-1089433"/>
+                    <rdf:Description rdf:about="&ekaw_ar;c-3593115-8845158"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-9572176-3009066 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-9572176-3009066">
+        <rdfs:label xml:lang="ar">لديه مراجع</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-6240326-8710912"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_ar#op-9969725-4808482 -->
+
+    <owl:ObjectProperty rdf:about="&ekaw_ar;op-9969725-4808482">
+        <rdfs:label xml:lang="ar">لديه حدث</rdfs:label>
+        <rdfs:domain rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:range rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <rdfs:subPropertyOf rdf:resource="&ekaw_ar;op-5420677-7497593"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_ar#c-0177684-5677257 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0177684-5677257">
+        <rdfs:label xml:lang="ar">موظف وكالة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0356170-8155877 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0356170-8155877">
+        <rdfs:label xml:lang="ar">رئيس اللجنة التوجيهية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2151909-6716097"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2433041-3444752"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3793874-7296177"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0368033-0901830 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0368033-0901830">
+        <rdfs:label xml:lang="ar">معهد البحوث</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-6247999-0098365"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0603040-0084971 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0603040-0084971">
+        <rdfs:label xml:lang="ar">رئيس الجلسة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2151909-6716097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0690995-9868889 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0690995-9868889">
+        <rdfs:label xml:lang="ar">مؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1274851-4659172"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-1762655-4943188"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2752153-3751719"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3573552-5420858"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3650981-0585565"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5557782-8551932"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0799209-1894752 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0799209-1894752">
+        <rdfs:label xml:lang="ar">مشارك المؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-0880552-5963273 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-0880552-5963273">
+        <rdfs:label xml:lang="ar">مشارك مسجل في وقت مبكر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4454022-4596607"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1155125-5463524 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1155125-5463524">
+        <rdfs:label xml:lang="ar"> ناشرالمحضر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1161899-8615344 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1161899-8615344">
+        <rdfs:label xml:lang="ar">وثيقة</rdfs:label>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1213097-1629061 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1213097-1629061">
+        <rdfs:label xml:lang="ar">محضر المؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2457945-0984638"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-0472017-9352405"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&ekaw_ar;c-5013601-2241325"/>
+                            <rdf:Description rdf:about="&ekaw_ar;c-9728973-5842022"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1274851-4659172 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1274851-4659172">
+        <rdfs:label xml:lang="ar">الحدث العلمي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1330484-5986058 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1330484-5986058">
+        <rdfs:label xml:lang="ar">البحث المنتظم</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3435370-1411185"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5784430-5417502"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8389727-6574223"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1526269-1089433 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1526269-1089433">
+        <rdfs:label xml:lang="ar">البحث</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-1800921-7891945"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2457945-0984638"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2663136-5254444"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4234654-5807287"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1762655-4943188 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1762655-4943188">
+        <rdfs:label xml:lang="ar">الحديث المدعو</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2752153-3751719"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3573552-5420858"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3650981-0585565"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5557782-8551932"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1792116-0584977 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1792116-0584977">
+        <rdfs:label xml:lang="ar">مراجعة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-1800921-7891945"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2457945-0984638"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2663136-5254444"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4234654-5807287"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1800921-7891945 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1800921-7891945">
+        <rdfs:label xml:lang="ar">كراسة البرنامج</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2457945-0984638"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2663136-5254444"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4234654-5807287"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-1889498-3965600 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-1889498-3965600">
+        <rdfs:label xml:lang="ar">المتحدث المدعو</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3345561-3776725"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2151909-6716097 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2151909-6716097">
+        <rdfs:label xml:lang="ar">عضو اللجنة التوجيهية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-6240326-8710912"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2153868-8112615 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2153868-8112615">
+        <rdfs:label xml:lang="ar">جلسة الملصقات</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2448571-8449642"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8920865-3817709"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2239817-6987437 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2239817-6987437">
+        <rdfs:label xml:lang="ar">البحث مرسل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5025784-8386962"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2386100-0824803 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2386100-0824803">
+        <rdfs:label xml:lang="ar">مراجعة محايد</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2874126-0702006"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8615713-0809350"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2433041-3444752 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2433041-3444752">
+        <rdfs:label xml:lang="ar">رئيس البرنامج التعليمي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2151909-6716097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2448571-8449642 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2448571-8449642">
+        <rdfs:label xml:lang="ar">جلسة المنتظمة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8920865-3817709"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2457945-0984638 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2457945-0984638">
+        <rdfs:label xml:lang="ar">محضر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4234654-5807287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-0472017-9352405"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&ekaw_ar;c-3058196-3263423"/>
+                            <rdf:Description rdf:about="&ekaw_ar;c-9728973-5842022"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-0472017-9352405"/>
+                <owl:onClass rdf:resource="&ekaw_ar;c-8195625-1056747"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-2663136-5254444"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2663136-5254444 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2663136-5254444">
+        <rdfs:label xml:lang="ar">شبكة الإنترنت العنكبوتية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4234654-5807287"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2752153-3751719 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2752153-3751719">
+        <rdfs:label xml:lang="ar">البرنامج التعليمي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3573552-5420858"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3650981-0585565"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5557782-8551932"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-2874126-0702006 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-2874126-0702006">
+        <rdfs:label xml:lang="ar">مراجعة سلبية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8615713-0809350"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3058196-3263423 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3058196-3263423">
+        <rdfs:label xml:lang="ar">بحث مقبول</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4732683-8815223"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-1949793-8738376"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-8615713-0809350"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5025784-8386962"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9288285-7925510"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3345561-3776725 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3345561-3776725">
+        <rdfs:label xml:lang="ar">مقدم</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3414903-5115899 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3414903-5115899">
+        <rdfs:label xml:lang="ar">رئيس اللجنة التجريبية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3435370-1411185 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3435370-1411185">
+        <rdfs:label xml:lang="ar">بحث الملصق</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5784430-5417502"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8389727-6574223"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3573552-5420858 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3573552-5420858">
+        <rdfs:label xml:lang="ar">الحدث الاجتماعي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3650981-0585565"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5557782-8551932"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3593115-8845158 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3593115-8845158">
+        <rdfs:label xml:lang="ar">ملخص</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3650981-0585565 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3650981-0585565">
+        <rdfs:label xml:lang="ar">ورشة عمل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1274851-4659172"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3793874-7296177 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3793874-7296177">
+        <rdfs:label xml:lang="ar">رئيس لجنة ورشة عمل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2151909-6716097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-3892765-6669047 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-3892765-6669047">
+        <rdfs:label xml:lang="ar">عرض تقديمي فردي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1274851-4659172"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4085467-5905637 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4085467-5905637">
+        <rdfs:label xml:lang="ar">عضو اللجنة المنظمة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4234654-5807287 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4234654-5807287">
+        <rdfs:label xml:lang="ar">حجم متعددة الكاتب</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7832259-1855290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4454022-4596607 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4454022-4596607">
+        <rdfs:label xml:lang="ar">مشارك مسجل في وقت متأخر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4732683-8815223 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4732683-8815223">
+        <rdfs:label xml:lang="ar">تقييم البحث</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-6491986-1587747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-1949793-8738376"/>
+                <owl:onClass rdf:resource="&ekaw_ar;c-8195625-1056747"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5025784-8386962"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4943013-7138724 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4943013-7138724">
+        <rdfs:label xml:lang="ar">عضو اللجنة العلمية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2151909-6716097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-4970630-6762798 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-4970630-6762798">
+        <rdfs:label xml:lang="ar">جلسة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1274851-4659172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-9969725-4808482"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-2547004-0011560"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&ekaw_ar;c-0690995-9868889"/>
+                            <rdf:Description rdf:about="&ekaw_ar;c-3650981-0585565"/>
+                            <rdf:Description rdf:about="&ekaw_ar;c-9775003-9154374"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-2547004-0011560"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&ekaw_ar;c-0690995-9868889"/>
+                            <rdf:Description rdf:about="&ekaw_ar;c-3650981-0585565"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-5557782-8551932"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-5013601-2241325 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-5013601-2241325">
+        <rdfs:label xml:lang="ar">بحث المؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8824966-5628831"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-5025784-8386962 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-5025784-8386962">
+        <rdfs:label xml:lang="ar">البحث بعد اجراء التعديل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-7023505-2566760"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-0799209-1894752"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-8649396-3027763"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-3058196-3263423"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-5557782-8551932 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-5557782-8551932">
+        <rdfs:label xml:lang="ar">حديث مساهم</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3892765-6669047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-9569582-7475125"/>
+                <owl:onClass rdf:resource="&ekaw_ar;c-8195625-1056747"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-9569582-7475125"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-5025784-8386962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9775003-9154374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-5635453-0126785 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-5635453-0126785">
+        <rdfs:label xml:lang="ar">جلسة صناعية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-8364514-0643651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-5784430-5417502 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-5784430-5417502">
+        <rdfs:label xml:lang="ar">بحث صناعي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8389727-6574223"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8824966-5628831"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6154780-4925206 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6154780-4925206">
+        <rdfs:label xml:lang="ar">رئيس اللجنة المنظمة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4085467-5905637"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6240326-8710912 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6240326-8710912">
+        <rdfs:label xml:lang="ar">مراجع محتمل من ممكن</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6247999-0098365 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6247999-0098365">
+        <rdfs:label xml:lang="ar">المؤسسة الأكاديمية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-6972807-1473066"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6296113-3341613 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6296113-3341613">
+        <rdfs:label xml:lang="ar">ملخص البرنامج التعليمي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3593115-8845158"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6343500-3836783 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6343500-3836783">
+        <rdfs:label xml:lang="ar">موقع</rdfs:label>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6491986-1587747 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6491986-1587747">
+        <rdfs:label xml:lang="ar">بحث مسند</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-2239817-6987437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-9572176-3009066"/>
+                <owl:onClass rdf:resource="&ekaw_ar;c-8195625-1056747"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-6972807-1473066 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-6972807-1473066">
+        <rdfs:label xml:lang="ar">وكالة التنظيم</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-7168407-3500733 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-7168407-3500733">
+        <rdfs:label xml:lang="ar">رحلة مؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3573552-5420858"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-7296199-0622004 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-7296199-0622004">
+        <rdfs:label xml:lang="ar">شخص</rdfs:label>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9517872-3499900"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-9672741-8660259"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-7311675-4240500 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-7311675-4240500">
+        <rdfs:label xml:lang="ar">طالب</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-7832259-1855290 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-7832259-1855290">
+        <rdfs:label xml:lang="ar">نشرة إعلانية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1161899-8615344"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-7952836-8122179 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-7952836-8122179">
+        <rdfs:label xml:lang="ar">جلسة ورشة العمل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <owl:disjointWith rdf:resource="&ekaw_ar;c-8364514-0643651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8195625-1056747 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8195625-1056747">
+        <rdfs:label xml:lang="ar">لاشيئ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8364514-0643651 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8364514-0643651">
+        <rdfs:label xml:lang="ar">جلسة المؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ekaw_ar;op-2547004-0011560"/>
+                <owl:someValuesFrom rdf:resource="&ekaw_ar;c-0690995-9868889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8389727-6574223 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8389727-6574223">
+        <rdfs:label xml:lang="ar">البحث التجريبي</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8564040-5809217 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8564040-5809217">
+        <rdfs:label xml:lang="ar">الكاتب البحث</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-7296199-0622004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8615713-0809350 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8615713-0809350">
+        <rdfs:label xml:lang="ar">مراجعة إيجابية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1792116-0584977"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8824966-5628831 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8824966-5628831">
+        <rdfs:label xml:lang="ar">بحث ورشة عمل</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1526269-1089433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-8920865-3817709 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-8920865-3817709">
+        <rdfs:label xml:lang="ar">جلسة تجريبية</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4970630-6762798"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9129184-9951393 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9129184-9951393">
+        <rdfs:label xml:lang="ar">مأدبة المؤتمر</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3573552-5420858"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9288285-7925510 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9288285-7925510">
+        <rdfs:label xml:lang="ar">بحث مرفوض</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-4732683-8815223"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9517872-3499900 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9517872-3499900">
+        <rdfs:label xml:lang="ar">الحدث</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9577975-1692045 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9577975-1692045">
+        <rdfs:label xml:lang="ar">موضوع البحث</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9672741-8660259 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9672741-8660259">
+        <rdfs:label xml:lang="ar">منظمة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9728973-5842022 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9728973-5842022">
+        <rdfs:label xml:lang="ar">ملخص حديث المدعو</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-3593115-8845158"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9775003-9154374 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9775003-9154374">
+        <rdfs:label xml:lang="ar">المسار</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-1274851-4659172"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_ar#c-9942832-9353977 -->
+
+    <owl:Class rdf:about="&ekaw_ar;c-9942832-9353977">
+        <rdfs:label xml:lang="ar">الجامعة</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ekaw_ar;c-6247999-0098365"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

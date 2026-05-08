@@ -1,0 +1,3157 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://edas_ru#"
+     xml:base="http://edas_ru"
+     xmlns:edas_ru="http://edas_ru#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:edas="http://edas#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://edas_ru"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edas_ru#op-0205883-0241051 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-0205883-0241051">
+        <rdfs:label xml:lang="ru">меню</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-8056492-4127799"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-8238801-2082798"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-0426835-7881973 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-0426835-7881973">
+        <rdfs:label xml:lang="ru">связанная статья</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0088244-3947128"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-1916694-8350281"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-0575667-0423539 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-0575667-0423539">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="ru">оценка</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-0582364-6313410"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-1620347-4466070 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-1620347-4466070">
+        <rdfs:label xml:lang="ru">кем предоставлена</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-1631841-9402247 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-1631841-9402247">
+        <rdfs:label xml:lang="ru">связанный документ</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-6853468-8768509"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-1395838-0351911"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7931181-1917092"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-9358210-3657325"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-1746416-0889567 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-1746416-0889567">
+        <rdfs:label xml:lang="ru">отностится к статье</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-3886767-9729416"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-3990342-5423285"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-1916694-8350281 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-1916694-8350281">
+        <rdfs:label xml:lang="ru">кем написана</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-0088244-3947128"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-1934281-3539956 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-1934281-3539956">
+        <rdfs:label xml:lang="ru">член</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1395838-0351911"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-2077676-8048972 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-2077676-8048972">
+        <rdfs:label xml:lang="ru">объявление</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-9358210-3657325"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-8190238-6791504"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-2459234-2779874 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-2459234-2779874">
+        <rdfs:label xml:lang="ru">инициирует</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-2663041-5013935"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7961947-6282814"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-8777591-6593160"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-3022657-9534094 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-3022657-9534094">
+        <rdfs:label xml:lang="ru">тема</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-7801057-7210969"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0061779-9093693"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-3314214-7346542 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-3314214-7346542">
+        <rdfs:label xml:lang="ru">инициируется</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-2459234-2779874"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-2663041-5013935"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7961947-6282814"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-8777591-6593160"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-4010638-4436009 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-4010638-4436009">
+        <rdfs:label xml:lang="ru">программа</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-6788496-2708454"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6931092-4960918"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-4350964-5144963 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-4350964-5144963">
+        <rdfs:label xml:lang="ru">посетитель</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6931092-4960918"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-4656363-8844881 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-4656363-8844881">
+        <rdfs:label xml:lang="ru">меню</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-8056492-4127799"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-8238801-2082798"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-0205883-0241051"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-4753033-3304276 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-4753033-3304276">
+        <rdfs:label xml:lang="ru">является местом проведения</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-9912151-9278463"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-4911734-1877677 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-4911734-1877677">
+        <rdfs:label xml:lang="ru">кем рецензируется</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-2663041-5013935"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-4282145-3371548"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7961947-6282814"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-8777591-6593160"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-5060165-5952208 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-5060165-5952208">
+        <rdfs:label xml:lang="ru">принадлежит этапу</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6788496-2708454"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-4010638-4436009"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-6059198-8481717 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-6059198-8481717">
+        <rdfs:label xml:lang="ru">история рецензирования</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-4000085-7827574"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-4282145-3371548"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-6078340-7274429"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-6078340-7274429 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-6078340-7274429">
+        <rdfs:label xml:lang="ru">история рецензирования</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-4000085-7827574"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-4282145-3371548"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-6188482-4072338 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-6188482-4072338">
+        <rdfs:label xml:lang="ru">посетитель</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-4350964-5144963"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-6523064-1442957 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-6523064-1442957">
+        <rdfs:label xml:lang="ru">относится к этапу</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-3886767-9729416"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-3990342-5423285"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-1746416-0889567"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-6853468-8768509 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-6853468-8768509">
+        <rdfs:label xml:lang="ru">относится к</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-1395838-0351911"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7931181-1917092"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-9358210-3657325"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-7263730-4744247 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-7263730-4744247">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="ru">страна</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-7644003-1185961 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-7644003-1185961">
+        <rdfs:label xml:lang="ru">рецензирует</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-4911734-1877677"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-2663041-5013935"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-4282145-3371548"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-7961947-6282814"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-8777591-6593160"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-7801057-7210969 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-7801057-7210969">
+        <rdfs:label xml:lang="ru">тема</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0061779-9093693"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-8084190-9753295 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-8084190-9753295">
+        <rdfs:label xml:lang="ru">предоставляет</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-9643706-3615542"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-1620347-4466070"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-8190238-6791504 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-8190238-6791504">
+        <rdfs:label xml:lang="ru">для этапа</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-9358210-3657325"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-8222998-6502577 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-8222998-6502577">
+        <rdfs:label xml:lang="ru">член</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <owl:inverseOf rdf:resource="http://edas_ru#op-1934281-3539956"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://edas_ru#op-9912151-9278463 -->
+
+    <owl:ObjectProperty rdf:about="http://edas_ru#op-9912151-9278463">
+        <rdfs:label xml:lang="ru">место проведения</rdfs:label>
+        <rdfs:range rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6931092-4960918"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edas_ru#ent-0762090-0345993 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-0762090-0345993">
+        <rdfs:label xml:lang="ru">улица</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0786091-5171238"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-1217751-3997771 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-1217751-3997771">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="ru">последняя дата подачи заявки</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-1263367-5676723 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-1263367-5676723">
+        <rdfs:label xml:lang="ru">сумма</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-9643706-3615542"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-1995633-9382602 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-1995633-9382602">
+        <rdfs:label xml:lang="ru">статья до</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-2879428-6530828 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-2879428-6530828">
+        <rdfs:label xml:lang="ru">название</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-3598739-5539815 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-3598739-5539815">
+        <rdfs:label xml:lang="ru">имя</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-3704626-5299500 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-3704626-5299500">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="ru">правила подачи заявки</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-4379266-2329965 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-4379266-2329965">
+        <rdfs:label xml:lang="ru">дата начала</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-4609660-8829111 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-4609660-8829111">
+        <rdfs:label xml:lang="ru">фамилия</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-4773482-0212346 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-4773482-0212346">
+        <rdfs:label xml:lang="ru">телефон</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0786091-5171238"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-4882250-4660910 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-4882250-4660910">
+        <rdfs:label xml:lang="ru">почтовый индекс</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0786091-5171238"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-4905794-3558533 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-4905794-3558533">
+        <rdfs:label xml:lang="ru">адрес электронной почты</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0786091-5171238"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-1395838-0351911"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-5177479-7598896 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-5177479-7598896">
+        <rdfs:label xml:lang="ru">дата окончания</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-5577526-1853789 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-5577526-1853789">
+        <rdfs:label xml:lang="ru">валюта</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-9643706-3615542"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-5978174-7694717 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-5978174-7694717">
+        <rdfs:label xml:lang="ru">регистрация до</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-6565718-1442336 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-6565718-1442336">
+        <rdfs:label xml:lang="ru">город</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0786091-5171238"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-7796699-5405000 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-7796699-5405000">
+        <rdfs:label xml:lang="ru">манускрипт до</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-8766527-3599078 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-8766527-3599078">
+        <rdfs:label xml:lang="ru">дата и время окончания</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-9435863-5682311 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-9435863-5682311">
+        <rdfs:label xml:lang="ru">дата и время начала</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://edas_ru#ent-9883381-5402276 -->
+
+    <owl:DatatypeProperty rdf:about="http://edas_ru#ent-9883381-5402276">
+        <rdfs:label xml:lang="ru">биография</rdfs:label>
+        <rdfs:domain rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edas_ru#c-0061779-9093693 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0061779-9093693">
+        <rdfs:label xml:lang="ru">Статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0691554-3418581"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3449631-9000344"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6788496-2708454"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8238801-2082798"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0088244-3947128 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0088244-3947128">
+        <rdfs:label xml:lang="ru">Автор</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-1395838-0351911"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://edas_ru#op-1631841-9402247"/>
+                        <owl:someValuesFrom rdf:resource="http://edas_ru#c-0061779-9093693"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2663041-5013935"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7961947-6282814"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8777591-6593160"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0429310-5750881 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0429310-5750881">
+        <rdfs:label xml:lang="ru">Экскурсия</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0680689-2568827"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0458540-3380786 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0458540-3380786">
+        <rdfs:label xml:lang="ru">Оцененные статьи</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#op-0575667-0423539"/>
+                <owl:someValuesFrom rdf:resource="http://edas_ru#c-0582364-6313410"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0582364-6313410 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0582364-6313410">
+        <rdfs:label xml:lang="ru">Оценка рецензирования</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-1347233-6975564"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-1566937-7710945"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-2898266-4492638"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-6679418-6221858"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0786091-5171238"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0592905-5039005 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0592905-5039005">
+        <rdfs:label xml:lang="ru">Докладчик</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0088244-3947128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0680689-2568827 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0680689-2568827">
+        <rdfs:label xml:lang="ru">Светский раут</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-3244675-5985990"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0691554-3418581 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0691554-3418581">
+        <rdfs:label xml:lang="ru">Слайды</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3449631-9000344"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6788496-2708454"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8238801-2082798"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0762687-1239628 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0762687-1239628">
+        <rdfs:label xml:lang="ru">Тема параллельные и распределённые вычисления</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1764839-7909907"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1988025-3017242"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2838886-1517273"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3499507-2606982"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3654691-0358826"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0786091-5171238 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0786091-5171238">
+        <rdfs:label xml:lang="ru">Контактная информация</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0902537-4766163"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0902537-4766163 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0902537-4766163">
+        <rdfs:label xml:lang="ru">Конференция</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://edas_ru#c-3230746-5756090"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-1995633-9382602"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-4379266-2329965"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-2879428-6530828"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-7796699-5405000"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#op-7263730-4744247"/>
+                <!--v2<owl:onClass rdf:resource="http://edas_ru#c-3230746-5756090"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-5177479-7598896"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#op-3022657-9534094"/>
+                <!---v2<owl:onClass rdf:resource="http://edas_ru#c-3230746-5756090"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edas_ru#ent-5978174-7694717"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-0952880-2333229 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-0952880-2333229">
+        <rdfs:label xml:lang="ru">Тема</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1395838-0351911"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1206721-1653596 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1206721-1653596">
+        <rdfs:label xml:lang="ru">Свободный перерыв</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1519478-0804738"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1347233-6975564 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1347233-6975564">
+        <rdfs:label xml:lang="ru">Оценка отклонить</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0582364-6313410"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1566937-7710945"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2898266-4492638"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6679418-6221858"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1395838-0351911 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1395838-0351911">
+        <rdfs:label xml:lang="ru">Лицо</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1885822-1048837"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1519478-0804738 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1519478-0804738">
+        <rdfs:label xml:lang="ru">Этап перерыв</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-1206721-1653596"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-4188114-7895518"/>
+                    <rdf:Description rdf:about="http://edas_ru#c-9127881-8778124"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-3244675-5985990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8056492-4127799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1566937-7710945 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1566937-7710945">
+        <rdfs:label xml:lang="ru">Оценка принять</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0582364-6313410"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2898266-4492638"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6679418-6221858"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1709412-2785838 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1709412-2785838">
+        <rdfs:label xml:lang="ru">Организационное собрание</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9358210-3657325"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3886767-9729416"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4822395-3310015"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9483944-4117438"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1764839-7909907 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1764839-7909907">
+        <rdfs:label xml:lang="ru">Тема микроэлектроника</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-1988025-3017242"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2838886-1517273"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3499507-2606982"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3654691-0358826"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1885822-1048837 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1885822-1048837">
+        <rdfs:label xml:lang="ru">Приглашение</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2389311-3628517"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1970573-5079935 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1970573-5079935">
+        <rdfs:label xml:lang="ru">Негосударственная организация</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4402567-0317087"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4792687-5107578"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8876475-8527239"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1988025-3017242 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1988025-3017242">
+        <rdfs:label xml:lang="ru">Тема безопасность</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2838886-1517273"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3499507-2606982"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3654691-0358826"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-1995901-1529821 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-1995901-1529821">
+        <rdfs:label xml:lang="ru">Конференц-ужин</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-8056492-4127799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2071068-3492766 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2071068-3492766">
+        <rdfs:label xml:lang="ru">Опубликованная статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3990342-5423285"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5444432-7018247"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7510552-3967647"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8340170-0678859"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2389311-3628517 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2389311-3628517">
+        <rdfs:label xml:lang="ru">Место</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2509103-5720640 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2509103-5720640">
+        <rdfs:label xml:lang="ru">Документ</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2558015-5534965"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2558015-5534965 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2558015-5534965">
+        <rdfs:label xml:lang="ru">Бланк рецензирования</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2663041-5013935 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2663041-5013935">
+        <rdfs:label xml:lang="ru">Председатель секции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1395838-0351911"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2719638-7337685 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2719638-7337685">
+        <rdfs:label xml:lang="ru">Грант на поездку</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2800423-2062305 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2800423-2062305">
+        <rdfs:label xml:lang="ru">Организация</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3999513-7365806"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2838886-1517273 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2838886-1517273">
+        <rdfs:label xml:lang="ru">Тема передача по линиям электропередач</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3499507-2606982"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3654691-0358826"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-2898266-4492638 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-2898266-4492638">
+        <rdfs:label xml:lang="ru">Оценка принять при условии</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0582364-6313410"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6679418-6221858"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3085863-7512161 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3085863-7512161">
+        <rdfs:label xml:lang="ru">Заключительное слово</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4822395-3310015"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4389669-3197496"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3230746-5756090 -->
+    <!--v2
+    <owl:Class rdf:about="http://edas_ru#c-3230746-5756090">
+        <rdfs:label xml:lang="ru">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://edas_ru#c-3244675-5985990 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3244675-5985990">
+        <rdfs:label xml:lang="ru">Неакадемчический этап</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9358210-3657325"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3260512-3186527 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3260512-3186527">
+        <rdfs:label xml:lang="ru">Информационнное письмо</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1885822-1048837"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3448187-6764822 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3448187-6764822">
+        <rdfs:label xml:lang="ru">Тема сенсорные компьютерные сети</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4549268-2220435"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4716270-9003101"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6703109-1856542"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7465800-4145516"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7578654-4311137"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3449631-9000344 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3449631-9000344">
+        <rdfs:label xml:lang="ru">Рецензия</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6788496-2708454"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8238801-2082798"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3499507-2606982 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3499507-2606982">
+        <rdfs:label xml:lang="ru">Тема обработка сигналов</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3654691-0358826"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3654691-0358826 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3654691-0358826">
+        <rdfs:label xml:lang="ru">Тема беспроводная связь</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3693244-2448985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3693244-2448985 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3693244-2448985">
+        <rdfs:label xml:lang="ru">Тема радио связь</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3778511-1715343"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3727170-7814425 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3727170-7814425">
+        <rdfs:label xml:lang="ru">Текстовый вопрос рецензирования</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9217175-3649832"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3778511-1715343 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3778511-1715343">
+        <rdfs:label xml:lang="ru">ТемаCAD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-3807598-4699024"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3779083-2342670 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3779083-2342670">
+        <rdfs:label xml:lang="ru">Местонахождение комнаты для собрания</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2389311-3628517"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3806598-7598180 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3806598-7598180">
+        <rdfs:label xml:lang="ru">Встреча</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0680689-2568827"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3807598-4699024 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3807598-4699024">
+        <rdfs:label xml:lang="ru">Тема медицина</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4439618-6622443"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3886767-9729416 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3886767-9729416">
+        <rdfs:label xml:lang="ru">Доклад по статье</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9358210-3657325"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4822395-3310015"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9483944-4117438"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3990342-5423285 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3990342-5423285">
+        <rdfs:label xml:lang="ru">Принятая статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5444432-7018247"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7510552-3967647"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8340170-0678859"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-3999513-7365806 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-3999513-7365806">
+        <rdfs:label xml:lang="ru">Персональная история</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6931092-4960918"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4000085-7827574 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4000085-7827574">
+        <rdfs:label xml:lang="ru">Персональная история рецензирования</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-3999513-7365806"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4188114-7895518 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4188114-7895518">
+        <rdfs:label xml:lang="ru">Перерыв на питание</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1519478-0804738"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4282145-3371548 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4282145-3371548">
+        <rdfs:label xml:lang="ru">Рецензент</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-1395838-0351911"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://edas_ru#op-7644003-1185961"/>
+                        <owl:someValuesFrom rdf:resource="http://edas_ru#c-0061779-9093693"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4389669-3197496 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4389669-3197496">
+        <rdfs:label xml:lang="ru">Вступительное слово</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4822395-3310015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4402567-0317087 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4402567-0317087">
+        <rdfs:label xml:lang="ru">Государственная организация</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4792687-5107578"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8876475-8527239"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4439618-6622443 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4439618-6622443">
+        <rdfs:label xml:lang="ru">Тема мобильные вычисления</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4508487-9252868 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4508487-9252868">
+        <rdfs:label xml:lang="ru">Тема компьютерные сети</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4758145-0089650"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4549268-2220435 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4549268-2220435">
+        <rdfs:label xml:lang="ru">Тема безопасность компьютерных сетей</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4716270-9003101"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6703109-1856542"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7465800-4145516"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7578654-4311137"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4716270-9003101 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4716270-9003101">
+        <rdfs:label xml:lang="ru">Тема измерения в компьютерных сетях</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6703109-1856542"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7465800-4145516"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7578654-4311137"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4758145-0089650 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4758145-0089650">
+        <rdfs:label xml:lang="ru">Тема производительность</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-4996006-1007896"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4792687-5107578 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4792687-5107578">
+        <rdfs:label xml:lang="ru">Производственная организация</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2800423-2062305"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8876475-8527239"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4822395-3310015 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4822395-3310015">
+        <rdfs:label xml:lang="ru">Этап докладывания</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9358210-3657325"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9483944-4117438"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4920187-1506566 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4920187-1506566">
+        <rdfs:label xml:lang="ru">Одноуровневая конференция</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://edas_ru#c-9082276-0980519"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://edas_ru#op-8222998-6502577"/>
+                        <owl:allValuesFrom rdf:resource="http://edas_ru#c-1395838-0351911"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-4996006-1007896 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-4996006-1007896">
+        <rdfs:label xml:lang="ru">Тема теория коммуникаций</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-5922149-3647501"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-5444432-7018247 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-5444432-7018247">
+        <rdfs:label xml:lang="ru">Статья ожидающая решения</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7510552-3967647"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8340170-0678859"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-5555546-9748151 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-5555546-9748151">
+        <rdfs:label xml:lang="ru">Место проведения обеда</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2389311-3628517"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-5584120-8140127 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-5584120-8140127">
+        <rdfs:label xml:lang="ru">Приглашение принять участие в рецензировании</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1885822-1048837"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-5922149-3647501 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-5922149-3647501">
+        <rdfs:label xml:lang="ru">Тема коммуникации</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-6876145-7351771"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-6679418-6221858 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-6679418-6221858">
+        <rdfs:label xml:lang="ru">Оценка отклонить</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0582364-6313410"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-6703109-1856542 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-6703109-1856542">
+        <rdfs:label xml:lang="ru">Тема оптические компьютерные сети</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7465800-4145516"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7578654-4311137"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-6788496-2708454 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-6788496-2708454">
+        <rdfs:label xml:lang="ru">Программа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2509103-5720640"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8238801-2082798"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-6876145-7351771 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-6876145-7351771">
+        <rdfs:label xml:lang="ru">Тема мультимедиа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7680466-8496431"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-6931092-4960918 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-6931092-4960918">
+        <rdfs:label xml:lang="ru">Этап конференции</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7855395-2267883"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7136094-1965268 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7136094-1965268">
+        <rdfs:label xml:lang="ru">Участник</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1395838-0351911"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7465800-4145516 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7465800-4145516">
+        <rdfs:label xml:lang="ru">Тема приложени компьютерных сетей</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7578654-4311137"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7510552-3967647 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7510552-3967647">
+        <rdfs:label xml:lang="ru">Отозванная статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8340170-0678859"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7578654-4311137 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7578654-4311137">
+        <rdfs:label xml:lang="ru">Тема коммутация компьютерных сетей</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7802218-8600595"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7680466-8496431 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7680466-8496431">
+        <rdfs:label xml:lang="ru">Тема криптография</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7805852-6373990"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7802218-8600595 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7802218-8600595">
+        <rdfs:label xml:lang="ru">Тема управление компьютерными сетями</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8491521-3048666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7802703-9924921 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7802703-9924921">
+        <rdfs:label xml:lang="ru">Место проживания</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2389311-3628517"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7805852-6373990 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7805852-6373990">
+        <rdfs:label xml:lang="ru">Тема спутниковая и космическая связь</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8911428-9718152"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7855395-2267883 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7855395-2267883">
+        <rdfs:label xml:lang="ru">Страна</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-7931181-1917092"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7931181-1917092 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7931181-1917092">
+        <rdfs:label xml:lang="ru">Секция конференции</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9217175-3649832"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-7961947-6282814 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-7961947-6282814">
+        <rdfs:label xml:lang="ru">член TPC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1395838-0351911"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8056492-4127799 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8056492-4127799">
+        <rdfs:label xml:lang="ru">Этап питания</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-3244675-5985990"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8065345-7515414 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8065345-7515414">
+        <rdfs:label xml:lang="ru">Персональная история статьи</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-3999513-7365806"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8238801-2082798 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8238801-2082798">
+        <rdfs:label xml:lang="ru">Меню</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2509103-5720640"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8340170-0678859 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8340170-0678859">
+        <rdfs:label xml:lang="ru">Отклонённая статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9585636-2057713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8491521-3048666 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8491521-3048666">
+        <rdfs:label xml:lang="ru">Тема промышленные компьютерные сети</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-4508487-9252868"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8777591-6593160 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8777591-6593160">
+        <rdfs:label xml:lang="ru">Председатель конференции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1395838-0351911"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8876475-8527239 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8876475-8527239">
+        <rdfs:label xml:lang="ru">Академическая организация</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2800423-2062305"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8911428-9718152 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8911428-9718152">
+        <rdfs:label xml:lang="ru">Тема операционные системы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8947864-9187700"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8947864-9187700 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8947864-9187700">
+        <rdfs:label xml:lang="ru">Тема архитектура компьютера</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-8964865-2625985"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-8964865-2625985 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-8964865-2625985">
+        <rdfs:label xml:lang="ru">Тема просто тест</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9611675-5194786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9082276-0980519 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9082276-0980519">
+        <rdfs:label xml:lang="ru">Двухуровневая конференция</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://edas_ru#c-0902537-4766163"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://edas_ru#op-8222998-6502577"/>
+                        <owl:someValuesFrom rdf:resource="http://edas_ru#c-7961947-6282814"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://edas_ru#op-8222998-6502577"/>
+                        <owl:allValuesFrom rdf:resource="http://edas_ru#c-1395838-0351911"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9127881-8778124 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9127881-8778124">
+        <rdfs:label xml:lang="ru">Перерыв на кофе</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1519478-0804738"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9217175-3649832 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9217175-3649832">
+        <rdfs:label xml:lang="ru">Рецензионный вопрос</rdfs:label>
+        <owl:disjointWith rdf:resource="http://edas_ru#c-9643706-3615542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9358210-3657325 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9358210-3657325">
+        <rdfs:label xml:lang="ru">Академический этап</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-6931092-4960918"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9483944-4117438 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9483944-4117438">
+        <rdfs:label xml:lang="ru">Семинар</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9358210-3657325"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9585636-2057713 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9585636-2057713">
+        <rdfs:label xml:lang="ru">Активная статья</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0061779-9093693"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9611675-5194786 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9611675-5194786">
+        <rdfs:label xml:lang="ru">Тема антенны</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-0952880-2333229"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9643706-3615542 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9643706-3615542">
+        <rdfs:label xml:lang="ru">Спонсорство</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9646104-9710852 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9646104-9710852">
+        <rdfs:label xml:lang="ru">Место проведения конференции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-2389311-3628517"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9751546-2113109 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9751546-2113109">
+        <rdfs:label xml:lang="ru">Численный рецензионный вопрос</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-9217175-3649832"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edas_ru#c-9906023-9800024 -->
+
+    <owl:Class rdf:about="http://edas_ru#c-9906023-9800024">
+        <rdfs:label xml:lang="ru">Приглашение к публикации манускриптов</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edas_ru#c-1885822-1048837"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edas#Argentina -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Argentina">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Armenia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Armenia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Australia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Australia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Austria -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Austria">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Azerbaijan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Azerbaijan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Bahamas -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Bahamas">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Bahrain -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Bahrain">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Bangladesh -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Bangladesh">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Belarus -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Belarus">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Belgium -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Belgium">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#BosniaAndHerzegovina -->
+
+    <owl:NamedIndividual rdf:about="http://edas#BosniaAndHerzegovina">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Botswana -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Botswana">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Brazil -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Brazil">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Bulgaria -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Bulgaria">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Cambodia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Cambodia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Canada -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Canada">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Chile -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Chile">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#China -->
+
+    <owl:NamedIndividual rdf:about="http://edas#China">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#CocosIslands -->
+
+    <owl:NamedIndividual rdf:about="http://edas#CocosIslands">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Colombia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Colombia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Croatia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Croatia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Cuba -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Cuba">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Cyprus -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Cyprus">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#CzechRepublic -->
+
+    <owl:NamedIndividual rdf:about="http://edas#CzechRepublic">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#DemocraticRepublicOfCongo -->
+
+    <owl:NamedIndividual rdf:about="http://edas#DemocraticRepublicOfCongo">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Denmark -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Denmark">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Ecuador -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Ecuador">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Egypt -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Egypt">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Estonia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Estonia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Ethiopia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Ethiopia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#EuropeanUnion -->
+
+    <owl:NamedIndividual rdf:about="http://edas#EuropeanUnion">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Finland -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Finland">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#France -->
+
+    <owl:NamedIndividual rdf:about="http://edas#France">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Georgia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Georgia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Germany">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Ghana -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Ghana">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Greece -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Greece">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#HongKong -->
+
+    <owl:NamedIndividual rdf:about="http://edas#HongKong">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Hungary -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Hungary">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Iceland -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Iceland">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#India -->
+
+    <owl:NamedIndividual rdf:about="http://edas#India">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Indonesia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Indonesia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Iran -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Iran">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Iraq -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Iraq">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Ireland -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Ireland">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Israel -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Israel">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Italy">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Japan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Japan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Jordan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Jordan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Kenya -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Kenya">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Korea -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Korea">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Kuwait -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Kuwait">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Latvia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Latvia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Lebanon -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Lebanon">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Libya -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Libya">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Lithuania -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Lithuania">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Luxemburg -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Luxemburg">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Macao -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Macao">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Macedonia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Macedonia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Madagascar -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Madagascar">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Malaysia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Malaysia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Malta -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Malta">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Mauritius -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Mauritius">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Mexico">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Mongolia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Mongolia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Morocco -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Morocco">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Nepal -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Nepal">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Netherlands -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Netherlands">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#NewZealand -->
+
+    <owl:NamedIndividual rdf:about="http://edas#NewZealand">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Nicaragua -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Nicaragua">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Nigeria -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Nigeria">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#NorthKorea -->
+
+    <owl:NamedIndividual rdf:about="http://edas#NorthKorea">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Norway -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Norway">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Oman -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Oman">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Pakistan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Pakistan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Paraguay -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Paraguay">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Peru -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Peru">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Philippines -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Philippines">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Poland -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Poland">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Portugal -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Portugal">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#PuertoRico -->
+
+    <owl:NamedIndividual rdf:about="http://edas#PuertoRico">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Qatar">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Romania -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Romania">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Russia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Russia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#SanMarino -->
+
+    <owl:NamedIndividual rdf:about="http://edas#SanMarino">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#SaudiArabia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#SaudiArabia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Senegal -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Senegal">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#SerbiaAndMontenegro -->
+
+    <owl:NamedIndividual rdf:about="http://edas#SerbiaAndMontenegro">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Singapore -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Singapore">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Slovakia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Slovakia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Slovenia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Slovenia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#SouthAfrica -->
+
+    <owl:NamedIndividual rdf:about="http://edas#SouthAfrica">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Spain -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Spain">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#SriLanka -->
+
+    <owl:NamedIndividual rdf:about="http://edas#SriLanka">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Sweden -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Sweden">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Switzerland -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Switzerland">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Syria -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Syria">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Taiwan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Taiwan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Tajikistan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Tajikistan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Tanzania -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Tanzania">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Thailand -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Thailand">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Tunisia -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Tunisia">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Turkey -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Turkey">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Turkmenistan -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Turkmenistan">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#UAE -->
+
+    <owl:NamedIndividual rdf:about="http://edas#UAE">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#USA -->
+
+    <owl:NamedIndividual rdf:about="http://edas#USA">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Uganda -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Uganda">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Ukraine">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#UnitedKingdom -->
+
+    <owl:NamedIndividual rdf:about="http://edas#UnitedKingdom">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Uruguay -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Uruguay">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Venezuela -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Venezuela">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Vietnam -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Vietnam">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Yemen -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Yemen">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://edas#Zimbabwe -->
+
+    <owl:NamedIndividual rdf:about="http://edas#Zimbabwe">
+        <rdf:type rdf:resource="http://edas_ru#c-7855395-2267883"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://edas#Argentina"/>
+            <rdf:Description rdf:about="http://edas#Armenia"/>
+            <rdf:Description rdf:about="http://edas#Australia"/>
+            <rdf:Description rdf:about="http://edas#Austria"/>
+            <rdf:Description rdf:about="http://edas#Azerbaijan"/>
+            <rdf:Description rdf:about="http://edas#Bahamas"/>
+            <rdf:Description rdf:about="http://edas#Bahrain"/>
+            <rdf:Description rdf:about="http://edas#Bangladesh"/>
+            <rdf:Description rdf:about="http://edas#Belarus"/>
+            <rdf:Description rdf:about="http://edas#Belgium"/>
+            <rdf:Description rdf:about="http://edas#BosniaAndHerzegovina"/>
+            <rdf:Description rdf:about="http://edas#Botswana"/>
+            <rdf:Description rdf:about="http://edas#Brazil"/>
+            <rdf:Description rdf:about="http://edas#Bulgaria"/>
+            <rdf:Description rdf:about="http://edas#Cambodia"/>
+            <rdf:Description rdf:about="http://edas#Canada"/>
+            <rdf:Description rdf:about="http://edas#Chile"/>
+            <rdf:Description rdf:about="http://edas#China"/>
+            <rdf:Description rdf:about="http://edas#CocosIslands"/>
+            <rdf:Description rdf:about="http://edas#Colombia"/>
+            <rdf:Description rdf:about="http://edas#Croatia"/>
+            <rdf:Description rdf:about="http://edas#Cuba"/>
+            <rdf:Description rdf:about="http://edas#Cyprus"/>
+            <rdf:Description rdf:about="http://edas#CzechRepublic"/>
+            <rdf:Description rdf:about="http://edas#DemocraticRepublicOfCongo"/>
+            <rdf:Description rdf:about="http://edas#Denmark"/>
+            <rdf:Description rdf:about="http://edas#Ecuador"/>
+            <rdf:Description rdf:about="http://edas#Egypt"/>
+            <rdf:Description rdf:about="http://edas#Estonia"/>
+            <rdf:Description rdf:about="http://edas#Ethiopia"/>
+            <rdf:Description rdf:about="http://edas#EuropeanUnion"/>
+            <rdf:Description rdf:about="http://edas#Finland"/>
+            <rdf:Description rdf:about="http://edas#France"/>
+            <rdf:Description rdf:about="http://edas#Georgia"/>
+            <rdf:Description rdf:about="http://edas#Germany"/>
+            <rdf:Description rdf:about="http://edas#Ghana"/>
+            <rdf:Description rdf:about="http://edas#Greece"/>
+            <rdf:Description rdf:about="http://edas#HongKong"/>
+            <rdf:Description rdf:about="http://edas#Hungary"/>
+            <rdf:Description rdf:about="http://edas#Iceland"/>
+            <rdf:Description rdf:about="http://edas#India"/>
+            <rdf:Description rdf:about="http://edas#Indonesia"/>
+            <rdf:Description rdf:about="http://edas#Iran"/>
+            <rdf:Description rdf:about="http://edas#Iraq"/>
+            <rdf:Description rdf:about="http://edas#Ireland"/>
+            <rdf:Description rdf:about="http://edas#Israel"/>
+            <rdf:Description rdf:about="http://edas#Italy"/>
+            <rdf:Description rdf:about="http://edas#Japan"/>
+            <rdf:Description rdf:about="http://edas#Jordan"/>
+            <rdf:Description rdf:about="http://edas#Kenya"/>
+            <rdf:Description rdf:about="http://edas#Korea"/>
+            <rdf:Description rdf:about="http://edas#Kuwait"/>
+            <rdf:Description rdf:about="http://edas#Latvia"/>
+            <rdf:Description rdf:about="http://edas#Lebanon"/>
+            <rdf:Description rdf:about="http://edas#Libya"/>
+            <rdf:Description rdf:about="http://edas#Lithuania"/>
+            <rdf:Description rdf:about="http://edas#Luxemburg"/>
+            <rdf:Description rdf:about="http://edas#Macao"/>
+            <rdf:Description rdf:about="http://edas#Macedonia"/>
+            <rdf:Description rdf:about="http://edas#Madagascar"/>
+            <rdf:Description rdf:about="http://edas#Malaysia"/>
+            <rdf:Description rdf:about="http://edas#Malta"/>
+            <rdf:Description rdf:about="http://edas#Mauritius"/>
+            <rdf:Description rdf:about="http://edas#Mexico"/>
+            <rdf:Description rdf:about="http://edas#Mongolia"/>
+            <rdf:Description rdf:about="http://edas#Morocco"/>
+            <rdf:Description rdf:about="http://edas#Nepal"/>
+            <rdf:Description rdf:about="http://edas#Netherlands"/>
+            <rdf:Description rdf:about="http://edas#NewZealand"/>
+            <rdf:Description rdf:about="http://edas#Nicaragua"/>
+            <rdf:Description rdf:about="http://edas#Nigeria"/>
+            <rdf:Description rdf:about="http://edas#NorthKorea"/>
+            <rdf:Description rdf:about="http://edas#Norway"/>
+            <rdf:Description rdf:about="http://edas#Oman"/>
+            <rdf:Description rdf:about="http://edas#Pakistan"/>
+            <rdf:Description rdf:about="http://edas#Paraguay"/>
+            <rdf:Description rdf:about="http://edas#Peru"/>
+            <rdf:Description rdf:about="http://edas#Philippines"/>
+            <rdf:Description rdf:about="http://edas#Poland"/>
+            <rdf:Description rdf:about="http://edas#Portugal"/>
+            <rdf:Description rdf:about="http://edas#PuertoRico"/>
+            <rdf:Description rdf:about="http://edas#Qatar"/>
+            <rdf:Description rdf:about="http://edas#Romania"/>
+            <rdf:Description rdf:about="http://edas#Russia"/>
+            <rdf:Description rdf:about="http://edas#SanMarino"/>
+            <rdf:Description rdf:about="http://edas#SaudiArabia"/>
+            <rdf:Description rdf:about="http://edas#Senegal"/>
+            <rdf:Description rdf:about="http://edas#SerbiaAndMontenegro"/>
+            <rdf:Description rdf:about="http://edas#Singapore"/>
+            <rdf:Description rdf:about="http://edas#Slovakia"/>
+            <rdf:Description rdf:about="http://edas#Slovenia"/>
+            <rdf:Description rdf:about="http://edas#SouthAfrica"/>
+            <rdf:Description rdf:about="http://edas#Spain"/>
+            <rdf:Description rdf:about="http://edas#SriLanka"/>
+            <rdf:Description rdf:about="http://edas#Sweden"/>
+            <rdf:Description rdf:about="http://edas#Switzerland"/>
+            <rdf:Description rdf:about="http://edas#Syria"/>
+            <rdf:Description rdf:about="http://edas#Taiwan"/>
+            <rdf:Description rdf:about="http://edas#Tajikistan"/>
+            <rdf:Description rdf:about="http://edas#Tanzania"/>
+            <rdf:Description rdf:about="http://edas#Thailand"/>
+            <rdf:Description rdf:about="http://edas#Tunisia"/>
+            <rdf:Description rdf:about="http://edas#Turkey"/>
+            <rdf:Description rdf:about="http://edas#Turkmenistan"/>
+            <rdf:Description rdf:about="http://edas#UAE"/>
+            <rdf:Description rdf:about="http://edas#USA"/>
+            <rdf:Description rdf:about="http://edas#Uganda"/>
+            <rdf:Description rdf:about="http://edas#Ukraine"/>
+            <rdf:Description rdf:about="http://edas#UnitedKingdom"/>
+            <rdf:Description rdf:about="http://edas#Uruguay"/>
+            <rdf:Description rdf:about="http://edas#Venezuela"/>
+            <rdf:Description rdf:about="http://edas#Vietnam"/>
+            <rdf:Description rdf:about="http://edas#Yemen"/>
+            <rdf:Description rdf:about="http://edas#Zimbabwe"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

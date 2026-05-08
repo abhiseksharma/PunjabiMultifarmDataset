@@ -1,0 +1,452 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seals="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#"
+    xmlns:dc="http://purl.org/dc/terms/" > 
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-ekaw-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-ekaw-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-ar-source"/>
+    <dc:identifier>cmt-ekaw-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-edas-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-edas-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-cz-source"/>
+    <dc:identifier>conference-edas-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#sigkdd-ar-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/sigkdd-ar.owl</seals:isLocatedAt>
+    <dc:identifier>sigkdd-ar-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-sigkdd-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-sigkdd-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#sigkdd-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-source"/>
+    <dc:identifier>ekaw-sigkdd-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-ekaw-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-ekaw-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-cz-source"/>
+    <dc:identifier>confOf-ekaw-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-edas-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-edas-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-ar-source"/>
+    <dc:identifier>cmt-edas-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-edas-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-edas-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-source"/>
+    <dc:identifier>edas-edas-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-ekaw-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/conference-ekaw-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>conference-ekaw-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-edas-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/cmt-edas-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>cmt-edas-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-iasted-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-iasted-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-iasted-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-iasted-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-iasted-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#iasted-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-source"/>
+    <dc:identifier>ekaw-iasted-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-edas-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-edas-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-cz-source"/>
+    <dc:identifier>confOf-edas-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-iasted-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-iasted-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#iasted-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-source"/>
+    <dc:identifier>edas-iasted-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-ar-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/cmt-ar.owl</seals:isLocatedAt>
+    <dc:identifier>cmt-ar-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ar-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/edas-ar.owl</seals:isLocatedAt>
+    <dc:identifier>edas-ar-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-ekaw-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ekaw-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-source"/>
+    <dc:identifier>ekaw-ekaw-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-sigkdd-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-sigkdd-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-sigkdd-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-ekaw-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/ekaw-ekaw-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>ekaw-ekaw-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-iasted-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/ekaw-iasted-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>ekaw-iasted-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-ekaw-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/conference-ekaw-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>conference-ekaw-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-ekaw-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-ekaw-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-ar-source"/>
+    <dc:identifier>conference-ekaw-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ekaw-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-ekaw-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-ekaw-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-edas-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/confOf-edas-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>confOf-edas-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-cz-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/ekaw-cz.owl</seals:isLocatedAt>
+    <dc:identifier>ekaw-cz-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-sigkdd-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/ekaw-sigkdd-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>ekaw-sigkdd-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-ar-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/confOf-ar.owl</seals:isLocatedAt>
+    <dc:identifier>confOf-ar-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-ar-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/ekaw-ar.owl</seals:isLocatedAt>
+    <dc:identifier>ekaw-ar-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#sigkdd-cz-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/sigkdd-cz.owl</seals:isLocatedAt>
+    <dc:identifier>sigkdd-cz-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-ekaw-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/cmt-ekaw-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>cmt-ekaw-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-sigkdd-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-sigkdd-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#sigkdd-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-source"/>
+    <dc:identifier>ekaw-sigkdd-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-edas-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/confOf-edas-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>confOf-edas-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-edas-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/cmt-edas-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>cmt-edas-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ar-cz">
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#cmt-edas-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#confOf-edas-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#conference-ekaw-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-iasted-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-edas-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-iasted-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#ekaw-iasted-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#confOf-ekaw-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#ekaw-iasted-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#cmt-ekaw-cz-ar"/>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#Suite"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#ekaw-sigkdd-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#ekaw-ekaw-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#conference-edas-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#confOf-edas-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-sigkdd-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-ekaw-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#confOf-ekaw-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#cmt-ekaw-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-ekaw-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#edas-sigkdd-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#ekaw-sigkdd-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#cmt-edas-cz-ar"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#conference-ekaw-ar-cz"/>
+    <seals:hasSuiteItem rdf:resource="http://www.multifarm.org#conference-edas-cz-ar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-sigkdd-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-sigkdd-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#sigkdd-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-source"/>
+    <dc:identifier>edas-sigkdd-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-cz-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/confOf-cz.owl</seals:isLocatedAt>
+    <dc:identifier>confOf-cz-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ar-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/edas-ar.owl</seals:isLocatedAt>
+    <dc:identifier>edas-ar-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-sigkdd-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/ekaw-sigkdd-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>ekaw-sigkdd-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ekaw-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-ekaw-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-ekaw-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-edas-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-edas-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-edas-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-ekaw-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-ekaw-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-cz-source"/>
+    <dc:identifier>conference-ekaw-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-ekaw-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-ekaw-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-ar-source"/>
+    <dc:identifier>confOf-ekaw-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-edas-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-edas-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#conference-ar-source"/>
+    <dc:identifier>conference-edas-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-ekaw-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/confOf-ekaw-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>confOf-ekaw-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-edas-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-edas-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#confOf-ar-source"/>
+    <dc:identifier>confOf-edas-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-sigkdd-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-sigkdd-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-sigkdd-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ekaw-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ekaw-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-source"/>
+    <dc:identifier>edas-ekaw-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-cz-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/edas-cz.owl</seals:isLocatedAt>
+    <dc:identifier>edas-cz-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-ekaw-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ekaw-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-source"/>
+    <dc:identifier>edas-ekaw-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-edas-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/conference-edas-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>conference-edas-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#confOf-ekaw-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/confOf-ekaw-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>confOf-ekaw-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-cz-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/ekaw-cz.owl</seals:isLocatedAt>
+    <dc:identifier>ekaw-cz-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-iasted-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/edas-iasted-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>edas-iasted-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-iasted-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-iasted-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#iasted-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-cz-source"/>
+    <dc:identifier>edas-iasted-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-ar-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/ekaw-ar.owl</seals:isLocatedAt>
+    <dc:identifier>ekaw-ar-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-cz-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/edas-cz.owl</seals:isLocatedAt>
+    <dc:identifier>edas-cz-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-ekaw-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-ekaw-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-cz-source"/>
+    <dc:identifier>cmt-ekaw-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-cz-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/conference-cz.owl</seals:isLocatedAt>
+    <dc:identifier>conference-cz-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-ekaw-ar-cz-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/cmt-ekaw-ar-cz.rdf</seals:isLocatedAt>
+    <dc:identifier>cmt-ekaw-ar-cz-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-iasted-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-iasted-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#iasted-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#ekaw-ar-source"/>
+    <dc:identifier>ekaw-iasted-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-edas-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/conference-edas-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>conference-edas-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#ekaw-iasted-cz-ar-reference">
+    <seals:hasComponentType>reference</seals:hasComponentType>
+    <seals:isLocatedAt>./ref/ekaw-iasted-cz-ar.rdf</seals:isLocatedAt>
+    <dc:identifier>ekaw-iasted-cz-ar-reference</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#edas-sigkdd-ar-cz">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-sigkdd-ar-cz-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#sigkdd-cz-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-source"/>
+    <dc:identifier>edas-sigkdd-ar-cz</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#conference-ar-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/conference-ar.owl</seals:isLocatedAt>
+    <dc:identifier>conference-ar-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-cz-source">
+    <seals:hasComponentType>source</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/cmt-cz.owl</seals:isLocatedAt>
+    <dc:identifier>cmt-cz-source</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#iasted-ar-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/iasted-ar.owl</seals:isLocatedAt>
+    <dc:identifier>iasted-ar-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#cmt-edas-cz-ar">
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-edas-cz-ar-reference"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#edas-ar-target"/>
+    <seals:hasDataItem rdf:resource="http://www.multifarm.org#cmt-cz-source"/>
+    <dc:identifier>cmt-edas-cz-ar</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#SuiteItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.multifarm.org#iasted-cz-target">
+    <seals:hasComponentType>target</seals:hasComponentType>
+    <seals:isLocatedAt>./ont/iasted-cz.owl</seals:isLocatedAt>
+    <dc:identifier>iasted-cz-target</dc:identifier>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#DataItem"/>
+  </rdf:Description>
+</rdf:RDF>

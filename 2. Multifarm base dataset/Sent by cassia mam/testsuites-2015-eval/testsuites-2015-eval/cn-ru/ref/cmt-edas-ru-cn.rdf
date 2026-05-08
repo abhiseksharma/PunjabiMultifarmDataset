@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#op-6404605-2933801"/>
+		<entity2 rdf:resource="http://edas_cn#op-0231068-5602103"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-2683356-2886427"/>
+		<entity2 rdf:resource="http://edas_cn#c-2367299-1557145"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-5374498-2488870"/>
+		<entity2 rdf:resource="http://edas_cn#c-5076688-9562936"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#op-0734264-3785594"/>
+		<entity2 rdf:resource="http://edas_cn#op-9251275-1017371"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-3696081-5776907"/>
+		<entity2 rdf:resource="http://edas_cn#c-5343997-6287773"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-8426382-7561331"/>
+		<entity2 rdf:resource="http://edas_cn#c-2877214-7363965"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#op-3359706-4957607"/>
+		<entity2 rdf:resource="http://edas_cn#op-9452431-0386719"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#op-7551185-7738136"/>
+		<entity2 rdf:resource="http://edas_cn#op-3837500-5264265"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-5213926-1265113"/>
+		<entity2 rdf:resource="http://edas_cn#c-3747921-3612197"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-7626630-3082011"/>
+		<entity2 rdf:resource="http://edas_cn#c-1499327-1534659"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-1200416-1719045"/>
+		<entity2 rdf:resource="http://edas_cn#c-5305303-7494199"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#c-1449639-0204386"/>
+		<entity2 rdf:resource="http://edas_cn#c-5004294-4633508"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_ru#op-4269953-4864796"/>
+		<entity2 rdf:resource="http://edas_cn#op-3654237-3990737"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

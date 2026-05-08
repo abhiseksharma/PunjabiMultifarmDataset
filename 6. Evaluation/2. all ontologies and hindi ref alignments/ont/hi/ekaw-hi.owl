@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ekaw_hi#"
+     xml:base="http://ekaw_hi"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ekaw_hi="http://ekaw_hi#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ekaw_hi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_hi#op-6368209-4798192 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-6368209-4798192">
+        <rdfs:label xml:lang="hi">संदर्भ</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-1566565-4939069"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-2542811-9147990 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-2542811-9147990">
+        <rdfs:label xml:lang="hi">विषय को शामिल करता है</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-1607038-7984586"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-4311276-3014983"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-1911922-5298369"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-4702066-6770287"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-8897704-5795069 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-8897704-5795069">
+        <rdfs:label xml:lang="hi">तकनीकी रूप से व्यवस्थित</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-9835057-6568948"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-1636055-3594232"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-1917946-1050167 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-1917946-1050167">
+        <rdfs:label xml:lang="hi">के स्थान</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-1775183-4526970"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-2583733-8908582"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-8086916-4900165 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-8086916-4900165">
+        <rdfs:label xml:lang="hi">शोध पत्र के रूप में प्रस्तुत किया</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-1911922-5298369"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-7816881-2978395"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-8013367-5407443 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-8013367-5407443">
+        <rdfs:label xml:lang="hi">अद्यतन संस्करण है</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-3571895-7123584"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-9174703-5459295 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-9174703-5459295">
+        <rdfs:label xml:lang="hi">द्वारा लिखित</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-9493641-2071050"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-7432120-9529697 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-7432120-9529697">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="hi">का हिस्सा</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-4893190-4077339 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-4893190-4077339">
+        <rdfs:label xml:lang="hi">शोध पत्र की समीक्षा</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-1636055-3594232 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-1636055-3594232">
+        <rdfs:label xml:lang="hi">आयोजित करते हैं</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-9835057-6568948"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-8415232-9231458"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-1566565-4939069 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-1566565-4939069">
+        <rdfs:label xml:lang="hi">में संदर्भित</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-1063448-7748990 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-1063448-7748990">
+        <rdfs:label xml:lang="hi">के प्रकाशक</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-9835057-6568948"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-3237644-8597788"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-8356080-9542278"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-9157906-2232720"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-6251064-7886415"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-3996200-5609897 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-3996200-5609897">
+        <rdfs:label xml:lang="hi">समीक्षा है</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-4893190-4077339"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-5374081-8539736 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-5374081-8539736">
+        <rdfs:label xml:lang="hi">शोध पत्र की प्रस्तुति</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-8086916-4900165"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-1911922-5298369"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-7816881-2978395"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-4678115-6311797 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-4678115-6311797">
+        <rdfs:label xml:lang="hi">वैज्ञानिक रूप से आयोजित करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-3605988-2113297"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-1636055-3594232"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-2155655-7874020"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-5237636-5209322 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-5237636-5209322">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="hi">कार्यक्रम का हिस्सा</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-7432120-9529697"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-9242220-9726912"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-5559396-5353535 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-5559396-5353535">
+        <rdfs:label xml:lang="hi">सूची में कार्यक्रम</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-7949174-2209295"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-3237644-8597788"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-9157906-2232720"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-7949174-2209295 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-7949174-2209295">
+        <rdfs:label xml:lang="hi">सूची कार्यक्रम</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-3237644-8597788"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-9157906-2232720"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-6009878-8885408 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-6009878-8885408">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="hi">भाग है</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-7432120-9529697"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-9242220-9726912 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-9242220-9726912">
+        <rdfs:label xml:lang="hi">कार्यक्रम है</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-6009878-8885408"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-6996416-3593869 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-6996416-3593869">
+        <rdfs:label xml:lang="hi">समीक्षक है</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4349123-6307302"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-6114681-6257695 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-6114681-6257695">
+        <rdfs:label xml:lang="hi">द्वारा आयोजित</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-1636055-3594232"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-9835057-6568948"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-8415232-9231458"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-8948100-6223527 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-8948100-6223527">
+        <rdfs:label xml:lang="hi">द्वारा लिखित समीक्षा</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4349123-6307302"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-9174703-5459295"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-5361508-8718583 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-5361508-8718583">
+        <rdfs:label xml:lang="hi">शोध पत्र के समीक्षक</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4349123-6307302"/>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-6996416-3593869"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-2232341-4202426 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-2232341-4202426">
+        <rdfs:label xml:lang="hi">मात्रा में शोध पत्र</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-4311276-3014983 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-4311276-3014983">
+        <rdfs:label xml:lang="hi">द्वारा कवर किया गया विषय</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-1607038-7984586"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_hi#c-1911922-5298369"/>
+                    <rdf:Description rdf:about="http://ekaw_hi#c-4702066-6770287"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-2155655-7874020 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-2155655-7874020">
+        <rdfs:label xml:lang="hi">वैज्ञानिक रूप से आयोजित</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-3605988-2113297"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-6114681-6257695"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-1472535-2862777 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-1472535-2862777">
+        <rdfs:label xml:lang="hi">7 के भाग का व्युत्क्रम</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-6009878-8885408"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-9763941-6724671 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-9763941-6724671">
+        <rdfs:label xml:lang="hi">तकनीकी रूप से आयोजित</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-8897704-5795069"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_hi#op-6114681-6257695"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-3571895-7123584 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-3571895-7123584">
+        <rdfs:label xml:lang="hi">का अद्यतन संस्करण</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-2583733-8908582 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-2583733-8908582">
+        <rdfs:label xml:lang="hi">में आयोजित</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-1775183-4526970"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-4912149-6456524 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-4912149-6456524">
+        <rdfs:label xml:lang="hi">वॉल्यूम में शोध पत्र होता है</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_hi#op-2232341-4202426"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_hi#op-9493641-2071050 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_hi#op-9493641-2071050">
+        <rdfs:label xml:lang="hi">के लेखक</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <rdfs:domain rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_hi#c-3237644-8597788 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3237644-8597788">
+        <rdfs:label xml:lang="hi">कार्यक्रम विवरणिका</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-8356080-9542278"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9157906-2232720"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7910395-4714480"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2986295-6798763 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2986295-6798763">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7547052-8005944"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2784504-6803457"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2552624-6246518"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7747360-8733900"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1775183-4526970 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1775183-4526970">
+        <rdfs:label xml:lang="hi">स्थान</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3270298-9157892 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3270298-9157892">
+        <rdfs:label xml:lang="hi">देर से पंजीकृत प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-3823068-4059893"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8356080-9542278 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8356080-9542278">
+        <rdfs:label xml:lang="hi">बहु-लेखक मात्रा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9157906-2232720"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3396686-8471948 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3396686-8471948">
+        <rdfs:label xml:lang="hi">अस्वीकृत शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4639357-6988409"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1830138-5301318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9157906-2232720 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9157906-2232720">
+        <rdfs:label xml:lang="hi">वेबसाइट</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7910395-4714480"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7547052-8005944 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7547052-8005944">
+        <rdfs:label xml:lang="hi">आमंत्रित वार्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2784504-6803457"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2552624-6246518"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7747360-8733900"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2784504-6803457 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2784504-6803457">
+        <rdfs:label xml:lang="hi">सामाजिक कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2552624-6246518"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7747360-8733900"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5021886-9921604 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5021886-9921604">
+        <rdfs:label xml:lang="hi">सम्मेलन यात्रा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-2784504-6803457"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1908932-6892581 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1908932-6892581">
+        <rdfs:label xml:lang="hi">सम्मेलन की कार्यवाही</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7910395-4714480"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-4912149-6456524"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_hi#c-6378307-2443674"/>
+                            <rdf:Description rdf:about="http://ekaw_hi#c-3756058-1065477"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4091099-3373042 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4091099-3373042">
+        <rdfs:label xml:lang="hi">कैमरा तैयार शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-3571895-7123584"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-1830138-5301318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-9174703-5459295"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4639357-6988409"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9765477-1198246"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1830138-5301318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4639357-6988409 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4639357-6988409">
+        <rdfs:label xml:lang="hi">मूल्यांकित शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-5707387-4575467"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-3996200-5609897"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_hi#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8023160-6915918 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8023160-6915918">
+        <rdfs:label xml:lang="hi">पोस्टर शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4706586-9914688"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2867468-8616001"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2333245-8601958"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1911922-5298369 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1911922-5298369">
+        <rdfs:label xml:lang="hi">शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7910395-4714480"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5750115-4737946 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5750115-4737946">
+        <rdfs:label xml:lang="hi">कार्यशाला शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6378307-2443674"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2867468-8616001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9729764-9314999 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9729764-9314999">
+        <rdfs:label xml:lang="hi">सकारात्मक समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1334831-1397881"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2284648-9471309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2568270-7756869 -->
+    <!--v2
+    <owl:Class rdf:about="http://ekaw_hi#c-2568270-7756869">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://ekaw_hi#c-5914895-1441653 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5914895-1441653">
+        <rdfs:label xml:lang="hi">आमंत्रित वक्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8110762-1399857"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9835057-6568948 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9835057-6568948">
+        <rdfs:label xml:lang="hi">संगठन</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2552624-6246518 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2552624-6246518">
+        <rdfs:label xml:lang="hi">ट्रैक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7416997-7499800"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7747360-8733900"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1329808-7503699 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1329808-7503699">
+        <rdfs:label xml:lang="hi">आयोजन संस्था</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9835057-6568948"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-3605988-2113297"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6378307-2443674 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6378307-2443674">
+        <rdfs:label xml:lang="hi">सम्मेलन शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7747360-8733900 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7747360-8733900">
+        <rdfs:label xml:lang="hi">सम्मेलन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7416997-7499800"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9765477-1198246 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9765477-1198246">
+        <rdfs:label xml:lang="hi">प्रस्तुत शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8384733-3603799 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8384733-3603799">
+        <rdfs:label xml:lang="hi">नियमित सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-5687672-3082498"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9135042-3992015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1004134-4352661 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1004134-4352661">
+        <rdfs:label xml:lang="hi">सम्मेलन प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7241094-6493844 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7241094-6493844">
+        <rdfs:label xml:lang="hi">सत्र के अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4079307-2999358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3194511-8048860 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3194511-8048860">
+        <rdfs:label xml:lang="hi">कार्यशाला के अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4079307-2999358"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9672222-3948216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3823068-4059893 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3823068-4059893">
+        <rdfs:label xml:lang="hi">जल्दी पंजीकृत प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3605988-2113297 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3605988-2113297">
+        <rdfs:label xml:lang="hi">शैक्षणिक संस्थान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9835057-6568948"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4420300-7542885 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4420300-7542885">
+        <rdfs:label xml:lang="hi">सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7416997-7499800"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-5237636-5209322"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_hi#c-2552624-6246518"/>
+                            <rdf:Description rdf:about="http://ekaw_hi#c-7747360-8733900"/>
+                            <rdf:Description rdf:about="http://ekaw_hi#c-1240317-1131627"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-9242220-9726912"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-5237636-5209322"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_hi#c-7747360-8733900"/>
+                            <rdf:Description rdf:about="http://ekaw_hi#c-1240317-1131627"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-1240317-1131627"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9085788-1511727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1607038-7984586 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1607038-7984586">
+        <rdfs:label xml:lang="hi">शोध विषय</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4702066-6770287 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4702066-6770287">
+        <rdfs:label xml:lang="hi">कार्यक्रम</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1240317-1131627 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1240317-1131627">
+        <rdfs:label xml:lang="hi">कार्यशाला</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7416997-7499800"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5687672-3082498 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5687672-3082498">
+        <rdfs:label xml:lang="hi">डेमो सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9135042-3992015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7936975-9485336 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7936975-9485336">
+        <rdfs:label xml:lang="hi">एससी सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4079307-2999358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5147324-2898706 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5147324-2898706">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7816881-2978395"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4349123-6307302 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4349123-6307302">
+        <rdfs:label xml:lang="hi">संभावित समीक्षक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6651056-9024158 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6651056-9024158">
+        <rdfs:label xml:lang="hi">कार्यवाही प्रकाशक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9835057-6568948"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7156610-4984806 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7156610-4984806">
+        <rdfs:label xml:lang="hi">छात्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8110762-1399857 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8110762-1399857">
+        <rdfs:label xml:lang="hi">प्रस्तोता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4079307-2999358 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4079307-2999358">
+        <rdfs:label xml:lang="hi">पीसी सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4349123-6307302"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6103251-6323528 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6103251-6323528">
+        <rdfs:label xml:lang="hi">दस्तावेज़</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5169799-7071781 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5169799-7071781">
+        <rdfs:label xml:lang="hi">ओसी सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9135042-3992015 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9135042-3992015">
+        <rdfs:label xml:lang="hi">पोस्टर प्रेसेंटेशन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8415232-9231458 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8415232-9231458">
+        <rdfs:label xml:lang="hi">व्यक्ति</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7816881-2978395 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7816881-2978395">
+        <rdfs:label xml:lang="hi">सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-8190708-5039363 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-8190708-5039363">
+        <rdfs:label xml:lang="hi">संस्था कर्मचारी सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1334831-1397881 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1334831-1397881">
+        <rdfs:label xml:lang="hi">नकारात्मक समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2284648-9471309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3321495-7494787 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3321495-7494787">
+        <rdfs:label xml:lang="hi">कार्यशाला सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-4678814-2822108"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3945316-7252286 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3945316-7252286">
+        <rdfs:label xml:lang="hi">औद्योगिक सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4678814-2822108"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5707387-4575467 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5707387-4575467">
+        <rdfs:label xml:lang="hi">सौंपा किया गया शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9765477-1198246"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-6996416-3593869"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_hi#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3907327-5981798 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3907327-5981798">
+        <rdfs:label xml:lang="hi">अनुसंधान संस्थान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-3605988-2113297"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3235110-9390331 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3235110-9390331">
+        <rdfs:label xml:lang="hi">विश्वविद्यालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-3605988-2113297"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3756058-1065477 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3756058-1065477">
+        <rdfs:label xml:lang="hi">आमंत्रित वार्ता सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7816881-2978395"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9535229-4118993 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9535229-4118993">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4079307-2999358"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-9672222-3948216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4706586-9914688 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4706586-9914688">
+        <rdfs:label xml:lang="hi">नियमित शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2867468-8616001"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2333245-8601958"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6840856-4766418 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6840856-4766418">
+        <rdfs:label xml:lang="hi">ओसी अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-5169799-7071781"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9672222-3948216 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9672222-3948216">
+        <rdfs:label xml:lang="hi">पीसी अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4079307-2999358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6922831-2530366 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6922831-2530366">
+        <rdfs:label xml:lang="hi">डेमो अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1004134-4352661"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2867468-8616001 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2867468-8616001">
+        <rdfs:label xml:lang="hi">औद्योगिक शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-2333245-8601958"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-5081414-5295376 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-5081414-5295376">
+        <rdfs:label xml:lang="hi">समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-7910395-4714480"/>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2284648-9471309 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2284648-9471309">
+        <rdfs:label xml:lang="hi">तटस्थ समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-5081414-5295376"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-1830138-5301318 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-1830138-5301318">
+        <rdfs:label xml:lang="hi">स्वीकृत शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4639357-6988409"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-3996200-5609897"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-9729764-9314999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9085788-1511727 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9085788-1511727">
+        <rdfs:label xml:lang="hi">योगदान दिया बात</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-9037825-9125256"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-5374081-8539736"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_hi#c-2568270-7756869"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-5374081-8539736"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-4091099-3373042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4678814-2822108 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4678814-2822108">
+        <rdfs:label xml:lang="hi">सम्मेलन सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4420300-7542885"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-5237636-5209322"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_hi#c-7747360-8733900"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-9037825-9125256 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-9037825-9125256">
+        <rdfs:label xml:lang="hi">एकल प्रस्तुति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-7416997-7499800"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-2333245-8601958 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-2333245-8601958">
+        <rdfs:label xml:lang="hi">डेमो शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-1911922-5298369"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7910395-4714480 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7910395-4714480">
+        <rdfs:label xml:lang="hi">कार्यवाही</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8356080-9542278"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-4912149-6456524"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_hi#c-3756058-1065477"/>
+                            <rdf:Description rdf:about="http://ekaw_hi#c-1830138-5301318"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_hi#op-4912149-6456524"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_hi#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_hi#c-6251064-7886415"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-6251064-7886415 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-6251064-7886415">
+        <rdfs:label xml:lang="hi">फ़्लायर्स </rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-6103251-6323528"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-7416997-7499800 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-7416997-7499800">
+        <rdfs:label xml:lang="hi">वैज्ञानिक कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-4702066-6770287"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-4788583-7524574 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-4788583-7524574">
+        <rdfs:label xml:lang="hi">शोध पत्र लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-8415232-9231458"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_hi#c-3024901-3830610 -->
+
+    <owl:Class rdf:about="http://ekaw_hi#c-3024901-3830610">
+        <rdfs:label xml:lang="hi">सम्मेलन भोज</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_hi#c-2784504-6803457"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

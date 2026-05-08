@@ -1,0 +1,13 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seals="http://www.seals-project.eu/ontologies/SEALSMetadata.owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:j.0="http://www.seals-project.eu/ontologies/TestSuite.owl#">
+  <seals:TestDataVersion>
+    <seals:hasVersionNumber>v1.0</seals:hasVersionNumber>
+    <dc:description>Version v1.0 for test suite es-nl</dc:description>
+    <dc:identifier>es-nl-multifarm-v1.0</dc:identifier>
+    <seals:hasName>es-nl-v1.0</seals:hasName>
+    <rdf:type rdf:resource="http://www.seals-project.eu/ontologies/TestSuite.owl#TestSuiteVersion"/>
+  </seals:TestDataVersion>
+</rdf:RDF>

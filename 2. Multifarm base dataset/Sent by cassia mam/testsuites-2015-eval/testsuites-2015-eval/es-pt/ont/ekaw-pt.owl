@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ekaw_pt#"
+     xml:base="http://ekaw_pt"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ekaw_pt="http://ekaw_pt#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ekaw_pt"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_pt#op-0129268-8605601 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-0129268-8605601">
+        <rdfs:label xml:lang="pt">evento na lista</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-9432584-6977176"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-1093814-5033527"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-5410189-3325718"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-0153513-0983410 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-0153513-0983410">
+        <rdfs:label xml:lang="pt">artigo apresentado como</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-2926534-2932779"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6216044-9341093"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-0271048-5691984 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-0271048-5691984">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pt">parte do evento</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-4816666-3392081"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-6124847-4042150"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-0388678-6893998 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-0388678-6893998">
+        <rdfs:label xml:lang="pt">versão atualizada de</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-1100918-2666083 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-1100918-2666083">
+        <rdfs:label xml:lang="pt">inverso da parte de 7</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-6139869-3767154"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-1188947-8214354 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-1188947-8214354">
+        <rdfs:label xml:lang="pt">tecnicamente organizado por</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-1958481-0012475"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-7495916-3096126"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-1958481-0012475 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-1958481-0012475">
+        <rdfs:label xml:lang="pt">tecnicamente organiza</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-6657618-1934422"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-6577640-0556771"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-2990799-6570388 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-2990799-6570388">
+        <rdfs:label xml:lang="pt">referenciado em</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-3182095-1009648 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-3182095-1009648">
+        <rdfs:label xml:lang="pt">autor de</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-3221235-3426232 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-3221235-3426232">
+        <rdfs:label xml:lang="pt">abrange tópico</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-3532975-6853226"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-6971109-7942150"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-5391245-6252789"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6216044-9341093"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-3483959-6043656 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-3483959-6043656">
+        <rdfs:label xml:lang="pt">cientificamente organizado por</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-8361380-9522512"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-7495916-3096126"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-4816666-3392081 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-4816666-3392081">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pt">parte de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-5947487-6135260 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-5947487-6135260">
+        <rdfs:label xml:lang="pt">revisão do artigo</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6044854-8674132 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6044854-8674132">
+        <rdfs:label xml:lang="pt">possui versão atualizada</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-0388678-6893998"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6124847-4042150 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6124847-4042150">
+        <rdfs:label xml:lang="pt">possui evento</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-6139869-3767154"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6139869-3767154 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6139869-3767154">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pt">possui parte</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-4816666-3392081"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6224512-1997006 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6224512-1997006">
+        <rdfs:label xml:lang="pt">escrito por</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-3182095-1009648"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6263343-0785033 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6263343-0785033">
+        <rdfs:label xml:lang="pt">referências</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-2990799-6570388"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6320252-3231897 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6320252-3231897">
+        <rdfs:label xml:lang="pt">possui revisão</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-5947487-6135260"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6447759-9830090 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6447759-9830090">
+        <rdfs:label xml:lang="pt">sediado em</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-8956616-4937001"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6503632-3631167 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6503632-3631167">
+        <rdfs:label xml:lang="pt">volume contém artigo</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-9680939-0138738"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6577640-0556771 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6577640-0556771">
+        <rdfs:label xml:lang="pt">organiza</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6657618-1934422"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-8990068-4792435"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6589601-3902699 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6589601-3902699">
+        <rdfs:label xml:lang="pt">apresentação de artigo</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-0153513-0983410"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-2926534-2932779"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6216044-9341093"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-6971109-7942150 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-6971109-7942150">
+        <rdfs:label xml:lang="pt">tópico abrangido por</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-3532975-6853226"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-5391245-6252789"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6216044-9341093"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-7495916-3096126 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-7495916-3096126">
+        <rdfs:label xml:lang="pt">organizado por</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-6577640-0556771"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-6657618-1934422"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-8990068-4792435"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-7877646-2431540 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-7877646-2431540">
+        <rdfs:label xml:lang="pt">cientificamente organiza</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-8361380-9522512"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-3483959-6043656"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-6577640-0556771"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-8275154-7080867 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-8275154-7080867">
+        <rdfs:label xml:lang="pt">revisão escrita por</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-2664849-6535756"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pt#op-6224512-1997006"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-8668067-6821361 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-8668067-6821361">
+        <rdfs:label xml:lang="pt">local de</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-8956616-4937001"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-6447759-9830090"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-8814486-4317459 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-8814486-4317459">
+        <rdfs:label xml:lang="pt">possui revisor</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-2664849-6535756"/>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-9143587-8627256 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-9143587-8627256">
+        <rdfs:label xml:lang="pt">publicador de</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-6657618-1934422"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-0918192-9467015"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-1093814-5033527"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-1690607-7285552"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-5410189-3325718"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-9432584-6977176 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-9432584-6977176">
+        <rdfs:label xml:lang="pt">lista evento</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pt#c-1093814-5033527"/>
+                    <rdf:Description rdf:about="http://ekaw_pt#c-5410189-3325718"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-9506906-2600928 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-9506906-2600928">
+        <rdfs:label xml:lang="pt">revisor de artigo</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pt#c-2664849-6535756"/>
+        <rdfs:range rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pt#op-8814486-4317459"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pt#op-9680939-0138738 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pt#op-9680939-0138738">
+        <rdfs:label xml:lang="pt">artigo no volume</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_pt#c-0095137-6101615 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0095137-6101615">
+        <rdfs:label xml:lang="pt">evento científico</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0235463-8421501 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0235463-8421501">
+        <rdfs:label xml:lang="pt">viagem para a conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-3063613-0707519"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0283839-1884197 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0283839-1884197">
+        <rdfs:label xml:lang="pt">membro do comitê de programa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-2664849-6535756"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0494250-4040747 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0494250-4040747">
+        <rdfs:label xml:lang="pt">apresentador</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0849667-6418072 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0849667-6418072">
+        <rdfs:label xml:lang="pt">universidade</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8361380-9522512"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0918192-9467015 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0918192-9467015">
+        <rdfs:label xml:lang="pt">volume de vários autores</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-1093814-5033527"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-1690607-7285552"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5410189-3325718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-0948990-5182738 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-0948990-5182738">
+        <rdfs:label xml:lang="pt">funcionário da agência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1009884-2035886 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1009884-2035886">
+        <rdfs:label xml:lang="pt">artigo de demonstração de protótipo ou aplicação</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-7016174-2968943"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-7560834-1504288"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9992338-9298257"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1093814-5033527 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1093814-5033527">
+        <rdfs:label xml:lang="pt">brochura de programação</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-1690607-7285552"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5410189-3325718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5786680-8822595"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1183644-5801526 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1183644-5801526">
+        <rdfs:label xml:lang="pt">versão final do artigo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6224512-1997006"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-0388678-6893998"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-6019905-1030670"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5314131-3204803"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6019905-1030670"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8846726-3810383"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1260047-0229353 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1260047-0229353">
+        <rdfs:label xml:lang="pt">coordenador de demonstrações de aplicações ou protótipos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1556768-4235934 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1556768-4235934">
+        <rdfs:label xml:lang="pt">conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0095137-6101615"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-2908509-3225452"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3004046-1747835"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3063613-0707519"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3207116-3793119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3719067-4162538"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5568434-9641870"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1576167-4400973 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1576167-4400973">
+        <rdfs:label xml:lang="pt">coordenador de tutoriais</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0283839-1884197"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6952199-0376435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-1690607-7285552 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-1690607-7285552">
+        <rdfs:label xml:lang="pt">folder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5410189-3325718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5786680-8822595"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-2664849-6535756 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-2664849-6535756">
+        <rdfs:label xml:lang="pt">possível revisor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-2908509-3225452 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-2908509-3225452">
+        <rdfs:label xml:lang="pt">palestra convidada</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3004046-1747835"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3063613-0707519"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3207116-3793119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3719067-4162538"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5568434-9641870"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-2926534-2932779 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-2926534-2932779">
+        <rdfs:label xml:lang="pt">resumo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3004046-1747835 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3004046-1747835">
+        <rdfs:label xml:lang="pt">trilha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0095137-6101615"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3063613-0707519"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3207116-3793119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3719067-4162538"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5568434-9641870"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3063613-0707519 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3063613-0707519">
+        <rdfs:label xml:lang="pt">evento social</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-5391245-6252789"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3207116-3793119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3719067-4162538"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5568434-9641870"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3161480-2889430 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3161480-2889430">
+        <rdfs:label xml:lang="pt">artigo atribuído para revisão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8846726-3810383"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-8814486-4317459"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pt#c-7401936-5212597"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3207116-3793119 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3207116-3793119">
+        <rdfs:label xml:lang="pt">tutorial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-3719067-4162538"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5568434-9641870"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3220522-5764371 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3220522-5764371">
+        <rdfs:label xml:lang="pt">autor de artigo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3249710-5768334 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3249710-5768334">
+        <rdfs:label xml:lang="pt">artigo de conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6444430-5128400"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3458434-0401669 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3458434-0401669">
+        <rdfs:label xml:lang="pt">revisão neutra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-4937828-6509705"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9822399-1520146"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3478643-3721590 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3478643-3721590">
+        <rdfs:label xml:lang="pt">coordenador da sessão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0283839-1884197"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3532975-6853226 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3532975-6853226">
+        <rdfs:label xml:lang="pt">tópico de pesquisa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3719067-4162538 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3719067-4162538">
+        <rdfs:label xml:lang="pt">palestra submetida</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6589601-3902699"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pt#c-7401936-5212597"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6589601-3902699"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-1183644-5801526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3820108-3808765 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3820108-3808765">
+        <rdfs:label xml:lang="pt">coordenador do comitê organizador</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4030060-8190642"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-3951627-7031358 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-3951627-7031358">
+        <rdfs:label xml:lang="pt">sessão técnica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-4411597-6705573"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8349701-6506968"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4008382-7408319 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4008382-7408319">
+        <rdfs:label xml:lang="pt">anais de conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-5786680-8822595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6503632-3631167"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pt#c-3249710-5768334"/>
+                            <rdf:Description rdf:about="http://ekaw_pt#c-5961490-4126278"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4030060-8190642 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4030060-8190642">
+        <rdfs:label xml:lang="pt">membro do comitê organizador</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4411597-6705573 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4411597-6705573">
+        <rdfs:label xml:lang="pt">sessão de demonstrações de protótipos ou aplicações</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8349701-6506968"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4460699-9506781 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4460699-9506781">
+        <rdfs:label xml:lang="pt">documento</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4847923-5249831 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4847923-5249831">
+        <rdfs:label xml:lang="pt">palestrante convidado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0494250-4040747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4937828-6509705 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4937828-6509705">
+        <rdfs:label xml:lang="pt">revisão negativa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9822399-1520146"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-4955931-0341422 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-4955931-0341422">
+        <rdfs:label xml:lang="pt">sessão de conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-0271048-5691984"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-1556768-4235934"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8107718-5306189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5314131-3204803 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5314131-3204803">
+        <rdfs:label xml:lang="pt">artigo avaliado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-3161480-2889430"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6320252-3231897"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pt#c-7401936-5212597"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5391245-6252789 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5391245-6252789">
+        <rdfs:label xml:lang="pt">evento</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5410189-3325718 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5410189-3325718">
+        <rdfs:label xml:lang="pt">sítio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-5786680-8822595"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5568434-9641870 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5568434-9641870">
+        <rdfs:label xml:lang="pt">workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0095137-6101615"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5598711-9129607 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5598711-9129607">
+        <rdfs:label xml:lang="pt">editora dos anais</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6657618-1934422"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5786680-8822595 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5786680-8822595">
+        <rdfs:label xml:lang="pt">anais</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0918192-9467015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6503632-3631167"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pt#c-5961490-4126278"/>
+                            <rdf:Description rdf:about="http://ekaw_pt#c-6019905-1030670"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6503632-3631167"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pt#c-7401936-5212597"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-5961490-4126278 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-5961490-4126278">
+        <rdfs:label xml:lang="pt">resumo de palestra convidada</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-2926534-2932779"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6019905-1030670 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6019905-1030670">
+        <rdfs:label xml:lang="pt">artigo aceito</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-5314131-3204803"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6320252-3231897"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-9822399-1520146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8301027-7121666"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6162121-1235487 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6162121-1235487">
+        <rdfs:label xml:lang="pt">banquete da conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-3063613-0707519"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6216044-9341093 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6216044-9341093">
+        <rdfs:label xml:lang="pt">artigo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6365966-4853194 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6365966-4853194">
+        <rdfs:label xml:lang="pt">resumo de tutorial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-2926534-2932779"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6444430-5128400 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6444430-5128400">
+        <rdfs:label xml:lang="pt">artigo de workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-7560834-1504288"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6553723-6741766 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6553723-6741766">
+        <rdfs:label xml:lang="pt">sessão de aplicações industriais</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4955931-0341422"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6657618-1934422 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6657618-1934422">
+        <rdfs:label xml:lang="pt">organização</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-6952199-0376435 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-6952199-0376435">
+        <rdfs:label xml:lang="pt">coordenador do comitê de programa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0283839-1884197"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9953061-7677499"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-7016174-2968943 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-7016174-2968943">
+        <rdfs:label xml:lang="pt">artigo completo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-7560834-1504288"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9992338-9298257"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-7401936-5212597 -->
+    <!--v2
+    <owl:Class rdf:about="http://ekaw_pt#c-7401936-5212597">
+        <rdfs:label xml:lang="pt">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://ekaw_pt#c-7560834-1504288 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-7560834-1504288">
+        <rdfs:label xml:lang="pt">artigo de aplicação industrial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9992338-9298257"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-7828299-6816871 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-7828299-6816871">
+        <rdfs:label xml:lang="pt">agência organizadora</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6657618-1934422"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8361380-9522512"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-7988707-6595052 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-7988707-6595052">
+        <rdfs:label xml:lang="pt">estudante</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8000432-7676677 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8000432-7676677">
+        <rdfs:label xml:lang="pt">insitituto de pesquisa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8361380-9522512"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8015876-7794197 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8015876-7794197">
+        <rdfs:label xml:lang="pt">participante da conferência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8107718-5306189 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8107718-5306189">
+        <rdfs:label xml:lang="pt">sessão de workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8301027-7121666 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8301027-7121666">
+        <rdfs:label xml:lang="pt">artigo rejeitado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-5314131-3204803"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8349701-6506968 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8349701-6506968">
+        <rdfs:label xml:lang="pt">sessão de posteres</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8875405-7777872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8361380-9522512 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8361380-9522512">
+        <rdfs:label xml:lang="pt">instituição acadêmica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6657618-1934422"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8613180-1772404 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8613180-1772404">
+        <rdfs:label xml:lang="pt">participante registrado antecipadamente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-9152845-4415529"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8846726-3810383 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8846726-3810383">
+        <rdfs:label xml:lang="pt">artigo submetido</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8875405-7777872 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8875405-7777872">
+        <rdfs:label xml:lang="pt">sessão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0095137-6101615"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-0271048-5691984"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pt#c-1556768-4235934"/>
+                            <rdf:Description rdf:about="http://ekaw_pt#c-3004046-1747835"/>
+                            <rdf:Description rdf:about="http://ekaw_pt#c-5568434-9641870"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-0271048-5691984"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pt#c-1556768-4235934"/>
+                            <rdf:Description rdf:about="http://ekaw_pt#c-5568434-9641870"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pt#op-6124847-4042150"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pt#c-9541305-8515802"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8956616-4937001 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8956616-4937001">
+        <rdfs:label xml:lang="pt">local</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pt#c-8990068-4792435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-8990068-4792435 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-8990068-4792435">
+        <rdfs:label xml:lang="pt">pessoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9152845-4415529 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9152845-4415529">
+        <rdfs:label xml:lang="pt">participante registrado tardiamente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9541305-8515802 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9541305-8515802">
+        <rdfs:label xml:lang="pt">apresentação individual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0095137-6101615"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9810553-4310216 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9810553-4310216">
+        <rdfs:label xml:lang="pt">revisão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-4460699-9506781"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9822399-1520146 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9822399-1520146">
+        <rdfs:label xml:lang="pt">revisão positiva</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-9810553-4310216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9825301-4505474 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9825301-4505474">
+        <rdfs:label xml:lang="pt">membro do comitê de sessão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0283839-1884197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9953061-7677499 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9953061-7677499">
+        <rdfs:label xml:lang="pt">coordenador dos workshops</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-0283839-1884197"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-8015876-7794197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pt#c-9992338-9298257 -->
+
+    <owl:Class rdf:about="http://ekaw_pt#c-9992338-9298257">
+        <rdfs:label xml:lang="pt">poster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pt#c-6216044-9341093"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

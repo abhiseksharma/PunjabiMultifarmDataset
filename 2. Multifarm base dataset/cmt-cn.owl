@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://cmt_cn#"
+     xml:base="http://cmt_cn"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:cmt_cn="http://cmt_cn#">
+    <owl:Ontology rdf:about="http://cmt_cn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_cn#op-0139221-8274662 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0139221-8274662">
+        <rdfs:label xml:lang="cn">有程序委员会成员</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6630419-0421738"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0201163-8587496 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0201163-8587496">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">指定外部审稿人</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3022612-4408740"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0374855-3110514 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0374855-3110514">
+        <rdfs:label xml:lang="cn">开始审稿投标</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6358541-5278618"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0429521-7154777 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0429521-7154777">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">录用论文</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-1544958-5022537"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0527452-2337016 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0527452-2337016">
+        <rdfs:label xml:lang="cn">有合著者</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8439165-8978369"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6070793-8719437"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0921201-5885729 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0921201-5885729">
+        <rdfs:label xml:lang="cn">投稿</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-8523272-8291395"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-0957818-7948012 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-0957818-7948012">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由之拒收</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1296906-1134604 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1296906-1134604">
+        <rdfs:label xml:lang="cn">分派给</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1397517-6732699 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1397517-6732699">
+        <rdfs:label xml:lang="cn">论文分派由之定稿</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1446664-0026153 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1446664-0026153">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">拒收论文</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-0957818-7948012"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1544958-5022537 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1544958-5022537">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由之录用</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1789589-6473986 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1789589-6473986">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">修改投标</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-3386241-3661667"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-1980340-0925466 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-1980340-0925466">
+        <rdfs:label xml:lang="cn">结束审稿</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4552189-4088662"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8563934-7744699"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-2277249-7945458 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-2277249-7945458">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">增补程序委员会成员</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-3136016-4491811 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-3136016-4491811">
+        <rdfs:label xml:lang="cn">由管理人员指定</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-3386241-3661667 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-3386241-3661667">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">修改后投标</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-3434286-6309426 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-3434286-6309426">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">有投标</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-3510276-6872938 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-3510276-6872938">
+        <rdfs:label xml:lang="cn">由之录入详情</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-3824920-0442054 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-3824920-0442054">
+        <rdfs:label xml:lang="cn">由审稿人审阅</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-4012310-5017240 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-4012310-5017240">
+        <rdfs:label xml:lang="cn">由之录入审稿标准</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-5488036-6857697"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-4225348-1588452 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-4225348-1588452">
+        <rdfs:label xml:lang="cn">由之启动虚拟会议</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-4543343-9986535 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-4543343-9986535">
+        <rdfs:label xml:lang="cn">运行论文分派工具</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6574801-9283187"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-4598832-8437786 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-4598832-8437786">
+        <rdfs:label xml:lang="cn">阅读论文</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-3824920-0442054"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-4712557-5834409 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-4712557-5834409">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由之撰写</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-8563934-7744699"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-7891502-9670422"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-5293732-0874578 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-5293732-0874578">
+        <rdfs:label xml:lang="cn">设置最多论文数</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-5480389-9943551 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-5480389-9943551">
+        <rdfs:label xml:lang="cn">有会议成员</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6591078-4074580"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-5488036-6857697 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-5488036-6857697">
+        <rdfs:label xml:lang="cn">录入审稿标准</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6063305-8599096 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6063305-8599096">
+        <rdfs:label xml:lang="cn">有兴趣冲突</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6070793-8719437 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6070793-8719437">
+        <rdfs:label xml:lang="cn">合著</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-8439165-8978369"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6358541-5278618 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6358541-5278618">
+        <rdfs:label xml:lang="cn">审稿人投标始于</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6454509-7006766 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6454509-7006766">
+        <rdfs:label xml:lang="cn">打印硬拷贝邮件舱单</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6566747-9201390 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6566747-9201390">
+        <rdfs:label xml:lang="cn">有分派论文</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-1296906-1134604"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6574801-9283187 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6574801-9283187">
+        <rdfs:label xml:lang="cn">论文分派工具由之运行</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6591078-4074580 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6591078-4074580">
+        <rdfs:label xml:lang="cn">是会议成员</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6630419-0421738 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6630419-0421738">
+        <rdfs:label xml:lang="cn">是程序委员会成员</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6638033-9761641 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6638033-9761641">
+        <rdfs:label xml:lang="cn">有主题领域</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4254210-6858478"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6698974-2372198 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6698974-2372198">
+        <rdfs:label xml:lang="cn">论文分派定稿</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-1397517-6732699"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-6855134-2930557 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-6855134-2930557">
+        <rdfs:label xml:lang="cn">启用虚拟会议</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-4225348-1588452"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-7752550-3021083 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-7752550-3021083">
+        <rdfs:label xml:lang="cn">录入会议详情</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-3510276-6872938"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-7891502-9670422 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-7891502-9670422">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">撰写审稿意见</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8563934-7744699"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8107870-1544756 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8107870-1544756">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">有决定</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-1402353-6162233"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8189523-3778389 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8189523-3778389">
+        <rdfs:label xml:lang="cn">由之打印硬拷贝邮件舱单</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-6454509-7006766"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8321182-7645714 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8321182-7645714">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由综合审稿人审阅</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-2526446-4086908"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8572536-0887479 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8572536-0887479">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="cn">撰写论文</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-8523272-8291395"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8620730-9271879 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8620730-9271879">
+        <rdfs:label xml:lang="cn">标注兴趣冲突</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_cn#c-6045365-8736030"/>
+                    <rdf:Description rdf:about="http://cmt_cn#c-8523272-8291395"/>
+                    <rdf:Description rdf:about="http://cmt_cn#c-9799198-3480619"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-8849242-8901137 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-8849242-8901137">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">有作者</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-8523272-8291395"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-8572536-0887479"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-9246907-1438116 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-9246907-1438116">
+        <rdfs:label xml:lang="cn">指定审稿人</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-3136016-4491811"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-9415553-7302218 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-9415553-7302218">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由之增补</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_cn#c-3302711-9627738"/>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-2277249-7945458"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_cn#op-9823300-6965516 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_cn#op-9823300-6965516">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">由审稿人指定</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-3022612-4408740"/>
+        <rdfs:range rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+        <owl:inverseOf rdf:resource="http://cmt_cn#op-0201163-8587496"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_cn#ent-2343316-7133913 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-2343316-7133913">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">每篇论文审稿意见数</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-2744229-4896327 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-2744229-4896327">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">网站地址</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-3845750-4076070 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-3845750-4076070">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">最多论文数</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-5534373-9608927 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-5534373-9608927">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">商标统一资源定址器</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-7465870-8262618 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-7465870-8262618">
+        <rdfs:label xml:lang="cn">电子信箱</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-7605099-5686690 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-7605099-5686690">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">接受硬拷贝投稿</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-8654997-0168465 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-8654997-0168465">
+        <rdfs:label xml:lang="cn">日期</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-9211021-9019715 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-9211021-9019715">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">论文序号</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-9353017-3601713 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-9353017-3601713">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">标题</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_cn#ent-9396406-4741442 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_cn#ent-9396406-4741442">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="cn">姓名</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_cn#c-2006924-8789420"/>
+                    <rdf:Description rdf:about="http://cmt_cn#c-4005804-4589264"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_cn#c-0104832-9433513 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-0104832-9433513">
+        <rdfs:label xml:lang="cn">偏爱</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-1402353-6162233"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-1402353-6162233 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-1402353-6162233">
+        <rdfs:label xml:lang="cn">决定</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-1723780-4163952 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-1723780-4163952">
+        <rdfs:label xml:lang="cn">会议成员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-1734000-7761229 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-1734000-7761229">
+        <rdfs:label xml:lang="cn">拒收</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1402353-6162233"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8157042-2581443"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-2006924-8789420 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-2006924-8789420">
+        <rdfs:label xml:lang="cn">人员</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-4005804-4589264"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-2526446-4086908 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-2526446-4086908">
+        <rdfs:label xml:lang="cn">综合审稿人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-3022612-4408740 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-3022612-4408740">
+        <rdfs:label xml:lang="cn">外部审稿人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#op-9823300-6965516"/>
+                <owl:onClass rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-3173754-0083570 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-3173754-0083570">
+        <rdfs:label xml:lang="cn">非审稿人的作者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-8523272-8291395"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6045365-8736030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-3302711-9627738 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-3302711-9627738">
+        <rdfs:label xml:lang="cn">管理人员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-7580491-1561765"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-4005804-4589264 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-4005804-4589264">
+        <rdfs:label xml:lang="cn">会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#ent-9396406-4741442"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#ent-8654997-0168465"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#ent-2343316-7133913"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-6140518-0141174"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-4254210-6858478 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-4254210-6858478">
+        <rdfs:label xml:lang="cn">主题领域</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-4316657-4313592 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-4316657-4313592">
+        <rdfs:label xml:lang="cn">综合审稿意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-8563934-7744699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-4552189-4088662 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-4552189-4088662">
+        <rdfs:label xml:lang="cn">程序委员会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-5675745-9115411"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-5248865-0506348 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-5248865-0506348">
+        <rdfs:label xml:lang="cn">论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#op-3824920-0442054"/>
+                <owl:onClass rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#op-8107870-1544756"/>
+                <owl:onClass rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#op-8321182-7645714"/>
+                <owl:onClass rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_cn#op-8107870-1544756"/>
+                <owl:onClass rdf:resource="http://cmt_cn#c-7186042-6349123"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8563934-7744699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-5675745-9115411 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-5675745-9115411">
+        <rdfs:label xml:lang="cn">程序委员会成员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-6045365-8736030 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-6045365-8736030">
+        <rdfs:label xml:lang="cn">审稿人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-7580491-1561765"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-6140518-0141174 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-6140518-0141174">
+        <rdfs:label xml:lang="cn">投标</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-6737114-7781365 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-6737114-7781365">
+        <rdfs:label xml:lang="cn">副主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-7799604-8368216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-7186042-6349123 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-7186042-6349123">
+        <rdfs:label xml:lang="cn">null</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-7580491-1561765 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-7580491-1561765">
+        <rdfs:label xml:lang="cn">用户</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-7799604-8368216 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-7799604-8368216">
+        <rdfs:label xml:lang="cn">大会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8157042-2581443 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8157042-2581443">
+        <rdfs:label xml:lang="cn">录用</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1402353-6162233"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8439165-8978369 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8439165-8978369">
+        <rdfs:label xml:lang="cn">合著者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-8523272-8291395"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8523272-8291395 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8523272-8291395">
+        <rdfs:label xml:lang="cn">作者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-1723780-4163952"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-7580491-1561765"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8563934-7744699 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8563934-7744699">
+        <rdfs:label xml:lang="cn">审稿意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-8621011-9467497"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8621011-9467497 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8621011-9467497">
+        <rdfs:label xml:lang="cn">文件</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_cn#c-8753804-8891083"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-8753804-8891083 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-8753804-8891083">
+        <rdfs:label xml:lang="cn">程序委员会</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-9388083-2888126 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-9388083-2888126">
+        <rdfs:label xml:lang="cn">论文全文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-9624786-2428075 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-9624786-2428075">
+        <rdfs:label xml:lang="cn">论文摘要</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-5248865-0506348"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_cn#c-9799198-3480619 -->
+
+    <owl:Class rdf:about="http://cmt_cn#c-9799198-3480619">
+        <rdfs:label xml:lang="cn">主席</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_cn#c-4552189-4088662"/>
+                    <rdf:Description rdf:about="http://cmt_cn#c-6737114-7781365"/>
+                    <rdf:Description rdf:about="http://cmt_cn#c-7799604-8368216"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://cmt_cn#c-2006924-8789420"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

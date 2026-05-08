@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8251231-5615788"/>
+		<entity2 rdf:resource="http://conference_fr#c-7998240-1701348"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-6676586-1862377"/>
+		<entity2 rdf:resource="http://conference_fr#c-7181719-2780243"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-1570652-7481666"/>
+		<entity2 rdf:resource="http://conference_fr#ent-7952851-5807342"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1833503-7664763"/>
+		<entity2 rdf:resource="http://conference_fr#c-9983012-8974089"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8790523-4531786"/>
+		<entity2 rdf:resource="http://conference_fr#c-4659848-3368477"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-4719106-3244819"/>
+		<entity2 rdf:resource="http://conference_fr#op-9675107-2328349"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9102238-1452185"/>
+		<entity2 rdf:resource="http://conference_fr#op-2176272-9168448"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7419025-4847462"/>
+		<entity2 rdf:resource="http://conference_fr#c-4400687-2335171"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7019444-2244474"/>
+		<entity2 rdf:resource="http://conference_fr#c-6047820-7133217"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9604673-7557424"/>
+		<entity2 rdf:resource="http://conference_fr#c-6637876-2393998"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8346921-2091341"/>
+		<entity2 rdf:resource="http://conference_fr#op-9251111-1600199"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-6162802-2600573"/>
+		<entity2 rdf:resource="http://conference_fr#op-6541374-7303964"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-4861289-7558433"/>
+		<entity2 rdf:resource="http://conference_fr#ent-0365312-9594803"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-5302838-4260453"/>
+		<entity2 rdf:resource="http://conference_fr#c-6346146-1101677"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2739426-3958244"/>
+		<entity2 rdf:resource="http://conference_fr#op-1353705-7728807"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3414140-1745261"/>
+		<entity2 rdf:resource="http://conference_fr#op-2054822-3162937"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3540637-5920828"/>
+		<entity2 rdf:resource="http://conference_fr#op-5556180-5095656"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-1147107-7879690"/>
+		<entity2 rdf:resource="http://conference_fr#op-3698651-5158247"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1650856-9094265"/>
+		<entity2 rdf:resource="http://conference_fr#c-6925923-3157217"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-5695194-1433555"/>
+		<entity2 rdf:resource="http://conference_fr#op-1608194-7002396"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1056832-8533180"/>
+		<entity2 rdf:resource="http://conference_fr#c-0384885-3619679"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-9867612-6557637"/>
+		<entity2 rdf:resource="http://conference_fr#ent-9071246-5621356"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9279174-7179203"/>
+		<entity2 rdf:resource="http://conference_fr#c-3535216-5991853"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7046439-6067235"/>
+		<entity2 rdf:resource="http://conference_fr#op-6141826-6467869"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-6055644-1058590"/>
+		<entity2 rdf:resource="http://conference_fr#c-3145040-9633898"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-4180926-8363898"/>
+		<entity2 rdf:resource="http://conference_fr#ent-2273822-4434823"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2292124-4247824"/>
+		<entity2 rdf:resource="http://conference_fr#c-2137518-8698390"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-1906948-2475384"/>
+		<entity2 rdf:resource="http://conference_fr#ent-3783280-8138326"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7671887-7718367"/>
+		<entity2 rdf:resource="http://conference_fr#op-3526861-0927697"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9693244-1854086"/>
+		<entity2 rdf:resource="http://conference_fr#c-3916069-3610053"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-5598122-8882198"/>
+		<entity2 rdf:resource="http://conference_fr#c-4658574-0728050"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8065217-5399608"/>
+		<entity2 rdf:resource="http://conference_fr#c-2084218-8560350"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2209984-9489272"/>
+		<entity2 rdf:resource="http://conference_fr#c-0156519-8027517"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8600431-3535843"/>
+		<entity2 rdf:resource="http://conference_fr#op-9156376-2836070"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1568129-7518513"/>
+		<entity2 rdf:resource="http://conference_fr#c-6817939-4292926"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7454556-7498003"/>
+		<entity2 rdf:resource="http://conference_fr#op-8151338-5279199"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7882204-9746181"/>
+		<entity2 rdf:resource="http://conference_fr#c-8814232-6110180"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3252096-9951446"/>
+		<entity2 rdf:resource="http://conference_fr#op-0269026-8759161"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-4324378-5948855"/>
+		<entity2 rdf:resource="http://conference_fr#op-0949862-3713686"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3116139-9151482"/>
+		<entity2 rdf:resource="http://conference_fr#c-1336674-2865929"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2919205-4796171"/>
+		<entity2 rdf:resource="http://conference_fr#c-0058408-0509068"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1946355-6286714"/>
+		<entity2 rdf:resource="http://conference_fr#c-6492740-3728346"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3383260-4293117"/>
+		<entity2 rdf:resource="http://conference_fr#op-6725516-5770009"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2866564-3332002"/>
+		<entity2 rdf:resource="http://conference_fr#op-2921759-6859637"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-6947387-3709965"/>
+		<entity2 rdf:resource="http://conference_fr#ent-3719181-4152351"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-1715383-8708556"/>
+		<entity2 rdf:resource="http://conference_fr#op-0513714-7671198"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-6771479-8544041"/>
+		<entity2 rdf:resource="http://conference_fr#c-8800020-1589744"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-2527435-2218875"/>
+		<entity2 rdf:resource="http://conference_fr#ent-9879842-0972568"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8005071-6659134"/>
+		<entity2 rdf:resource="http://conference_fr#c-8705210-3800827"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8250025-7974345"/>
+		<entity2 rdf:resource="http://conference_fr#c-2418755-3836869"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1302213-8975830"/>
+		<entity2 rdf:resource="http://conference_fr#c-3295405-8377717"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-5107414-4288327"/>
+		<entity2 rdf:resource="http://conference_fr#op-8103644-9644294"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2529903-4497315"/>
+		<entity2 rdf:resource="http://conference_fr#c-9103455-5114652"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8456962-8591936"/>
+		<entity2 rdf:resource="http://conference_fr#c-4235153-2579033"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-3811410-4262225"/>
+		<entity2 rdf:resource="http://conference_fr#ent-7382233-4705027"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3073603-9637233"/>
+		<entity2 rdf:resource="http://conference_fr#c-1945295-6393215"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-1160008-2596783"/>
+		<entity2 rdf:resource="http://conference_fr#ent-1195828-0745715"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-5240055-9423476"/>
+		<entity2 rdf:resource="http://conference_fr#op-8778171-3822105"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8852064-3872836"/>
+		<entity2 rdf:resource="http://conference_fr#op-9949536-3775060"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-6730635-6217813"/>
+		<entity2 rdf:resource="http://conference_fr#c-6786365-7588161"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8302321-6750667"/>
+		<entity2 rdf:resource="http://conference_fr#c-0505228-7772365"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1981490-5156508"/>
+		<entity2 rdf:resource="http://conference_fr#c-7424381-8262219"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9813925-1679655"/>
+		<entity2 rdf:resource="http://conference_fr#op-6200464-0318923"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8089979-8101834"/>
+		<entity2 rdf:resource="http://conference_fr#c-2388279-2629350"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1615037-1910053"/>
+		<entity2 rdf:resource="http://conference_fr#c-1144806-8351930"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7268957-8182318"/>
+		<entity2 rdf:resource="http://conference_fr#c-7407680-8155595"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-6099220-3711800"/>
+		<entity2 rdf:resource="http://conference_fr#op-7483997-8755722"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-7971887-6904211"/>
+		<entity2 rdf:resource="http://conference_fr#ent-3890718-4885513"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8346921-2091341"/>
+		<entity2 rdf:resource="http://conference_fr#op-6881730-1371264"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3459204-3800556"/>
+		<entity2 rdf:resource="http://conference_fr#c-3342042-5675432"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8997252-6765230"/>
+		<entity2 rdf:resource="http://conference_fr#c-2202467-0599665"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7044457-5006324"/>
+		<entity2 rdf:resource="http://conference_fr#op-2639797-0754265"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1284561-9797448"/>
+		<entity2 rdf:resource="http://conference_fr#c-5192496-5925964"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2335658-4726746"/>
+		<entity2 rdf:resource="http://conference_fr#op-6769201-9297518"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-9104703-4249998"/>
+		<entity2 rdf:resource="http://conference_fr#c-0438870-5635848"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7651692-9268931"/>
+		<entity2 rdf:resource="http://conference_fr#c-8044009-5566916"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8305769-9649424"/>
+		<entity2 rdf:resource="http://conference_fr#c-8651899-7755040"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-4487120-5581862"/>
+		<entity2 rdf:resource="http://conference_fr#c-2161222-8650296"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-1673689-6360333"/>
+		<entity2 rdf:resource="http://conference_fr#c-7927276-9805022"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3817880-4830524"/>
+		<entity2 rdf:resource="http://conference_fr#c-4135905-5575108"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-6741354-7502302"/>
+		<entity2 rdf:resource="http://conference_fr#op-4146791-4264019"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-9514232-3236509"/>
+		<entity2 rdf:resource="http://conference_fr#ent-4001541-0511634"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7491457-3572509"/>
+		<entity2 rdf:resource="http://conference_fr#op-3589519-7329921"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3451032-2121964"/>
+		<entity2 rdf:resource="http://conference_fr#c-3084367-5677075"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-6165451-9249304"/>
+		<entity2 rdf:resource="http://conference_fr#ent-1001366-7758651"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7543390-5692900"/>
+		<entity2 rdf:resource="http://conference_fr#op-2238378-0208710"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8083089-5730338"/>
+		<entity2 rdf:resource="http://conference_fr#c-5294583-2924349"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7623145-6897225"/>
+		<entity2 rdf:resource="http://conference_fr#c-7736576-4995728"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-6275456-1349461"/>
+		<entity2 rdf:resource="http://conference_fr#op-2808907-5569378"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-5240055-9423476"/>
+		<entity2 rdf:resource="http://conference_fr#op-6192807-7711435"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9247390-9186657"/>
+		<entity2 rdf:resource="http://conference_fr#op-4066343-4336804"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-3829307-9930904"/>
+		<entity2 rdf:resource="http://conference_fr#ent-9273202-2839273"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-2071740-1022950"/>
+		<entity2 rdf:resource="http://conference_fr#c-2878924-9221030"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9375185-1500782"/>
+		<entity2 rdf:resource="http://conference_fr#op-9332904-9517992"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-5676663-5420899"/>
+		<entity2 rdf:resource="http://conference_fr#ent-1322311-8227397"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8337750-4186433"/>
+		<entity2 rdf:resource="http://conference_fr#c-3773041-2375414"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7242782-6977429"/>
+		<entity2 rdf:resource="http://conference_fr#c-4784236-5243302"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9063358-3446815"/>
+		<entity2 rdf:resource="http://conference_fr#op-5578210-4492687"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8143037-9623288"/>
+		<entity2 rdf:resource="http://conference_fr#op-2194019-8353303"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-2756327-6681819"/>
+		<entity2 rdf:resource="http://conference_fr#ent-8875092-9962629"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-3944318-1454246"/>
+		<entity2 rdf:resource="http://conference_fr#ent-0224817-6089298"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8585399-8019115"/>
+		<entity2 rdf:resource="http://conference_fr#c-9316260-0696558"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7907175-8250850"/>
+		<entity2 rdf:resource="http://conference_fr#c-8831400-7733012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-4099171-3875571"/>
+		<entity2 rdf:resource="http://conference_fr#c-1108433-7666814"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-5125628-8245963"/>
+		<entity2 rdf:resource="http://conference_fr#ent-4076038-1597075"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-4506041-4470913"/>
+		<entity2 rdf:resource="http://conference_fr#op-0752860-5946080"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-3353015-5382000"/>
+		<entity2 rdf:resource="http://conference_fr#c-6304664-2224275"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3299622-4606154"/>
+		<entity2 rdf:resource="http://conference_fr#op-2063537-7722077"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-7671887-7718367"/>
+		<entity2 rdf:resource="http://conference_fr#op-4283811-1712649"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7434185-7147108"/>
+		<entity2 rdf:resource="http://conference_fr#c-7085569-5090093"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-8909627-9898156"/>
+		<entity2 rdf:resource="http://conference_fr#c-7683334-8493671"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#hit-7124017-2178154"/>
+		<entity2 rdf:resource="http://conference_fr#ent-3291105-8417598"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-6381225-1315425"/>
+		<entity2 rdf:resource="http://conference_fr#op-2479458-6695210"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-9638355-2531912"/>
+		<entity2 rdf:resource="http://conference_fr#op-8948115-0076590"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-7176407-9189083"/>
+		<entity2 rdf:resource="http://conference_fr#c-9020653-2100726"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-8236029-4595165"/>
+		<entity2 rdf:resource="http://conference_fr#op-5698544-0484525"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2030338-1363733"/>
+		<entity2 rdf:resource="http://conference_fr#op-4683991-4342982"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3299622-4606154"/>
+		<entity2 rdf:resource="http://conference_fr#op-6297251-8022265"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-5889389-5955485"/>
+		<entity2 rdf:resource="http://conference_fr#c-9269507-3720513"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#c-4580085-6113657"/>
+		<entity2 rdf:resource="http://conference_fr#c-6866513-3300009"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-2966236-4217114"/>
+		<entity2 rdf:resource="http://conference_fr#op-5735678-0526614"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3671545-2376455"/>
+		<entity2 rdf:resource="http://conference_fr#op-4156752-4223282"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://conferhice_hi#op-3540637-5920828"/>
+		<entity2 rdf:resource="http://conference_fr#op-7101605-4224817"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

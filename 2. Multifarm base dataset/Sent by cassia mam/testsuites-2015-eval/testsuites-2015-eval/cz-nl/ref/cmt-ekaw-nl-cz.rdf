@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-4926854-0907990"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-3510433-8388657"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-8260644-2482124"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-4735840-8345394"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#op-1373374-6702784"/>
+		<entity2 rdf:resource="http://ekaw_cz#op-0092312-4613202"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#op-9645394-6959392"/>
+		<entity2 rdf:resource="http://ekaw_cz#op-0891090-2273238"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-9971141-2642146"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-4994957-2932971"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-0747732-0825096"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#op-6831750-4006974"/>
+		<entity2 rdf:resource="http://ekaw_cz#op-5148932-2756554"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-9264154-4017894"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-4855446-2072057"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_nl#c-6073598-2118472"/>
+		<entity2 rdf:resource="http://ekaw_cz#c-1680758-7734266"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

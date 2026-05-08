@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:p1="http://www.owl-ontologies.com/assert.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://myreview#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://myreview">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="समीक्षाक">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="कार्यक्रम_समिति_सदस्य"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="बाहरी_समीक्षक">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="व्यक्ति"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="समीक्षक_का_सहयोग_करता_है"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#समीक्षाक"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="संपर्क_लेखक">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="ईमेल_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="लेखक"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="शुल्क">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_पत्र_स्थिति_"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="खांचा"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="प्रश्न"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="भुगतान_का_प्रकार"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="मापदंड"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र_स्थिति_">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#भुगतान_का_प्रकार"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#खांचा"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रश्न"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#प्रश्न">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#खांचा"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#भुगतान_का_प्रकार"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="स्वीकृत_शोध_पत्र">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="अस्वीकृत_कागज"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="अध्यक्ष"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="द्वारा_स्वीकार_किया_जाता_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="समीक्षा"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:InverseFunctionalProperty rdf:ID="द्वारा_मूल्यांकन_किया_गया"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="है_स्टेटस"/>
+        </owl:onProperty>
+        <owl:hasValue>
+          <शोध_पत्र_स्थिति_ rdf:ID="स्वीकार_करना"/>
+        </owl:hasValue>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="शोध_पत्र"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सम्मेलन_कार्यक्रम">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="का_कार्यक्रम_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#भुगतान_का_प्रकार"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#खांचा"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#भुगतान_का_प्रकार">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#खांचा"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="सम्मेलन_परिचारक">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="भुगतान_किया_है"/>
+        </owl:onProperty>
+        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</owl:hasValue>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="है_फ़ोन"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="पता_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#शुल्क"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="चुकाना_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#खांचा">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="से_शुरूआत"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A “slot of the conference” is a period of a given day that hosts one or several sessions.</rdfs:comment>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="खतम_होता_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="दिनांक"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#समीक्षा">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="मूल्यांकन_शामिल_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#समीक्षाक"/>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="द्वारा_लिखा_गया"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="दरें"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_पत्र_सार"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_पत्र"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="समीक्षा_प्रश्न">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_पत्र_प्रश्न"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Questions must be asked to the reviewer that submits a review.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#प्रश्न"/>
+  </owl:Class>
+  <owl:Class rdf:ID="सीडी_रॉम">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="इंडेक्सऑफ़_लेखक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="बाहरी_समीक्षकों_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यक्रम_समिति_सदस्य_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सार_की_पुस्तिका"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#अध्यक्ष">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#बाहरी_समीक्षकों_की_सूची">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_पुस्तिका"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य_सूची">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_पुस्तिका"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#लेखक">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सार_की_पुस्तिका">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यक्रम">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith rdf:resource="#सार_की_पुस्तिका"/>
+  </owl:Class>
+  <owl:Class rdf:about="#दस्तावेज़">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+  </owl:Class>
+  <owl:Class rdf:about="#सम्मेलन">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="#ईमेल_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="नाम_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="संक्षिप्त_नाम_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र_प्रश्न">
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Questions must be asked to the author that submits a paper.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#प्रश्न"/>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="है_शीर्षक"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="है_लेखक"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#लेखक"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मूल्यांकन"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="है_मुख्य_विषय"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="आईडी_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#दस्तावेज़"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="सार_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_पत्र_सार"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="द्वारा_शोध_पत्र_प्रस्तुत_किया_गया"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#लेखक"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सत्र">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="संबद्ध_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sessions of the conference. Each session is associated to one of the previously defined slots.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#मूल्यांकन">
+    <rdfs:subClassOf rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#समीक्षा"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_पत्र_सार"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम_समिति"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सत्र"/>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="असाइन_किया_गया_है"/>
+        </owl:onProperty>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="प्रशासक"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#प्रशासक">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यक्रम_समिति">
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मापदंड"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सत्र"/>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith rdf:resource="#शोध_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#प्रशासक"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="है_सदस्य"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#है_सदस्य"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#अध्यक्ष"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र_सार">
+    <owl:disjointWith rdf:resource="#मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#समीक्षा"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#संपर्क_लेखक"/>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="द्वारा_सार_प्रस्तुत_किया_गया"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#दस्तावेज़"/>
+  </owl:Class>
+  <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यवाही"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith rdf:resource="#सार_की_पुस्तिका"/>
+  </owl:Class>
+  <owl:Class rdf:about="#मापदंड">
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#सत्र"/>
+    <owl:disjointWith rdf:resource="#शोध_विषय"/>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Criteria are used to evaluate a paper.</rdfs:comment>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="वजन_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="#ईमेल_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षक"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यवाही">
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#स्वीकृत_शोध_पत्र"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="शामिल"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith rdf:resource="#सार_की_पुस्तिका"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#आउटपुट_दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#शामिल"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#शामिल"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#इंडेक्सऑफ़_लेखक"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सार_की_सूची"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#इंडेक्सऑफ़_लेखक"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#शामिल"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+  </owl:Class>
+  <owl:Class rdf:about="#आउटपुट_दस्तावेज़">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="द्वारा_उत्पादित_किया_गया"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#अध्यक्ष"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#शोध_विषय"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith rdf:resource="#सत्र"/>
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#मापदंड"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+  </owl:Class>
+  <owl:Class rdf:about="#व्यक्ति">
+    <owl:disjointWith rdf:resource="#भुगतान_का_प्रकार"/>
+    <owl:disjointWith rdf:resource="#मापदंड"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="संबद्धता_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#शुल्क"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#खांचा"/>
+    <owl:disjointWith rdf:resource="#प्रश्न"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="है_प्रथम_नाम"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#आउटपुट_दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#शोध_विषय"/>
+    <owl:disjointWith rdf:resource="#सत्र"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="है_उपनाम"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सार_की_सूची">
+    <owl:disjointWith rdf:resource="#इंडेक्सऑफ़_लेखक"/>
+    <owl:disjointWith rdf:resource="#बाहरी_समीक्षकों_की_सूची"/>
+    <owl:disjointWith rdf:resource="#कार्यवाही"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम_समिति_सदस्य_सूची"/>
+    <owl:disjointWith rdf:resource="#सीडी_रॉम"/>
+    <owl:disjointWith rdf:resource="#सार_की_पुस्तिका"/>
+    <rdfs:subClassOf rdf:resource="#आउटपुट_दस्तावेज़"/>
+  </owl:Class>
+  <owl:Class rdf:about="#अस्वीकृत_कागज">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#समीक्षा"/>
+        <owl:onProperty>
+          <owl:InverseFunctionalProperty rdf:about="#द्वारा_मूल्यांकन_किया_गया"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#अध्यक्ष"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="द्वारा_अस्वीकार_किया_गया"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:hasValue>
+          <शोध_पत्र_स्थिति_ rdf:ID="अस्वीकार"/>
+        </owl:hasValue>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#है_स्टेटस"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#स्वीकृत_शोध_पत्र"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#असाइन_किया_गया_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#शोध_विषय"/>
+          <owl:Class rdf:about="#शोध_पत्र_स्थिति_"/>
+          <owl:Class rdf:about="#मापदंड"/>
+          <owl:Class rdf:about="#प्रश्न"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#प्रशासक"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="प्रदान_करती_है"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_शोध_पत्र_प्रस्तुत_किया_गया">
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdfs:range rdf:resource="#लेखक"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="सब्मिट_पेपर"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_अस्वीकार_किया_गया">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="को_खारिज_कर_दिया"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdfs:range rdf:resource="#अध्यक्ष"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#सब्मिट_पेपर">
+    <owl:inverseOf rdf:resource="#द्वारा_शोध_पत्र_प्रस्तुत_किया_गया"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <rdfs:domain rdf:resource="#लेखक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#समीक्षक_का_सहयोग_करता_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="सहयोग"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#समीक्षाक"/>
+    <rdfs:domain rdf:resource="#बाहरी_समीक्षक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="सत्र_के_लिए_असाइन_किया_गया_है">
+    <rdfs:domain rdf:resource="#स्वीकृत_शोध_पत्र"/>
+    <rdfs:range rdf:resource="#सत्र"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="असाइन_किया_गया_पेपर"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#शामिल">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="में_शामिल_है"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#कार्यवाही"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#बाहरी_समीक्षकों_की_सूची"/>
+          <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+          <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य_सूची"/>
+          <owl:Class rdf:about="#स्वीकृत_शोध_पत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#में_शामिल_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#बाहरी_समीक्षकों_की_सूची"/>
+          <owl:Class rdf:about="#इंडेक्सऑफ़_लेखक"/>
+          <owl:Class rdf:about="#कार्यक्रम_समिति_सदस्य_सूची"/>
+          <owl:Class rdf:about="#स्वीकृत_शोध_पत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#कार्यवाही"/>
+    <owl:inverseOf rdf:resource="#शामिल"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="का_उत्पादन">
+    <rdfs:range rdf:resource="#आउटपुट_दस्तावेज़"/>
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#द्वारा_उत्पादित_किया_गया"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#सहयोग">
+    <owl:inverseOf rdf:resource="#समीक्षक_का_सहयोग_करता_है"/>
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#बाहरी_समीक्षक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#चुकाना_है">
+    <rdfs:domain rdf:resource="#सम्मेलन_परिचारक"/>
+    <rdfs:range rdf:resource="#शुल्क"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_उत्पादित_किया_गया">
+    <rdfs:range rdf:resource="#अध्यक्ष"/>
+    <owl:inverseOf rdf:resource="#का_उत्पादन"/>
+    <rdfs:domain rdf:resource="#आउटपुट_दस्तावेज़"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="निर्धारित">
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#भुगतान_का_प्रकार"/>
+          <owl:Class rdf:about="#शुल्क"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="स्वीकार">
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#द्वारा_स्वीकार_किया_जाता_है"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="असाइन_किया_गया_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="शोध_पत्र_निमन_को_सौंपा_गया"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#प्रदान_करती_है">
+    <owl:inverseOf rdf:resource="#असाइन_किया_गया_है"/>
+    <rdfs:domain rdf:resource="#प्रशासक"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#मापदंड"/>
+          <owl:Class rdf:about="#शोध_विषय"/>
+          <owl:Class rdf:about="#प्रश्न"/>
+          <owl:Class rdf:about="#शोध_पत्र_स्थिति_"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#को_खारिज_कर_दिया">
+    <owl:inverseOf rdf:resource="#द्वारा_अस्वीकार_किया_गया"/>
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="विवादित_शोध_पत्र_है">
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >• if one of the paper’s authors name (first name + last name) are equal to a reviewer’s name, there is a conflict ;
+• if one of the paper’s authors affiliation are equal to a reviewer’s affiliation, there is a conflict.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_स्वीकार_किया_जाता_है">
+    <owl:inverseOf rdf:resource="#स्वीकार"/>
+    <rdfs:range rdf:resource="#अध्यक्ष"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#शोध_पत्र_निमन_को_सौंपा_गया">
+    <owl:inverseOf rdf:resource="#असाइन_किया_गया_है"/>
+    <rdfs:range rdf:resource="#समीक्षाक"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="माध्यमिक_विषय_है">
+    <rdfs:range rdf:resource="#शोध_विषय"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_मुख्य_विषय">
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdfs:range rdf:resource="#शोध_विषय"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#असाइन_किया_गया_पेपर">
+    <rdfs:range rdf:resource="#स्वीकृत_शोध_पत्र"/>
+    <owl:inverseOf rdf:resource="#सत्र_के_लिए_असाइन_किया_गया_है"/>
+    <rdfs:domain rdf:resource="#सत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="पसंद_के_लिए_पूछता_है">
+    <rdfs:range rdf:resource="#समीक्षाक"/>
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_सदस्य">
+    <rdfs:domain rdf:resource="#कार्यक्रम_समिति"/>
+    <rdfs:range rdf:resource="#कार्यक्रम_समिति_सदस्य"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="सदस्य_है"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="शोध_पत्र_लिखें">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#है_लेखक"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#लेखक"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_लेखक">
+    <owl:inverseOf rdf:resource="#शोध_पत्र_लिखें"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdfs:range rdf:resource="#लेखक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="पसंदीदा_शोध_पत्र_है">
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="की_स्थिति_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#है_स्टेटस"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र_स्थिति_"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#सदस्य_है">
+    <rdfs:range rdf:resource="#कार्यक्रम_समिति"/>
+    <rdfs:domain rdf:resource="#कार्यक्रम_समिति_सदस्य"/>
+    <owl:inverseOf rdf:resource="#है_सदस्य"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_स्टेटस">
+    <rdfs:range rdf:resource="#शोध_पत्र_स्थिति_"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf rdf:resource="#की_स्थिति_है"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="है_पसंदीदा_विषय">
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#शोध_विषय"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="पासवर्ड_है">
+    <rdfs:domain rdf:resource="#कार्यक्रम_समिति_सदस्य"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#दिनांक">
+    <rdfs:domain rdf:resource="#खांचा"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#संबद्धता_है">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="कमरा">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#सत्र"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#पता_है">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_परिचारक"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#वजन_है">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#मापदंड"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#भुगतान_किया_है">
+    <rdfs:domain rdf:resource="#सम्मेलन_परिचारक"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#खतम_होता_है">
+    <rdfs:domain rdf:resource="#खांचा"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#है_फ़ोन">
+    <rdfs:domain rdf:resource="#सम्मेलन_परिचारक"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#से_शुरूआत">
+    <rdfs:domain rdf:resource="#खांचा"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#नाम_है">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Class rdf:about="#सत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#है_प्रथम_नाम">
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#है_उपनाम">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#है_शीर्षक">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="प्रपत्र">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="के_होते_हैं"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#खांचा"/>
+    <rdfs:range rdf:resource="#सम्मेलन_कार्यक्रम"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#आईडी_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#संबद्ध_है">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="मेजबान"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#खांचा"/>
+    <rdfs:domain rdf:resource="#सत्र"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#सार_है">
+    <rdfs:range rdf:resource="#शोध_पत्र_सार"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf>
+      <owl:FunctionalProperty rdf:ID="का_सार_है"/>
+    </owl:inverseOf>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#का_सार_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र_सार"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf rdf:resource="#सार_है"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#ईमेल_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#व्यक्ति"/>
+          <owl:Class rdf:about="#सम्मेलन"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#संक्षिप्त_नाम_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#का_कार्यक्रम_है">
+    <rdfs:range rdf:resource="#सम्मेलन"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="में_शामिल_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#मूल्यांकन"/>
+    <rdfs:range rdf:resource="#समीक्षा"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#मूल्यांकन_शामिल_है">
+    <rdfs:range rdf:resource="#मूल्यांकन"/>
+    <rdfs:domain rdf:resource="#समीक्षा"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="अध्यक्ष_है">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="की_अध्यक्ष_है"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#अध्यक्ष"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#सत्र"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#दरें">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:about="#द्वारा_मूल्यांकन_किया_गया"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#समीक्षा"/>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#द्वारा_सार_प्रस्तुत_किया_गया">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="प्रस्तुत_सार"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#शोध_पत्र_सार"/>
+    <rdfs:range rdf:resource="#संपर्क_लेखक"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#द्वारा_लिखा_गया">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="समीक्षा_लिखो"/>
+    </owl:inverseOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#समीक्षाक"/>
+    <rdfs:domain rdf:resource="#समीक्षा"/>
+  </owl:FunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#के_होते_हैं">
+    <owl:inverseOf rdf:resource="#प्रपत्र"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:range rdf:resource="#खांचा"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#समीक्षा_लिखो">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#द्वारा_लिखा_गया"/>
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#समीक्षा"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#द्वारा_मूल्यांकन_किया_गया">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#समीक्षा"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf rdf:resource="#दरें"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#की_अध्यक्ष_है">
+    <rdfs:range rdf:resource="#सत्र"/>
+    <rdfs:domain rdf:resource="#अध्यक्ष"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#अध्यक्ष_है"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#प्रस्तुत_सार">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#द्वारा_सार_प्रस्तुत_किया_गया"/>
+    <rdfs:domain rdf:resource="#संपर्क_लेखक"/>
+    <rdfs:range rdf:resource="#शोध_पत्र_सार"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="#मेजबान">
+    <rdfs:domain rdf:resource="#खांचा"/>
+    <rdfs:range rdf:resource="#सत्र"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#संबद्ध_है"/>
+  </owl:InverseFunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

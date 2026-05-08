@@ -1,0 +1,2661 @@
+<?xml version="1.0"?>
+<rdf:RDF    
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://edas#"
+    xmlns:p1="http://www.owl-ontologies.com/assert.owl#"
+  xml:base="http://edas">
+  <owl:Ontology rdf:about="">    
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1.5</owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EDAS Conference Menagement Ontology (for 4iz440)</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:ID="स्लाइडसेट">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="समीक्षा"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="भोजन_सूची"/>
+    </owl:disjointWith>    
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="दस्तावेज़"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="बुलाना"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="प्रायोजन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="समीक्षा_प्रश्न"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="संपर्क_जानकारी"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="स्थान"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="वीक_रिजेक्ट_रेटिंग">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </rdfs:subClassOf>    
+    <owl:disjointWith>
+      <owl:Class rdf:ID="स्वीकृति_रेटिंग"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="स्वीकार_करें_अगर_कमरे_की_रेटिंग"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="अस्वीकार_मूल्यांकन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#संपर्क_जानकारी">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रश्न"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रायोजन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#बुलाना"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्थान"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="भोजन_कार्यक्रम">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="गैर-शैक्षणिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="विराम_कार्यक्रम"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="समानांतर_और_वितरित_कंप्यूटिंग_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="वायरलेस_संचारविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्कविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="चिकित्सा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="संचार_सिद्धांत_विषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="सम्मेलन_अध्यक्ष">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="लेखक"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र">    
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#स्लाइडसेट"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#भोजन_सूची"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="भोजन_स्थान">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#स्थान"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्कविषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_सिद्धांत_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#वायरलेस_संचारविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#चिकित्सा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="प्रस्तुतकर्ता">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#लेखक"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#संचार_सिद्धांत_विषय">
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#वायरलेस_संचारविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#चिकित्सा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यक्रम">
+    <owl:disjointWith rdf:resource="#स्लाइडसेट"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#भोजन_सूची"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </rdfs:subClassOf>    
+  </owl:Class>
+  <owl:Class rdf:ID="अकादमिक_संगठन">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="उद्योग_संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="गैर_सरकारी_संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सरकारी_संगठन"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#संगठन"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_उद्यम_विषय">
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_माप_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#समीक्षा_प्रश्न">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्थान"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रायोजन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#बुलाना"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+  </owl:Class>
+  <owl:Class rdf:about="#स्थान">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#दस्तावेज़"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रायोजन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#बुलाना"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#दस्तावेज़">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रायोजन"/>
+    </owl:disjointWith>    
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#बुलाना"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="एक्टिव_पेपर">    
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="लंबित_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="वापस_लिया_गया_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="अस्वीकृत_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="स्वीकृत_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="प्रकाशित_शोध_पत्र"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#अस्वीकार_मूल्यांकन">    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्वीकृति_रेटिंग"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्वीकार_करें_अगर_कमरे_की_रेटिंग"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#वीक_रिजेक्ट_रेटिंग"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सुरक्षा_विषय">
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#चिकित्सा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#वायरलेस_संचारविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#प्रकाशित_शोध_पत्र">    
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#लंबित_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एक्टिव_पेपर"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#वापस_लिया_गया_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#अस्वीकृत_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्वीकृत_शोध_पत्र"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#वायरलेस_संचारविषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#चिकित्सा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="प्रतिभागी">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#विराम_कार्यक्रम">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#गैर-शैक्षणिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#भोजन_कार्यक्रम"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:ID="कॉफी_ब्रेक"/>
+          <owl:Class rdf:ID="खाली_समय_ब्रेक"/>
+          <owl:Class rdf:ID="भोजन_हेतु_विराम"/>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="समीक्षाक">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#शोध_पत्र"/>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="समीक्षा_कर_रहा_है"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Class rdf:about="#व्यक्ति"/>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#प्रायोजन">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#बुलाना"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="समापन_वार्ता">    
+    <owl:disjointWith>
+      <owl:Class rdf:ID="स्वागत_वार्ता"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="टॉक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#चिकित्सा_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#एंटेनाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#लेखक">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#शोध_पत्र"/>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="है_संबंधित_दस्तावेज़"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Class rdf:about="#व्यक्ति"/>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith rdf:resource="#सम्मेलन_अध्यक्ष"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="सत्र_अध्यक्ष"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="टीपीसीसदस्य"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#एंटेनाविषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#प्रदर्शन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#गैर_सरकारी_संगठन">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#संगठन"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उद्योग_संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#अकादमिक_संगठन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सरकारी_संगठन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#प्रदर्शन_विषय">
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#संचार_विषय">
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="दो_स्तरीय_सम्मेलन">    
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Restriction>
+            <owl:allValuesFrom>
+              <owl:Class rdf:about="#व्यक्ति"/>
+            </owl:allValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="है_सदस्य"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#है_सदस्य"/>
+            </owl:onProperty>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#टीपीसीसदस्य"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="शोध_पत्र_के_लिए_बुलावा">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Call For Papers</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#बुलाना"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#उद्योग_संगठन">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#संगठन"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#गैर_सरकारी_संगठन"/>
+    <owl:disjointWith rdf:resource="#अकादमिक_संगठन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सरकारी_संगठन"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#भोजन_सूची">
+    <owl:disjointWith rdf:resource="#स्लाइडसेट"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>    
+    <rdfs:subClassOf rdf:resource="#दस्तावेज़"/>
+  </owl:Class>
+  <owl:Class rdf:ID="पाठ्य_समीक्षाप्रश्न">
+    <rdfs:subClassOf rdf:resource="#समीक्षा_प्रश्न"/>
+  </owl:Class>
+  <owl:Class rdf:about="#सिग्नल_प्रोसेसिंग_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#मोबाइल_कंप्यूटिंग_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कैडटॉपिक"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="संख्यात्मक_समीक्षा_प्रश्न">
+    <rdfs:subClassOf rdf:resource="#समीक्षा_प्रश्न"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्कऑप्टिकलविषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#वापस_लिया_गया_कागज">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#लंबित_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एक्टिव_पेपर"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#अस्वीकृत_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्वीकृत_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रकाशित_शोध_पत्र"/>
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>    
+  </owl:Class>
+  <owl:Class rdf:ID="संगठनात्मक_बैठक">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टॉक_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="शोध_पत्र_प्रस्तुति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="कार्यशाला"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="अकादमिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#खाली_समय_ब्रेक">
+    <rdfs:subClassOf rdf:resource="#विराम_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#बुलाना">
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+  </owl:Class>
+  <owl:Class rdf:ID="व्यक्तिगत_प्रकाशन_इतिहास">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="भ्रमण">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="सामाजिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सम्मेलन_कार्यक्रम">
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>    
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#भोजन_हेतु_विराम">
+    <rdfs:subClassOf rdf:resource="#विराम_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_माप_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय">
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#सरकारी_संगठन">
+    <owl:disjointWith rdf:resource="#गैर_सरकारी_संगठन"/>
+    <owl:disjointWith rdf:resource="#उद्योग_संगठन"/>
+    <owl:disjointWith rdf:resource="#अकादमिक_संगठन"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#संगठन"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#कॉफी_ब्रेक">
+    <rdfs:subClassOf rdf:resource="#विराम_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कैडटॉपिक">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्कस्विचिंगविषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#सम्मेलन">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="देश_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >OWLUnitTest:&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;OWLUnitTest enabled="true" satisfiable="true">
+    &lt;superclasses/>
+    &lt;subclasses/>
+    &lt;comment/>
+&lt;/OWLUnitTest>
+</owl:versionInfo>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="अंतिम_तिथि"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="आरंभ_करने_की_तिथि"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference</rdfs:comment>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="नाम_है"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="पंजीकरण_देय_अंतिम_तिथि"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="विषय_है"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="पांडुलिपि_देय_पर"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="शोध_पत्र_जमा_करने_की_अंतिम_तिथि"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ऑपरेटिंग_टॉपिक_सिस्टम">
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#स्वीकार_करें_अगर_कमरे_की_रेटिंग">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </rdfs:subClassOf>    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#स्वीकृति_रेटिंग"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#अस्वीकार_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#वीक_रिजेक्ट_रेटिंग"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सेंसर_विषय">
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="समीक्षा_के_लिए_निमंत्रण">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Call For Reviews</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#बुलाना"/>
+  </owl:Class>
+  <owl:Class rdf:about="#गैर-शैक्षणिक_कार्यक्रम">
+    <rdfs:subClassOf rdf:resource="#सम्मेलन_कार्यक्रम"/>    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#अकादमिक_कार्यक्रम"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटरवास्तुकलाविषय">
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#मल्टीमीडिया_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="व्यक्तिगत_समीक्षा_इतिहास">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सम्मेलन_सत्र">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#स्वीकृति_रेटिंग">
+    <owl:disjointWith rdf:resource="#स्वीकार_करें_अगर_कमरे_की_रेटिंग"/>
+    <owl:disjointWith rdf:resource="#अस्वीकार_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#वीक_रिजेक्ट_रेटिंग"/>    
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#समीक्षा_मूल्यांकन"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#सत्र_अध्यक्ष">
+    <owl:disjointWith rdf:resource="#लेखक"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#टीपीसीसदस्य">
+    <owl:disjointWith rdf:resource="#लेखक"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#समीक्षा_मूल्यांकन">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#स्वीकृति_रेटिंग"/>
+          <owl:Class rdf:about="#स्वीकार_करें_अगर_कमरे_की_रेटिंग"/>
+          <owl:Class rdf:about="#अस्वीकार_मूल्यांकन"/>
+          <owl:Class rdf:about="#वीक_रिजेक्ट_रेटिंग"/>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#समीक्षा_प्रपत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>    
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+  </owl:Class>
+  <owl:Class rdf:about="#मल्टीमीडिया_विषय">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="सम्मेलन_स्थल_स्थान">
+    <rdfs:subClassOf rdf:resource="#स्थान"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय">
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#समीक्षा_प्रपत्र">
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्तिगत_इतिहास"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="पांडुलिपियों_के_लिए_कॉल_करें">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Call For Manuscripts</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#बुलाना"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कंप्यूटर_नेटवर्क_अनुप्रयोगविषय">
+    <rdfs:subClassOf rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कस्विचिंगविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_सेंसर_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कऑप्टिकलविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_माप_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_प्रबंधन_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्क_उद्यम_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#स्वागत_वार्ता">    
+    <owl:disjointWith rdf:resource="#समापन_वार्ता"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#टॉक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="स्वागत_समारोह">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#सामाजिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#कार्यशाला">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टॉक_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#शोध_पत्र_प्रस्तुति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#संगठनात्मक_बैठक"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#अकादमिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#उपग्रह_और_अंतरिक्ष_संचार_विषय">
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#कूटलेखन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#व्यक्तिगत_इतिहास">
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रपत्र"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#व्यक्ति"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+  </owl:Class>
+  <owl:Class rdf:about="#कूटलेखन_विषय">
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#स्वीकृत_शोध_पत्र">    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#लंबित_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एक्टिव_पेपर"/>
+    <owl:disjointWith rdf:resource="#वापस_लिया_गया_कागज"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#अस्वीकृत_कागज"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रकाशित_शोध_पत्र"/>
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+  </owl:Class>
+  <owl:Class rdf:about="#शोध_पत्र_प्रस्तुति">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#अकादमिक_कार्यक्रम"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टॉक_कार्यक्रम"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कार्यशाला"/>
+    <owl:disjointWith rdf:resource="#संगठनात्मक_बैठक"/>
+  </owl:Class>
+  <owl:Class rdf:about="#अस्वीकृत_कागज">    
+    <owl:disjointWith>
+      <owl:Class rdf:about="#लंबित_शोध_पत्र"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एक्टिव_पेपर"/>
+    <owl:disjointWith rdf:resource="#वापस_लिया_गया_कागज"/>
+    <owl:disjointWith rdf:resource="#स्वीकृत_शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#प्रकाशित_शोध_पत्र"/>
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+  </owl:Class>
+  <owl:Class rdf:about="#व्यक्ति">
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#व्यक्तिगत_इतिहास"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#देश"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रपत्र"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+  </owl:Class>
+  <owl:Class rdf:about="#माइक्रोइलेक्ट्रॉनिकविषय">
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कूटलेखन_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="एकल_स्तरीय_सम्मेलन">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#है_सदस्य"/>
+            </owl:onProperty>
+            <owl:allValuesFrom rdf:resource="#व्यक्ति"/>
+          </owl:Restriction>
+          <owl:Class>
+            <owl:complementOf rdf:resource="#दो_स्तरीय_सम्मेलन"/>
+          </owl:Class>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>    
+  </owl:Class>
+  <owl:Class rdf:about="#अकादमिक_कार्यक्रम">
+    <rdfs:subClassOf rdf:resource="#सम्मेलन_कार्यक्रम"/>    
+    <owl:disjointWith rdf:resource="#गैर-शैक्षणिक_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:ID="बैठक_कक्ष">
+    <rdfs:subClassOf rdf:resource="#स्थान"/>
+  </owl:Class>
+  <owl:Class rdf:about="#पावरलाइन_ट्रांसमिशन_विषय">
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#कूटलेखन_विषय"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#देश">
+    <owl:disjointWith rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रपत्र"/>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith rdf:resource="#व्यक्ति"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#संगठन"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#समीक्षा_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#व्यक्तिगत_इतिहास"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+  </owl:Class>
+  <owl:Class rdf:about="#टॉक_कार्यक्रम">
+    <owl:disjointWith rdf:resource="#शोध_पत्र_प्रस्तुति"/>
+    <owl:disjointWith rdf:resource="#कार्यशाला"/>
+    <owl:disjointWith rdf:resource="#संगठनात्मक_बैठक"/>    
+    <rdfs:subClassOf rdf:resource="#अकादमिक_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:ID="आवास_स्थान">
+    <rdfs:subClassOf rdf:resource="#स्थान"/>
+  </owl:Class>
+  <owl:Class rdf:about="#संगठन">
+    <owl:disjointWith rdf:resource="#संपर्क_जानकारी"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रश्न"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_सत्र"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#देश"/>
+    <owl:disjointWith rdf:resource="#बुलाना"/>
+    <owl:disjointWith rdf:resource="#दस्तावेज़"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_मूल्यांकन"/>
+    <owl:disjointWith rdf:resource="#समीक्षा_प्रपत्र"/>
+    <owl:disjointWith rdf:resource="#व्यक्तिगत_इतिहास"/>
+    <owl:disjointWith rdf:resource="#स्थान"/>
+    <owl:disjointWith rdf:resource="#प्रायोजन"/>
+    <owl:disjointWith rdf:resource="#व्यक्ति"/>
+    <owl:disjointWith rdf:resource="#सम्मेलन"/>
+    <owl:disjointWith rdf:resource="#विषय"/>
+  </owl:Class>
+  <owl:Class rdf:about="#लंबित_शोध_पत्र">    
+    <rdfs:subClassOf rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#एक्टिव_पेपर"/>
+    <owl:disjointWith rdf:resource="#वापस_लिया_गया_कागज"/>
+    <owl:disjointWith rdf:resource="#अस्वीकृत_कागज"/>
+    <owl:disjointWith rdf:resource="#स्वीकृत_शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#प्रकाशित_शोध_पत्र"/>
+  </owl:Class>
+  <owl:Class rdf:about="#सामाजिक_कार्यक्रम">
+    <rdfs:subClassOf rdf:resource="#गैर-शैक्षणिक_कार्यक्रम"/>
+  </owl:Class>
+  <owl:Class rdf:about="#टेस्ट_ओनली_टॉपिक">
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#कूटलेखन_विषय"/>
+    <owl:disjointWith rdf:resource="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    <owl:disjointWith rdf:resource="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#रेडियो_संचार_विषय"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+  </owl:Class>
+  <owl:Class rdf:ID="मूल्यांकित_शोध_पत्र">
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#समीक्षा_मूल्यांकन"/>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="है_रेटिंग"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#एक्टिव_पेपर"/>
+  </owl:Class>
+  <owl:Class rdf:about="#रेडियो_संचार_विषय">
+    <owl:disjointWith rdf:resource="#कंप्यूटरवास्तुकलाविषय"/>
+    <owl:disjointWith rdf:resource="#मल्टीमीडिया_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_सिद्धांत_विषय"/>
+    <owl:disjointWith rdf:resource="#एंटेनाविषय"/>
+    <owl:disjointWith rdf:resource="#ऑपरेटिंग_टॉपिक_सिस्टम"/>
+    <owl:disjointWith rdf:resource="#वायरलेस_संचारविषय"/>
+    <owl:disjointWith rdf:resource="#पावरलाइन_ट्रांसमिशन_विषय"/>
+    <owl:disjointWith rdf:resource="#कूटलेखन_विषय"/>
+    <owl:disjointWith rdf:resource="#सुरक्षा_विषय"/>
+    <owl:disjointWith rdf:resource="#मोबाइल_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#सिग्नल_प्रोसेसिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#कंप्यूटर_नेटवर्कविषय"/>
+    <owl:disjointWith rdf:resource="#प्रदर्शन_विषय"/>
+    <owl:disjointWith rdf:resource="#उपग्रह_और_अंतरिक्ष_संचार_विषय"/>
+    <owl:disjointWith rdf:resource="#समानांतर_और_वितरित_कंप्यूटिंग_विषय"/>
+    <owl:disjointWith rdf:resource="#माइक्रोइलेक्ट्रॉनिकविषय"/>
+    <rdfs:subClassOf rdf:resource="#विषय"/>
+    <owl:disjointWith rdf:resource="#चिकित्सा_विषय"/>
+    <owl:disjointWith rdf:resource="#कैडटॉपिक"/>
+    <owl:disjointWith rdf:resource="#टेस्ट_ओनली_टॉपिक"/>
+  </owl:Class>
+  <owl:Class rdf:about="#समीक्षा">
+    <owl:disjointWith rdf:resource="#स्लाइडसेट"/>
+    <owl:disjointWith rdf:resource="#कार्यक्रम"/>
+    <owl:disjointWith rdf:resource="#शोध_पत्र"/>
+    <owl:disjointWith rdf:resource="#भोजन_सूची"/>    
+    <rdfs:subClassOf rdf:resource="#दस्तावेज़"/>
+  </owl:Class>
+  <owl:Class rdf:ID="यात्रा_अनुदान">
+    <rdfs:subClassOf rdf:resource="#प्रायोजन"/>
+  </owl:Class>
+  <owl:Class rdf:ID="सम्मेलन_रात्रिभोज">
+    <rdfs:subClassOf rdf:resource="#भोजन_कार्यक्रम"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="संबंधित_शोध_पत्र_है">
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="द्वारा_लिखा_गया"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#लेखक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#विषय_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Class rdf:about="#शोध_पत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="का_विषय_है"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#विषय"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_संबंधित_दस्तावेज़">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="से_संबंधित"/>
+    </owl:inverseOf>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#अकादमिक_कार्यक्रम"/>
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Class rdf:about="#व्यक्ति"/>
+          <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#दस्तावेज़"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="समीक्षा_का_इतिहास_है">
+    <rdfs:domain rdf:resource="#व्यक्तिगत_समीक्षा_इतिहास"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="है_समीक्षा_का_इतिहास"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#समीक्षाक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="कार्यक्रम_के_अंतर्गत_आता_है">
+    <rdfs:range rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:domain rdf:resource="#कार्यक्रम"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="कार्यक्रम_है"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="प्रदाता_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="द्वारा_उपलब्ध_कराया_गया"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#प्रायोजन"/>
+    <rdfs:domain rdf:resource="#संगठन"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="सहभागीAt">
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="उपस्थित_है"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#सम्मेलन_कार्यक्रम"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="है_मेन्यू">
+    <rdfs:domain rdf:resource="#भोजन_कार्यक्रम"/>
+    <rdfs:range rdf:resource="#भोजन_सूची"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="मेनूऑफ़_है"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="कॉल_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="कार्यक्रम_के_लिए"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#बुलाना"/>
+    <rdfs:domain rdf:resource="#अकादमिक_कार्यक्रम"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#कार्यक्रम_के_लिए">
+    <rdfs:domain rdf:resource="#बुलाना"/>
+    <rdfs:range rdf:resource="#अकादमिक_कार्यक्रम"/>
+    <owl:inverseOf rdf:resource="#कॉल_है"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="कार्यक्रम_से_संबंधित">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="शोध_पत्र_से_संबंधित"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#स्वीकृत_शोध_पत्र"/>
+    <rdfs:range rdf:resource="#शोध_पत्र_प्रस्तुति"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_सदस्य">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="सदस्य_है"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#व्यक्ति"/>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#मेनूऑफ़_है">
+    <rdfs:domain rdf:resource="#भोजन_सूची"/>
+    <rdfs:range rdf:resource="#भोजन_कार्यक्रम"/>
+    <owl:inverseOf rdf:resource="#है_मेन्यू"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="का_स्थान_है">
+    <rdfs:range rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="स्थान_है"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#स्थान"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="आरंभ_किया_गया_है">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="शुरू_की"/>
+    </owl:inverseOf>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सत्र_अध्यक्ष"/>
+          <owl:Class rdf:about="#टीपीसीसदस्य"/>
+          <owl:Class rdf:about="#सम्मेलन_अध्यक्ष"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="#बुलाना"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#उपस्थित_है">
+    <owl:inverseOf rdf:resource="#सहभागीAt"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:range rdf:resource="#व्यक्ति"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#सदस्य_है">
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+    <owl:inverseOf rdf:resource="#है_सदस्य"/>
+    <rdfs:range rdf:resource="#सम्मेलन"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#स्थान_है">
+    <owl:inverseOf rdf:resource="#का_स्थान_है"/>
+    <rdfs:range rdf:resource="#स्थान"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#कार्यक्रम_है">
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <owl:inverseOf rdf:resource="#कार्यक्रम_के_अंतर्गत_आता_है"/>
+    <rdfs:range rdf:resource="#कार्यक्रम"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#का_विषय_है">
+    <rdfs:domain rdf:resource="#विषय"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#शोध_पत्र"/>
+          <owl:Class rdf:about="#सम्मेलन"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <owl:inverseOf rdf:resource="#विषय_है"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#शोध_पत्र_से_संबंधित">
+    <owl:inverseOf rdf:resource="#कार्यक्रम_से_संबंधित"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र_प्रस्तुति"/>
+    <rdfs:range rdf:resource="#स्वीकृत_शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#से_संबंधित">
+    <rdfs:domain rdf:resource="#दस्तावेज़"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#अकादमिक_कार्यक्रम"/>
+          <owl:Class rdf:about="#सम्मेलन"/>
+          <owl:Class rdf:about="#व्यक्ति"/>
+          <owl:Class rdf:about="#सम्मेलन_सत्र"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <owl:inverseOf rdf:resource="#है_संबंधित_दस्तावेज़"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_उपलब्ध_कराया_गया">
+    <rdfs:range rdf:resource="#संगठन"/>
+    <rdfs:domain rdf:resource="#प्रायोजन"/>
+    <owl:inverseOf rdf:resource="#प्रदाता_है"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#समीक्षा_कर_रहा_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#समीक्षाक"/>
+          <owl:Class rdf:about="#सत्र_अध्यक्ष"/>
+          <owl:Class rdf:about="#टीपीसीसदस्य"/>
+          <owl:Class rdf:about="#सम्मेलन_अध्यक्ष"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="द्वारा_समीक्षित_किया_गया"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#शोध_पत्र"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#है_समीक्षा_का_इतिहास">
+    <rdfs:domain rdf:resource="#समीक्षाक"/>
+    <rdfs:range rdf:resource="#व्यक्तिगत_समीक्षा_इतिहास"/>
+    <owl:inverseOf rdf:resource="#समीक्षा_का_इतिहास_है"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_लिखा_गया">
+    <owl:inverseOf rdf:resource="#संबंधित_शोध_पत्र_है"/>
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <rdfs:range rdf:resource="#लेखक"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#द्वारा_समीक्षित_किया_गया">
+    <rdfs:domain rdf:resource="#शोध_पत्र"/>
+    <owl:inverseOf rdf:resource="#समीक्षा_कर_रहा_है"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सत्र_अध्यक्ष"/>
+          <owl:Class rdf:about="#समीक्षाक"/>
+          <owl:Class rdf:about="#टीपीसीसदस्य"/>
+          <owl:Class rdf:about="#सम्मेलन_अध्यक्ष"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#शुरू_की">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#सम्मेलन_अध्यक्ष"/>
+          <owl:Class rdf:about="#सत्र_अध्यक्ष"/>
+          <owl:Class rdf:about="#टीपीसीसदस्य"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <owl:inverseOf rdf:resource="#आरंभ_किया_गया_है"/>
+    <rdfs:range rdf:resource="#बुलाना"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="है_प्रथम_नाम">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="लागत_मुद्रा_है">
+    <rdfs:domain rdf:resource="#प्रायोजन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_शहर">
+    <rdfs:domain rdf:resource="#संपर्क_जानकारी"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#नाम_है">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference Full Name</rdfs:comment>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#अंतिम_तिथि">
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference End Date and Time</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#शोध_पत्र_जमा_करने_की_अंतिम_तिथि">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference Paper Date and Time Deadline</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#पंजीकरण_देय_अंतिम_तिथि">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference Registration Date and Time Deadline</rdfs:comment>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="ईमेल_है">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#संपर्क_जानकारी"/>
+          <owl:Class rdf:about="#व्यक्ति"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_स्ट्रीट">
+    <rdfs:domain rdf:resource="#संपर्क_जानकारी"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="समाप्ति_दिनांक_समय_है">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_प्रारंभ_दिनांक_समय_">
+    <rdfs:domain rdf:resource="#सम्मेलन_कार्यक्रम"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="जीवनी_है">
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_उपनाम">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#व्यक्ति"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#पांडुलिपि_देय_पर">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference Manuscript Date and Time Deadline</rdfs:comment>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_डाक_कोड">
+    <rdfs:domain rdf:resource="#संपर्क_जानकारी"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="लागत_राशि_है">
+    <rdfs:domain rdf:resource="#प्रायोजन"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#आरंभ_करने_की_तिथि">
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conference Start Date and Time</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="है_फ़ोन">
+    <rdfs:domain rdf:resource="#संपर्क_जानकारी"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="प्रस्तुत_करने_के_निर्देश">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#बुलाना"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#देश_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#देश"/>
+    <rdfs:domain rdf:resource="#सम्मेलन"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#है_रेटिंग">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#एक्टिव_पेपर"/>
+    <rdfs:range rdf:resource="#समीक्षा_मूल्यांकन"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="प्रस्तुत_करने_की_समय_सीमा_है">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#बुलाना"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:FunctionalProperty>
+  <देश rdf:ID="वेनेजुएला"/>
+  <देश rdf:ID="क्यूबा"/>
+  <देश rdf:ID="जापान"/>
+  <देश rdf:ID="सेनेगल"/>
+  <देश rdf:ID="नॉर्वे"/>
+  <देश rdf:ID="मेडागास्कर"/>
+  <देश rdf:ID="ईरान"/>
+  <देश rdf:ID="अमेरीका"/>
+  <देश rdf:ID="लातविया"/>
+  <देश rdf:ID="चीन"/>
+  <देश rdf:ID="कोकोस_आइलैंड्स"/>
+  <देश rdf:ID="उरुग्वे"/>
+  <देश rdf:ID="यूक्रेन"/>
+  <देश rdf:ID="अर्जेंटीना"/>
+  <देश rdf:ID="पोलैंड"/>
+  <देश rdf:ID="स्पेन"/>
+  <देश rdf:ID="थाईलैंड"/>
+  <देश rdf:ID="टर्की"/>
+  <देश rdf:ID="नीदरलैंड"/>
+  <देश rdf:ID="आज़रबाइजान"/>
+  <देश rdf:ID="स्विट्ज़रलैंड"/>
+  <owl:AllDifferent>
+    <owl:distinctMembers rdf:parseType="Collection">
+      <देश rdf:about="#अर्जेंटीना"/>
+      <देश rdf:ID="आर्मीनिया"/>
+      <देश rdf:ID="ऑस्ट्रेलिया"/>
+      <देश rdf:ID="ऑस्ट्रिया"/>
+      <देश rdf:about="#आज़रबाइजान"/>
+      <देश rdf:ID="बहामा"/>
+      <देश rdf:ID="बहरीन"/>
+      <देश rdf:ID="बांग्लादेश"/>
+      <देश rdf:ID="बेल्जियम"/>
+      <देश rdf:ID="बोस्निया_और_हर्जेगोविना"/>
+      <देश rdf:ID="बोत्सवाना"/>
+      <देश rdf:ID="ब्राज़िल"/>
+      <देश rdf:ID="बुल्गारिया"/>
+      <देश rdf:ID="बेलोरूस"/>
+      <देश rdf:ID="कंबोडिया"/>
+      <देश rdf:ID="कनाडा"/>
+      <देश rdf:ID="चिली"/>
+      <देश rdf:about="#कोकोस_आइलैंड्स"/>
+      <देश rdf:ID="कांगो_लोकतांत्रिक_गणराज्य"/>
+      <देश rdf:about="#चीन"/>
+      <देश rdf:ID="कोलंबिया"/>
+      <देश rdf:ID="क्रोएशिया"/>
+      <देश rdf:about="#क्यूबा"/>
+      <देश rdf:ID="साइप्रस"/>
+      <देश rdf:ID="चेक_गणतंत्र"/>
+      <देश rdf:ID="डेनमार्क"/>
+      <देश rdf:ID="इक्वेडोर"/>
+      <देश rdf:ID="मिस्र"/>
+      <देश rdf:ID="एस्तोनिया"/>
+      <देश rdf:ID="इथियोपिया"/>
+      <देश rdf:ID="यूरोपीय_संघ"/>
+      <देश rdf:ID="फिनलैंड"/>
+      <देश rdf:ID="फ्रांस"/>
+      <देश rdf:ID="जॉर्जिया"/>
+      <देश rdf:ID="जर्मनी"/>
+      <देश rdf:ID="घाना"/>
+      <देश rdf:ID="यूनान"/>
+      <देश rdf:ID="हांगकांग"/>
+      <देश rdf:ID="हंगरी"/>
+      <देश rdf:ID="आइसलैंड"/>
+      <देश rdf:ID="भारत"/>
+      <देश rdf:ID="इंडोनेशिया"/>
+      <देश rdf:about="#ईरान"/>
+      <देश rdf:ID="इराक"/>
+      <देश rdf:ID="आयरलैंड"/>
+      <देश rdf:ID="इजराइल"/>
+      <देश rdf:ID="इटली"/>
+      <देश rdf:about="#जापान"/>
+      <देश rdf:ID="जॉर्डन"/>
+      <देश rdf:ID="केन्या"/>
+      <देश rdf:ID="कोरिया"/>
+      <देश rdf:ID="कुवैट"/>
+      <देश rdf:ID="लेबनान"/>
+      <देश rdf:about="#लातविया"/>
+      <देश rdf:ID="लीबिया"/>
+      <देश rdf:ID="लिथुआनिया"/>
+      <देश rdf:ID="लक्समबर्ग"/>
+      <देश rdf:ID="मकाओ"/>
+      <देश rdf:ID="मैसेडोनिया"/>
+      <देश rdf:about="#मेडागास्कर"/>
+      <देश rdf:ID="मलेशिया"/>
+      <देश rdf:ID="माल्टा"/>
+      <देश rdf:ID="मॉरीशस"/>
+      <देश rdf:ID="मेक्सिको"/>
+      <देश rdf:ID="मंगोलिया"/>
+      <देश rdf:ID="मोरक्को"/>
+      <देश rdf:ID="निकारागुआ"/>
+      <देश rdf:ID="नेपाल"/>
+      <देश rdf:about="#नीदरलैंड"/>
+      <देश rdf:ID="न्यूजीलैंड"/>
+      <देश rdf:ID="नाइजीरिया"/>
+      <देश rdf:ID="उत्तर_कोरिया"/>
+      <देश rdf:about="#नॉर्वे"/>
+      <देश rdf:ID="ओमान"/>
+      <देश rdf:ID="पाकिस्तान"/>
+      <देश rdf:ID="परागुआ"/>
+      <देश rdf:ID="पेरू"/>
+      <देश rdf:ID="फिलीपींस"/>
+      <देश rdf:about="#पोलैंड"/>
+      <देश rdf:ID="पुर्तगाल"/>
+      <देश rdf:ID="प्यूर्टो_रिको"/>
+      <देश rdf:ID="कतर"/>
+      <देश rdf:ID="रोमानिया"/>
+      <देश rdf:ID="रूस"/>
+      <देश rdf:ID="सैन_मैरीनो"/>
+      <देश rdf:ID="सऊदी_अरब"/>
+      <देश rdf:about="#सेनेगल"/>
+      <देश rdf:ID="सर्बिया_और_मोंटेनेग्रो"/>
+      <देश rdf:ID="सिंगापुर"/>
+      <देश rdf:ID="स्लोवाकिया"/>
+      <देश rdf:ID="स्लोवेनिया"/>
+      <देश rdf:ID="दक्षिण_अफ्रीका"/>
+      <देश rdf:about="#स्पेन"/>
+      <देश rdf:ID="श्री_लंका"/>
+      <देश rdf:ID="स्वीडन"/>
+      <देश rdf:about="#स्विट्ज़रलैंड"/>
+      <देश rdf:ID="सीरिया"/>
+      <देश rdf:ID="ताइवान"/>
+      <देश rdf:ID="तजाकिस्तान"/>
+      <देश rdf:ID="तंजानिया"/>
+      <देश rdf:about="#थाईलैंड"/>
+      <देश rdf:ID="ट्यूनीशिया"/>
+      <देश rdf:about="#टर्की"/>
+      <देश rdf:ID="तुर्कमेनिस्तान"/>
+      <देश rdf:ID="संयुक्त_अरब_अमीरात"/>
+      <देश rdf:about="#यूक्रेन"/>
+      <देश rdf:ID="युगांडा"/>
+      <देश rdf:ID="यूनाइटेड_किंगडम"/>
+      <देश rdf:about="#उरुग्वे"/>
+      <देश rdf:about="#अमेरीका"/>
+      <देश rdf:about="#वेनेजुएला"/>
+      <देश rdf:ID="वियतनाम"/>
+      <देश rdf:ID="यमन"/>
+      <देश rdf:ID="जिम्बाब्वे"/>
+    </owl:distinctMembers>
+  </owl:AllDifferent>  
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2.1, Build 365)  http://protege.stanford.edu -->

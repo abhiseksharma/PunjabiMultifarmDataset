@@ -1,0 +1,877 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://sigkdd_it#"
+     xml:base="http://sigkdd_it"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sigkdd_it="http://sigkdd_it#">
+    <owl:Ontology rdf:about="http://sigkdd_it"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sigkdd_it#op-5414586-4506870 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-5414586-4506870">
+        <rdfs:label xml:lang="it">patrocinatore è chiamato da</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-2856633-4086309 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-2856633-4086309">
+        <rdfs:label xml:lang="it">ha scadenza sottomissione</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-9910883-7532484 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-9910883-7532484">
+        <rdfs:label xml:lang="it">premio ottenuto</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-9653385-7739081"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-9263066-2246356 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-9263066-2246356">
+        <rdfs:label xml:lang="it">quota di iscrizione pagata da</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-4234465-2929700 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-4234465-2929700">
+        <rdfs:label xml:lang="it">chiamata di patrocinatore</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-5414586-4506870"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-1900558-1504102 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-1900558-1504102">
+        <rdfs:label xml:lang="it">conferenza organizzata da</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-7623377-2349538"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-7623377-2349538 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-7623377-2349538">
+        <rdfs:label xml:lang="it">organizzare conferenze</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-6574619-8083065 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-6574619-8083065">
+        <rdfs:label xml:lang="it">premiato da</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-2851481-4774068"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-4489243-1891850 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-4489243-1891850">
+        <rdfs:label xml:lang="it">quota di iscrizione pagata</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-9263066-2246356"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-9510414-7230523 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-9510414-7230523">
+        <rdfs:label xml:lang="it">sottomissione di articolo</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-8964821-8073576"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-9653385-7739081"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-6048813-5465101 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-6048813-5465101">
+        <rdfs:label xml:lang="it">presenta documento</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-5986872-1673490"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-2198145-7474327 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-2198145-7474327">
+        <rdfs:label xml:lang="it">è stata presentata da Carl</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-5986872-1673490"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-6048813-5465101"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-8706699-5891808 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-8706699-5891808">
+        <rdfs:label xml:lang="it">stabilire scadenza per</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+        <owl:inverseOf rdf:resource="http://sigkdd_it#op-7140096-5511684"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-6941244-4308752 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-6941244-4308752">
+        <rdfs:label xml:lang="it">scadenza della notifica di autore</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-9653385-7739081"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-1418815-6757666"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-1621432-2081864 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-1621432-2081864">
+        <rdfs:label xml:lang="it">restare in</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-6861729-8946242"/>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-2851481-4774068 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-2851481-4774068">
+        <rdfs:label xml:lang="it">ha premio</rdfs:label>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sigkdd_it#op-7140096-5511684 -->
+
+    <owl:ObjectProperty rdf:about="http://sigkdd_it#op-7140096-5511684">
+        <rdfs:label xml:lang="it">stabilire scadenza</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4964021-3163883"/>
+        <rdfs:range rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sigkdd_it#ent-9982028-3625378 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-9982028-3625378">
+        <rdfs:label xml:lang="it">ha data</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-6367853-4220869 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-6367853-4220869">
+        <rdfs:label xml:lang="it">ha prezzo</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-4467703-7823481 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-4467703-7823481">
+        <rdfs:label xml:lang="it">ha nome del patrocinatore</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-3061594-7833414 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-3061594-7833414">
+        <rdfs:label xml:lang="it">ha nome della conferenza</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-8273726-8428806 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-8273726-8428806">
+        <rdfs:label xml:lang="it">data dell'ultimo giorno della conferenza</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-4254724-2874039 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-4254724-2874039">
+        <rdfs:label xml:lang="it">ha nazionalità</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-6957555-3075067 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-6957555-3075067">
+        <rdfs:label xml:lang="it">data di inizio della conferenza</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-6959342-5663637 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-6959342-5663637">
+        <rdfs:label xml:lang="it">città della conferenza</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-3928038-1774435 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-3928038-1774435">
+        <rdfs:label xml:lang="it">ha email</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-9411906-7765673 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-9411906-7765673">
+        <rdfs:label xml:lang="it">quota di iscrizione è in valuta</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sigkdd_it#ent-3054056-8248189 -->
+
+    <owl:DatatypeProperty rdf:about="http://sigkdd_it#ent-3054056-8248189">
+        <rdfs:label xml:lang="it">ha nome</rdfs:label>
+        <rdfs:domain rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sigkdd_it#c-3291692-7072780 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-3291692-7072780">
+        <rdfs:label xml:lang="it">patrocinatore di platino della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-3053740-5717454 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-3053740-5717454">
+        <rdfs:label xml:lang="it">autore di articolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-9653385-7739081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-2851481-4774068"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-4470855-2636746"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-2851481-4774068"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-1631277-8306353"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-6861729-8946242 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-6861729-8946242">
+        <rdfs:label xml:lang="it">locale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5698226-2154597 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5698226-2154597">
+        <rdfs:label xml:lang="it">ascoltatore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-6108520-2107184 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-6108520-2107184">
+        <rdfs:label xml:lang="it">patrocinatore</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-4489243-1891850"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-7283144-9339321"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4470855-2636746 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4470855-2636746">
+        <rdfs:label xml:lang="it">premio al miglior articolo di applicazione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4831603-2749276 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4831603-2749276">
+        <rdfs:label xml:lang="it">patrocinatore d'oro della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5649008-5816709 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5649008-5816709">
+        <rdfs:label xml:lang="it">comitato organizzatore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-3516694-3916503"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-6753737-9900668 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-6753737-9900668">
+        <rdfs:label xml:lang="it">hotel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6861729-8946242"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8892017-4827377 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8892017-4827377">
+        <rdfs:label xml:lang="it">autore di articolo studente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-9653385-7739081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-2851481-4774068"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-5090689-8086788"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-1806659-8218059 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-1806659-8218059">
+        <rdfs:label xml:lang="it">patrocinatore al miglior articolo di studente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-7482857-3325936 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-7482857-3325936">
+        <rdfs:label xml:lang="it">revisione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8964821-8073576 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8964821-8073576">
+        <rdfs:label xml:lang="it">articolo</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-2856633-4086309"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-6746501-1255851"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5090689-8086788 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5090689-8086788">
+        <rdfs:label xml:lang="it">premio al miglior articolo di studente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-6966062-9719534 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-6966062-9719534">
+        <rdfs:label xml:lang="it">quota di iscrizione per studente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-1877525-5978461 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-1877525-5978461">
+        <rdfs:label xml:lang="it">patrocinatore bronzo della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-3587842-2412055 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-3587842-2412055">
+        <rdfs:label xml:lang="it">quota di iscrizione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4964021-3163883 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4964021-3163883">
+        <rdfs:label xml:lang="it">conferenza acm sigkdd</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5795114-6814808"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-7140096-5511684"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-4234465-2929700"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-7623377-2349538"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-2450581-6498938"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-7505755-3733332 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-7505755-3733332">
+        <rdfs:label xml:lang="it">membro del comitato organizzatore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8487845-6331548 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8487845-6331548">
+        <rdfs:label xml:lang="it">quota di iscrizione per non membro del SIG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4089527-3169067 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4089527-3169067">
+        <rdfs:label xml:lang="it">membro del comitato di programma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4105238-6964433 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4105238-6964433">
+        <rdfs:label xml:lang="it">documento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-2967420-9076896 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-2967420-9076896">
+        <rdfs:label xml:lang="it">relatori invitati</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5986872-1673490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5811439-1336717 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5811439-1336717">
+        <rdfs:label xml:lang="it">scadenza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-9653385-7739081 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-9653385-7739081">
+        <rdfs:label xml:lang="it">autore</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-9510414-7230523"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-8964821-8073576"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5986872-1673490"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-6941244-4308752"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-1418815-6757666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-3516694-3916503 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-3516694-3916503">
+        <rdfs:label xml:lang="it">comitato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-2450581-6498938 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-2450581-6498938">
+        <rdfs:label xml:lang="it">conferenza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-9285175-2309709 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-9285175-2309709">
+        <rdfs:label xml:lang="it">webmaster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4230488-4951742 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4230488-4951742">
+        <rdfs:label xml:lang="it">presidente generale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5589256-4455334 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5589256-4455334">
+        <rdfs:label xml:lang="it">comitato di programma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-3516694-3916503"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4018826-1631249 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4018826-1631249">
+        <rdfs:label xml:lang="it">organizzatore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8688325-6469373 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8688325-6469373">
+        <rdfs:label xml:lang="it">quota di iscrizione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-3587842-2412055"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-7253535-6142654 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-7253535-6142654">
+        <rdfs:label xml:lang="it">patrocinatore d'argento della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-2972960-6155027 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-2972960-6155027">
+        <rdfs:label xml:lang="it">scadenza di sottomissione di sommario</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4605152-5963626 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4605152-5963626">
+        <rdfs:label xml:lang="it">persona</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-4489243-1891850"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <!--v2<rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5795114-6814808"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-1621432-2081864"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-6753737-9900668"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-4650799-8806552 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-4650799-8806552">
+        <rdfs:label xml:lang="it">quota di iscrizione per membro del sigkdd</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-6746501-1255851 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-6746501-1255851">
+        <rdfs:label xml:lang="it">scadenza di sottomissione di articoli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-1418815-6757666 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-1418815-6757666">
+        <rdfs:label xml:lang="it">scadenza della notifica di autore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-5811439-1336717"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-2505432-5091505 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-2505432-5091505">
+        <rdfs:label xml:lang="it">quota di iscrizione per membro del sigmod</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8688325-6469373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-7674607-4358063 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-7674607-4358063">
+        <rdfs:label xml:lang="it">presidente del programma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5795114-6814808 -->
+    <!--v2
+    <owl:Class rdf:about="http://sigkdd_it#c-5795114-6814808">
+        <rdfs:label xml:lang="it">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://sigkdd_it#c-1973105-5531495 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-1973105-5531495">
+        <rdfs:label xml:lang="it">sommario</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-2856633-4086309"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-2972960-6155027"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5153714-6676295 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5153714-6676295">
+        <rdfs:label xml:lang="it">patrocinatore come espositore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6108520-2107184"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8450771-2442527 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8450771-2442527">
+        <rdfs:label xml:lang="it">premio per l'articolo della conferenza</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-6574619-8083065"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-4018826-1631249"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-5986872-1673490 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-5986872-1673490">
+        <rdfs:label xml:lang="it">oratore</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sigkdd_it#op-6048813-5465101"/>
+                <owl:someValuesFrom rdf:resource="http://sigkdd_it#c-4105238-6964433"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-4605152-5963626"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-1631277-8306353 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-1631277-8306353">
+        <rdfs:label xml:lang="it">premio al miglior articolo di ricerca</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-8450771-2442527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-7283144-9339321 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-7283144-9339321">
+        <rdfs:label xml:lang="it">tassa per patrocinatore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-3587842-2412055"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-3400617-9649025 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-3400617-9649025">
+        <rdfs:label xml:lang="it">comitato per premio al miglior articolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-3516694-3916503"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8294461-6542992 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8294461-6542992">
+        <rdfs:label xml:lang="it">sala della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6861729-8946242"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sigkdd_it#c-8370110-9701200 -->
+
+    <owl:Class rdf:about="http://sigkdd_it#c-8370110-9701200">
+        <rdfs:label xml:lang="it">ufficio principale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sigkdd_it#c-6861729-8946242"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

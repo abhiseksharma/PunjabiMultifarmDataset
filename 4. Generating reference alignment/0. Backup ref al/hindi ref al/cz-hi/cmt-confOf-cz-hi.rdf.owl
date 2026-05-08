@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#op-1979724-8617564"/>
+		<entity2 rdf:resource="http://confOf_hi#op-5337273-1076370"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-2277754-4158396"/>
+		<entity2 rdf:resource="http://confOf_hi#c-8426864-9604100"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-4971341-0156307"/>
+		<entity2 rdf:resource="http://confOf_hi#c-4391128-5329595"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-7762278-1333457"/>
+		<entity2 rdf:resource="http://confOf_hi#c-3425636-3635755"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-9510493-7314978"/>
+		<entity2 rdf:resource="http://confOf_hi#c-9043430-7079547"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#ent-4932889-3833748"/>
+		<entity2 rdf:resource="http://confOf_hi#hit-3226462-1828446"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-0978466-4762816"/>
+		<entity2 rdf:resource="http://confOf_hi#c-7053228-5217515"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-1435667-7309116"/>
+		<entity2 rdf:resource="http://confOf_hi#c-9691936-1622730"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#op-4698265-0483831"/>
+		<entity2 rdf:resource="http://confOf_hi#op-8797416-5146129"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#op-3939079-1765799"/>
+		<entity2 rdf:resource="http://confOf_hi#op-9382300-8788797"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-0075317-8076564"/>
+		<entity2 rdf:resource="http://confOf_hi#c-7523318-6515997"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-2078968-5732070"/>
+		<entity2 rdf:resource="http://confOf_hi#c-6936111-5606538"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#op-5235981-5122813"/>
+		<entity2 rdf:resource="http://confOf_hi#op-3707652-8608122"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-0578733-1857190"/>
+		<entity2 rdf:resource="http://confOf_hi#c-8739156-7180821"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#c-3460865-4718819"/>
+		<entity2 rdf:resource="http://confOf_hi#c-6709951-8223694"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://cmt_cz#ent-8942207-0853588"/>
+		<entity2 rdf:resource="http://confOf_hi#hit-5774201-3265169"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

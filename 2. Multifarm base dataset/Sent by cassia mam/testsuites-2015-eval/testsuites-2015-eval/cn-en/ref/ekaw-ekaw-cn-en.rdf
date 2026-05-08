@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9416631-9830270"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0349898-7481681"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3477991-6122065"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-5359557-9990246"/>
+		<entity2 rdf:resource="http://ekaw_en#op-8155828-7192752"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4273361-4141745"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2470133-2329628"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6838819-0331054"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2191713-0892309"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4167254-8205091"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-5710606-9253523"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8088931-4157592"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0943388-6814256"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3956096-0977998"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-5688456-7221671"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7857374-1887365"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7730220-7233369"/>
+		<entity2 rdf:resource="http://ekaw_en#op-4431305-9137283"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-5124178-2732910"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0194623-5442384"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2800442-7627196"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3763580-6093737"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6804923-6973587"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9371609-4110910"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1712723-7727455"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6857394-8724873"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3506522-7769104"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2291135-8267782"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1276156-6975432"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5477904-0925342"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-8127710-5357923"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2076456-1577198"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1354892-5847832"/>
+		<entity2 rdf:resource="http://ekaw_en#c-1215638-9585117"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6989938-5788421"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7139575-4056197"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3383169-7928795"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9548211-7504684"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-2563962-5316183"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6348418-5652996"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2640974-5040788"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9998922-5049671"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3666861-3206980"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2968310-9801510"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4372985-8549444"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-1924649-3386088"/>
+		<entity2 rdf:resource="http://ekaw_en#op-8875631-5344465"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7245823-3920928"/>
+		<entity2 rdf:resource="http://ekaw_en#op-4532693-3091356"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-0294156-4784104"/>
+		<entity2 rdf:resource="http://ekaw_en#c-1280657-1746143"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2052598-8435556"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0073203-5611897"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-8279247-7574510"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3868870-0882921"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8953949-6659860"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4797179-2179489"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5421089-9590044"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9706934-9353159"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9241817-5016300"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8567740-7299712"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-3412751-8630237"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6165632-6670568"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9474881-9734146"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-0748338-5250127"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0669438-8496206"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1456925-6588497"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8697215-8769267"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7873235-2334527"/>
+		<entity2 rdf:resource="http://ekaw_en#op-4762063-2019932"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7313374-0270883"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6388839-2353012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7178947-4732893"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0336496-6573724"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7930223-6431551"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6087154-2871661"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3839680-1294078"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0657674-2788930"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0368253-9123778"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4834126-7530940"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8089307-9338224"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-2581350-4795913"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3728685-5684271"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2561282-6159732"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0341113-2659100"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-6623858-4524910"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3793493-8990499"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3200444-3897215"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5410525-9645784"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-9936291-8136368"/>
+		<entity2 rdf:resource="http://ekaw_en#op-4055787-8192017"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3238532-5788397"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3360195-8668474"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6536794-1827772"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2414258-9368217"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4811043-7294397"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-0487560-1829353"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7528592-2191156"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-3125620-8997050"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6883287-7824849"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9707149-7896120"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8031565-8061767"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-5533710-3987480"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6824441-5394692"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7212230-9253710"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7051702-7291242"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-6839537-5326595"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6283066-0350643"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-9690182-7458535"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6981032-0595110"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7327817-6394016"/>
+		<entity2 rdf:resource="http://ekaw_en#op-1046609-1729908"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0997722-7053840"/>
+		<entity2 rdf:resource="http://ekaw_en#op-8275827-2647662"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2355225-8975405"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6886201-5078554"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9489866-2755365"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6306353-5581056"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-9873773-5331104"/>
+		<entity2 rdf:resource="http://ekaw_en#op-8550838-9531336"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-3052184-2698774"/>
+		<entity2 rdf:resource="http://ekaw_en#op-9528889-6210203"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-8277788-1262699"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9223198-5903178"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-7802572-5255002"/>
+		<entity2 rdf:resource="http://ekaw_en#op-0773179-8967841"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1222189-1484036"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5277870-0001459"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7398366-0455327"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2954422-1006803"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2912535-0493034"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5494318-9929604"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0427000-0007037"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3644508-6872096"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0172901-2457875"/>
+		<entity2 rdf:resource="http://ekaw_en#op-7791801-8065878"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+		<entity2 rdf:resource="http://ekaw_en#c-6243137-2958913"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5197582-3975997"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-8175214-7212425"/>
+		<entity2 rdf:resource="http://ekaw_en#op-7087005-6164312"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-1791778-8438105"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6333218-9981584"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9527504-1154558"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9936439-7933741"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-0973690-3996380"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9695651-6629383"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-8201776-0075233"/>
+		<entity2 rdf:resource="http://ekaw_en#op-2504953-1694631"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-2777967-7589393"/>
+		<entity2 rdf:resource="http://ekaw_en#op-3076990-7240392"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-8281570-3674623"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4139511-6446488"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9886460-5529984"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9417533-5213851"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4599334-8636265"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3320076-7330781"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5964459-1359827"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4820526-8352105"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2695903-7464206"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4951888-7180531"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4558647-2906816"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2024600-8499703"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4692004-0788483"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7688206-0747633"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4885870-1669006"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2264159-8840695"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9783695-4968549"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5557447-5961389"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4495520-4780704"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5284292-3409357"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-3136556-6498483"/>
+		<entity2 rdf:resource="http://ekaw_en#op-4796916-6018280"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4146887-2470120"/>
+		<entity2 rdf:resource="http://ekaw_en#c-4574163-5436291"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-4706337-3701314"/>
+		<entity2 rdf:resource="http://ekaw_en#c-8316752-2924340"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3089821-5252126"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-4902116-2847871"/>
+		<entity2 rdf:resource="http://ekaw_en#op-9638328-5101888"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0365241-9947475"/>
+		<entity2 rdf:resource="http://ekaw_en#op-2050519-5091431"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-0872940-0239112"/>
+		<entity2 rdf:resource="http://ekaw_en#op-1050525-9202242"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6011902-3603664"/>
+		<entity2 rdf:resource="http://ekaw_en#c-7888018-7259258"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+		<entity2 rdf:resource="http://ekaw_en#c-0962507-8370179"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9429811-2452520"/>
+		<entity2 rdf:resource="http://ekaw_en#c-2105122-9294493"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+		<entity2 rdf:resource="http://ekaw_en#c-9559358-2043541"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-1778487-9274927"/>
+		<entity2 rdf:resource="http://ekaw_en#c-3485530-5719033"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#c-9181525-7360877"/>
+		<entity2 rdf:resource="http://ekaw_en#c-5640208-8487333"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ekaw_cn#op-4038980-1205652"/>
+		<entity2 rdf:resource="http://ekaw_en#op-6482464-1813921"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,1478 @@
+[
+  {
+    "term_en": "is co-chair of committee",
+    "term_pa": "ਕਮੇਟੀ ਦਾ ਸਹਿ-ਪ੍ਰਧਾਨ ਹੈ",
+    "term_roman": "kameti da saH-pradhan hai",
+    "base_score": 0.57,
+    "llm_score": 1.0,
+    "final_score": 0.699,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "negative review",
+    "term_pa": "ਨਕਾਰਾਤਮਕ ਸਮੀਖਿਆ",
+    "term_roman": "nakaaraatmak sameekhya",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "any kind of document",
+    "term_pa": "ਕਿਸੇ ਵੀ ਕਿਸਮ ਦਾ ਦਸਤਾਵੇਜ਼",
+    "term_roman": "dastavez",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 1.0,
+      "final": 0.7,
+      "error": "meaning slightly lost, 'any kind' not explicitly translated"
+    }
+  },
+  {
+    "term_en": "relates to",
+    "term_pa": "ਨਾਲ ਸਬੰਧਤ ਹੈ",
+    "term_roman": "sambandit hai",
+    "base_score": 0.6,
+    "llm_score": 0.87,
+    "final_score": 0.681,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.8,
+      "final": 0.87,
+      "error": "minor loss of nuance in translation"
+    }
+  },
+  {
+    "term_en": "maximal number of assigned papers",
+    "term_pa": "ਨਿਰਧਾਰਤ ਪੇਪਰਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਿਣਤੀ",
+    "term_roman": "asain kite paperan di vadhh toN vadhh ginnti",
+    "base_score": 0.54,
+    "llm_score": 0.8,
+    "final_score": 0.618,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a phrase instead of a single label"
+    }
+  },
+  {
+    "term_en": "enter details on",
+    "term_pa": "'ਤੇ ਵੇਰਵੇ ਦਰਜ ਕਰੋ",
+    "term_roman": "Vigyaanik Vivran Dakhil Karo",
+    "base_score": 0.4,
+    "llm_score": 0.7,
+    "final_score": 0.49,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation 'ਵਿਵਰਨ ਦਾਖਲ ਕਰੋ' is a sentence, not an ontology style label and 'enter' is not clearly translated"
+    }
+  },
+  {
+    "term_en": "date of camera-ready submission",
+    "term_pa": "ਕੈਮਰਾ-ਤਿਆਰ ਜਮ੍ਹਾਂ ਕਰਨ ਦੀ ਮਿਤੀ",
+    "term_roman": "kamera-tiar sabmishan di miti",
+    "base_score": 0.72,
+    "llm_score": 0.8,
+    "final_score": 0.744,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "minor structure issue, 'camera-ready' could be translated more literally"
+    }
+  },
+  {
+    "term_en": "participant of conference has early registration",
+    "term_pa": "ਕਾਨਫਰੰਸ ਦੇ ਭਾਗੀਦਾਰ ਲਈ ਜਲਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਕਰਵਾਉਣੀ ਜ਼ਰੂਰੀ ਹੈ।",
+    "term_roman": "samkalee rajistreshan wala",
+    "base_score": 0.75,
+    "llm_score": 0.2,
+    "final_score": 0.585,
+    "judge_feedback": {
+      "semantic": 0.2,
+      "completeness": 0.2,
+      "structure": 0.2,
+      "final": 0.2,
+      "error": "meaning lost, important words missing, and awkward relation direction"
+    }
+  },
+  {
+    "term_en": "university",
+    "term_pa": "ਯੂਨੀਵਰਸਿਟੀ",
+    "term_roman": "universiti",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "registration fee is in currency",
+    "term_pa": "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਫੀਸ ਮੁਦਰਾ ਵਿੱਚ ਹੈ",
+    "term_roman": "mudra vich",
+    "base_score": 0.75,
+    "llm_score": 0.2,
+    "final_score": 0.585,
+    "judge_feedback": {
+      "semantic": 0.2,
+      "completeness": 0.2,
+      "structure": 0.2,
+      "final": 0.2,
+      "error": "meaning lost and important words missing"
+    }
+  },
+  {
+    "term_en": "has member",
+    "term_pa": "ਮੈਂਬਰ ਹੈ",
+    "term_roman": "mainbar hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing 'has' equivalent, 'member' not fully represented"
+    }
+  },
+  {
+    "term_en": "double hotel room",
+    "term_pa": "ਦੋਹਰਾ ਹੋਟਲ ਕਮਰਾ",
+    "term_roman": "dohra hotel kamra",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "contributor for conference",
+    "term_pa": "ਕਾਨਫਰੰਸ ਲਈ ਯੋਗਦਾਨ ਪਾਉਣ ਵਾਲਾ",
+    "term_roman": "yogdan pauna wala",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'conference'"
+    }
+  },
+  {
+    "term_en": "main office",
+    "term_pa": "ਮੁੱਖ ਦਫ਼ਤਰ",
+    "term_roman": "mukh daftar",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "overhead projector",
+    "term_pa": "ਓਵਰਹੈੱਡ ਪ੍ਰੋਜੈਕਟਰ",
+    "term_roman": "overhead projector",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "associated chair",
+    "term_pa": "ਸੰਬੰਧਿਤ ਕੁਰਸੀ",
+    "term_roman": "Sahiyogi Chair",
+    "base_score": 0.75,
+    "llm_score": 0.9,
+    "final_score": 0.795,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 1.0,
+      "final": 0.9,
+      "error": "minor loss of nuance in 'associated'"
+    }
+  },
+  {
+    "term_en": "is part of conference",
+    "term_pa": "ਕਾਨਫਰੰਸ ਦਾ ਹਿੱਸਾ ਹੈ",
+    "term_roman": "conference da hissa hai",
+    "base_score": 0.57,
+    "llm_score": 0.7,
+    "final_score": 0.609,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, not an ontology style label"
+    }
+  },
+  {
+    "term_en": "communications topic",
+    "term_pa": "ਸੰਚਾਰ ਵਿਸ਼ੇ",
+    "term_roman": "sanchar visa",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing 'topic' equivalent"
+    }
+  },
+  {
+    "term_en": "co-author",
+    "term_pa": "ਸਹਿ-ਲੇਖਕ",
+    "term_roman": "sah-lekhak",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "has abstract",
+    "term_pa": "ਐਬਸਟਰੈਕਟ ਹੈ",
+    "term_roman": "amurut lekh hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, 'abstract' is not directly translated"
+    }
+  },
+  {
+    "term_en": "has updated version",
+    "term_pa": "ਸੰਸਕਰਣ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਹੈ",
+    "term_roman": "apdeT keeTi varjan hai",
+    "base_score": 0.57,
+    "llm_score": 0.8,
+    "final_score": 0.639,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a sentence"
+    }
+  },
+  {
+    "term_en": "has price",
+    "term_pa": "ਕੀਮਤ ਹੈ",
+    "term_roman": "mull hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation 'ਮੁੱਲ ਹੈ' is a sentence, not an ontology style label and 'price' is not explicitly mentioned"
+    }
+  },
+  {
+    "term_en": "has nationality",
+    "term_pa": "ਕੌਮੀਅਤ ਹੈ",
+    "term_roman": "Rashtriyata hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is not a direct label, 'has' is missing"
+    }
+  },
+  {
+    "term_en": "written by",
+    "term_pa": "ਦੁਆਰਾ ਲਿਖਿਆ ਗਿਆ",
+    "term_roman": "likhiya giya",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing 'by' equivalent, implies passive voice but loses 'by' agent"
+    }
+  },
+  {
+    "term_en": "has surname",
+    "term_pa": "ਉਪਨਾਮ ਹੈ",
+    "term_roman": "dā upnām hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, not an ontology style label"
+    }
+  },
+  {
+    "term_en": "computer networks measurements topic",
+    "term_pa": "ਕੰਪਿਊਟਰ ਨੈੱਟਵਰਕ ਮਾਪ ਵਿਸ਼ੇ",
+    "term_roman": "kampiyutar netavarik maap visha",
+    "base_score": 0.6,
+    "llm_score": 0.8,
+    "final_score": 0.66,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.7,
+      "structure": 0.9,
+      "final": 0.8,
+      "error": "missing 'topic' equivalent"
+    }
+  },
+  {
+    "term_en": "student",
+    "term_pa": "ਵਿਦਿਆਰਥੀ",
+    "term_roman": "Vidyaarthi",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "state where the conference takes place",
+    "term_pa": "ਦੱਸੋ ਕਿ ਕਾਨਫਰੰਸ ਕਿੱਥੇ ਹੁੰਦੀ ਹੈ",
+    "term_roman": "aayojan sthaan da raaj",
+    "base_score": 0.72,
+    "llm_score": 0.3,
+    "final_score": 0.594,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "inverse of partof 7",
+    "term_pa": "7 ਦੇ ਹਿੱਸੇ ਦਾ ਉਲਟ",
+    "term_roman": "Bhaag da ult",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "relation direction could be clearer"
+    }
+  },
+  {
+    "term_en": "workshop chair",
+    "term_pa": "ਵਰਕਸ਼ਾਪ ਦੀ ਕੁਰਸੀ",
+    "term_roman": "workshop chair",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'chair' translation, 'chair' is translated as 'ਚੇਅਰ' which is more like 'chair' the furniture, not the person"
+    }
+  },
+  {
+    "term_en": "is connected with",
+    "term_pa": "ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ",
+    "term_roman": "naal juriya hoia",
+    "base_score": 0.75,
+    "llm_score": 0.87,
+    "final_score": 0.786,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.8,
+      "final": 0.87,
+      "error": "minor loss of 'is' nuance"
+    }
+  },
+  {
+    "term_en": "oc member",
+    "term_pa": "oc ਮੈਂਬਰ",
+    "term_roman": "sadsiya",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'member' translation"
+    }
+  },
+  {
+    "term_en": "part of event",
+    "term_pa": "ਸਮਾਗਮ ਦਾ ਹਿੱਸਾ",
+    "term_roman": "samagam da hissa",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "assign",
+    "term_pa": "ਅਸਾਈਨ ਕਰਨਾ",
+    "term_roman": "asaain karna",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "conference registration date and time deadline",
+    "term_pa": "ਕਾਨਫਰੰਸ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਆਖਰੀ ਮਿਤੀ",
+    "term_roman": "registration di aakhri taarikh ate sama",
+    "base_score": 0.54,
+    "llm_score": 0.8,
+    "final_score": 0.618,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.7,
+      "structure": 0.9,
+      "final": 0.8,
+      "error": "missing 'conference'"
+    }
+  },
+  {
+    "term_en": "location of",
+    "term_pa": "ਦੀ ਸਥਿਤੀ",
+    "term_roman": "stan da",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'of' is not perfectly translated, 'ਦਾ' implies possession but 'of' can be location or other relations"
+    }
+  },
+  {
+    "term_en": "is designed for",
+    "term_pa": "ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ",
+    "term_roman": "layi dizain keeta gia hai",
+    "base_score": 0.57,
+    "llm_score": 0.8,
+    "final_score": 0.639,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a bit sentence-like"
+    }
+  },
+  {
+    "term_en": "video cassette player",
+    "term_pa": "ਵੀਡੀਓ ਕੈਸੇਟ ਪਲੇਅਰ",
+    "term_roman": "videyo kaset player",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "is needed for",
+    "term_pa": "ਲਈ ਲੋੜ ਹੈ",
+    "term_roman": "layi zaroori hai",
+    "base_score": 0.6,
+    "llm_score": 0.8,
+    "final_score": 0.66,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a phrase instead of a single label"
+    }
+  },
+  {
+    "term_en": "country",
+    "term_pa": "ਦੇਸ਼",
+    "term_roman": "desh",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "reviewer",
+    "term_pa": "ਸਮੀਖਿਅਕ",
+    "term_roman": "sameekhyak",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "decision",
+    "term_pa": "ਫੈਸਲਾ",
+    "term_roman": "faisla",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "accepts hardcopy submissions",
+    "term_pa": "ਹਾਰਡਕਾਪੀ ਸਬਮਿਸ਼ਨਾਂ ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ",
+    "term_roman": "Haardkapi sabmishan sweekaar karda hai",
+    "base_score": 0.63,
+    "llm_score": 0.4,
+    "final_score": 0.561,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.4,
+      "final": 0.4,
+      "error": "translation is a sentence instead of ontology style label"
+    }
+  },
+  {
+    "term_en": "technical committee",
+    "term_pa": "ਤਕਨੀਕੀ ਕਮੇਟੀ",
+    "term_roman": "takneekee kameTEE",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "contributed talk",
+    "term_pa": "ਯੋਗਦਾਨ ਦਿੱਤਾ ਭਾਸ਼ਣ",
+    "term_roman": "yogdan bhashan",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'talk'"
+    }
+  },
+  {
+    "term_en": "building",
+    "term_pa": "ਇਮਾਰਤ ",
+    "term_roman": "Imarat Naal Sambandhit",
+    "base_score": 0.75,
+    "llm_score": 0.6,
+    "final_score": 0.705,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.6,
+      "structure": 0.4,
+      "final": 0.6,
+      "error": "meaning partially lost and sentence structure"
+    }
+  },
+  {
+    "term_en": "rejected by",
+    "term_pa": "ਦੁਆਰਾ ਰੱਦ ਕਰ ਦਿੱਤਾ",
+    "term_roman": "rad karna wala",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing 'by' preposition"
+    }
+  },
+  {
+    "term_en": "tutorial",
+    "term_pa": "ਟਿਊਟੋਰਿਅਲ",
+    "term_roman": "Tutorial",
+    "base_score": 0.75,
+    "llm_score": 0.2,
+    "final_score": 0.585,
+    "judge_feedback": {
+      "semantic": 0.2,
+      "completeness": 0.2,
+      "structure": 0.2,
+      "final": 0.2,
+      "error": "meaning lost, direct transliteration instead of translation"
+    }
+  },
+  {
+    "term_en": "accepts",
+    "term_pa": "ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ",
+    "term_roman": "sweekaar karda hai",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "poster",
+    "term_pa": "ਪੋਸਟਰ",
+    "term_roman": "poster",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "read paper",
+    "term_pa": "ਪੇਪਰ ਪੜ੍ਹੋ",
+    "term_roman": "paper parhna",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 0.7,
+      "structure": 1.0,
+      "final": 0.7,
+      "error": "important word 'read' is translated to 'ਪੜ੍ਹਨਾ' which is correct, but 'paper' is translated correctly, however 'read paper' is an activity, the translation 'ਪੇਪਰ ਪੜ੍ਹਨਾ' is more like 'paper reading' which is close but not exact"
+    }
+  },
+  {
+    "term_en": "reject rating",
+    "term_pa": "ਰੇਟਿੰਗ ਨੂੰ ਅਸਵੀਕਾਰ ਕਰੋ",
+    "term_roman": "reding nu radd karna",
+    "base_score": 0.72,
+    "llm_score": 0.7,
+    "final_score": 0.714,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, not an ontology style label"
+    }
+  },
+  {
+    "term_en": "presentation of paper",
+    "term_pa": "ਕਾਗਜ਼ ਦੀ ਪੇਸ਼ਕਾਰੀ",
+    "term_roman": "paper di peshekari",
+    "base_score": 0.75,
+    "llm_score": 0.9,
+    "final_score": 0.795,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.9,
+      "final": 0.9,
+      "error": "minor loss of nuance in 'presentation'"
+    }
+  },
+  {
+    "term_en": "camera ready paper",
+    "term_pa": "ਕੈਮਰਾ ਤਿਆਰ ਕਾਗਜ਼",
+    "term_roman": "kaimra tiyaar pepar",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'ready' is not perfectly translated, 'ਤਿਆਰ' is more like 'prepared' than 'ready'"
+    }
+  },
+  {
+    "term_en": "registration fee for a student",
+    "term_pa": "ਵਿਦਿਆਰਥੀ ਲਈ ਰਜਿਸਟਰੇਸ਼ਨ ਫੀਸ",
+    "term_roman": "Vidyaarthi lai registration fees",
+    "base_score": 0.72,
+    "llm_score": 1.0,
+    "final_score": 0.804,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "webmaster",
+    "term_pa": "ਵੈੱਬਮਾਸਟਰ",
+    "term_roman": "webmaster",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "reviewer of paper",
+    "term_pa": "ਕਾਗਜ਼ ਦਾ ਸਮੀਖਿਅਕ",
+    "term_roman": "paper da sameekhyak",
+    "base_score": 0.75,
+    "llm_score": 0.8,
+    "final_score": 0.765,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.7,
+      "structure": 0.9,
+      "final": 0.8,
+      "error": "missing word 'paper' could be more accurately translated as 'research paper' or 'academic paper' to convey the full meaning"
+    }
+  },
+  {
+    "term_en": "program committee",
+    "term_pa": "ਪ੍ਰੋਗਰਾਮ ਕਮੇਟੀ",
+    "term_roman": "program committee",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "hotel registration form",
+    "term_pa": "ਹੋਟਲ ਰਜਿਸਟਰੇਸ਼ਨ ਫਾਰਮ",
+    "term_roman": "hotel registration form",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "conference document",
+    "term_pa": "ਕਾਨਫਰੰਸ ਦਸਤਾਵੇਜ਼",
+    "term_roman": "conference dastavez",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "is initiated by",
+    "term_pa": "ਦੁਆਰਾ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ",
+    "term_roman": "shuru kita janda hai",
+    "base_score": 0.57,
+    "llm_score": 0.7,
+    "final_score": 0.609,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, not an ontology style label and 'by' is missing"
+    }
+  },
+  {
+    "term_en": "document",
+    "term_pa": "ਦਸਤਾਵੇਜ਼",
+    "term_roman": "dastavez",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "registration fee paid by",
+    "term_pa": "ਦੁਆਰਾ ਅਦਾ ਕੀਤੀ ਰਜਿਸਟਰੇਸ਼ਨ ਫੀਸ",
+    "term_roman": "registration fees dwara ada keeti gee",
+    "base_score": 0.54,
+    "llm_score": 0.3,
+    "final_score": 0.468,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "bid",
+    "term_pa": "ਬੋਲੀ",
+    "term_roman": "boli",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "partial meaning loss"
+    }
+  },
+  {
+    "term_en": "publication",
+    "term_pa": "ਪ੍ਰਕਾਸ਼ਨ",
+    "term_roman": "prakshan",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "flyer",
+    "term_pa": "ਪੰਫਲੈਟ",
+    "term_roman": "pamflet",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "fee for extra trip",
+    "term_pa": "ਵਾਧੂ ਯਾਤਰਾ ਲਈ ਫੀਸ",
+    "term_roman": "vadhele yaatra shulka",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'fee' or 'charge' equivalent"
+    }
+  },
+  {
+    "term_en": "topic covered by",
+    "term_pa": "ਦੁਆਰਾ ਕਵਰ ਕੀਤਾ ਵਿਸ਼ਾ",
+    "term_roman": "visha dwaara kovar keeta gya",
+    "base_score": 0.57,
+    "llm_score": 0.6,
+    "final_score": 0.579,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.4,
+      "final": 0.6,
+      "error": "translation is a sentence, 'by' is missing"
+    }
+  },
+  {
+    "term_en": "is provided by",
+    "term_pa": "ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ",
+    "term_roman": "duara pradan kita janda hai",
+    "base_score": 0.57,
+    "llm_score": 0.8,
+    "final_score": 0.639,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a sentence"
+    }
+  },
+  {
+    "term_en": "to be done till",
+    "term_pa": "ਤੱਕ ਕੀਤਾ ਜਾਣਾ ਹੈ",
+    "term_roman": "tak karna hai",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'done' and 'till' not perfectly translated"
+    }
+  },
+  {
+    "term_en": "presentation of a paper",
+    "term_pa": "ਇੱਕ ਪੇਪਰ ਦੀ ਪੇਸ਼ਕਾਰੀ",
+    "term_roman": "kagaz di peshekari",
+    "base_score": 0.75,
+    "llm_score": 0.73,
+    "final_score": 0.744,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.73,
+      "error": "missing word 'paper', translation is a bit sentence-like"
+    }
+  },
+  {
+    "term_en": "event of registration of participants event",
+    "term_pa": "ਭਾਗੀਦਾਰਾਂ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀ ਘਟਨਾ",
+    "term_roman": "Bhagidarán de rejistréshan da ghatná",
+    "base_score": 0.57,
+    "llm_score": 0.3,
+    "final_score": 0.489,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "dinner banquet",
+    "term_pa": "ਰਾਤ ਦੇ ਖਾਣੇ ਦੀ ਦਾਅਵਤ",
+    "term_roman": "raat da bhojan",
+    "base_score": 0.75,
+    "llm_score": 0.73,
+    "final_score": 0.744,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.73,
+      "error": "missing 'banquet' concept"
+    }
+  },
+  {
+    "term_en": "has website at url",
+    "term_pa": "url 'ਤੇ ਵੈੱਬਸਾਈਟ ਹੈ ",
+    "term_roman": "yooaral te websaite hai",
+    "base_score": 0.4,
+    "llm_score": 0.7,
+    "final_score": 0.49,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'has'"
+    }
+  },
+  {
+    "term_en": "applicant for conference who paid conference fee",
+    "term_pa": "ਕਾਨਫਰੰਸ ਲਈ ਬਿਨੈਕਾਰ ਜਿਸਨੇ ਕਾਨਫਰੰਸ ਫੀਸ ਅਦਾ ਕੀਤੀ ਸੀ",
+    "term_roman": "Bhugtaan Vaala Dakhlaakaar",
+    "base_score": 0.75,
+    "llm_score": 0.8,
+    "final_score": 0.765,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.7,
+      "structure": 0.9,
+      "final": 0.8,
+      "error": "missing word 'conference'"
+    }
+  },
+  {
+    "term_en": "organizing committee",
+    "term_pa": "ਪ੍ਰਬੰਧਕੀ ਕਮੇਟੀ",
+    "term_roman": "Aayojan Committee dwara",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'organizing' is partially implied but 'committee' translation is correct, however 'ਦੁਆਰਾ' implies 'by' which changes the meaning slightly"
+    }
+  },
+  {
+    "term_en": "for event",
+    "term_pa": "ਘਟਨਾ ਲਈ",
+    "term_roman": "samaagam lai",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is not exact, 'for event' implies a relation, Punjabi translation 'ਸਮਾਗਮ ਲਈ' means 'for the event'"
+    }
+  },
+  {
+    "term_en": "demo paper",
+    "term_pa": "ਡੈਮੋ ਪੇਪਰ",
+    "term_roman": "demo paper",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "has name of conference",
+    "term_pa": "ਕਾਨਫਰੰਸ ਦਾ ਨਾਮ ਹੈ",
+    "term_roman": "konfrans da naam hai",
+    "base_score": 0.57,
+    "llm_score": 0.6,
+    "final_score": 0.579,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.4,
+      "final": 0.6,
+      "error": "translation is a sentence, not an ontology style label"
+    }
+  },
+  {
+    "term_en": "signal processing topic",
+    "term_pa": "ਸਿਗਨਲ ਪ੍ਰੋਸੈਸਿੰਗ ਟੌਪਿਕ",
+    "term_roman": "signal prosesing topic",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "was presented by",
+    "term_pa": "ਦੁਆਰਾ ਪੇਸ਼ ਕੀਤਾ ਗਿਆ ਸੀ",
+    "term_roman": "duara pesh kiteya gia",
+    "base_score": 0.72,
+    "llm_score": 0.87,
+    "final_score": 0.765,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.8,
+      "final": 0.87,
+      "error": "minor relation direction clarity"
+    }
+  },
+  {
+    "term_en": "preference or expertise of reviewer",
+    "term_pa": "ਸਮੀਖਿਅਕ ਦੀ ਤਰਜੀਹ ਜਾਂ ਮੁਹਾਰਤ",
+    "term_roman": "sameekhiakar di pasandgi jaan maharta",
+    "base_score": 0.57,
+    "llm_score": 0.3,
+    "final_score": 0.489,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "has workshop topic",
+    "term_pa": "ਵਰਕਸ਼ਾਪ ਦਾ ਵਿਸ਼ਾ ਹੈ",
+    "term_roman": "workshop visa hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'has' and relation direction is slightly awkward"
+    }
+  },
+  {
+    "term_en": "sponsor",
+    "term_pa": "ਸਪਾਂਸਰ",
+    "term_roman": "sponsor",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "meta-reviewer",
+    "term_pa": "ਮੈਟਾ-ਸਮੀਖਿਅਕ",
+    "term_roman": "meta-sameekhyak",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "delegate (person registering and visiting the conference)",
+    "term_pa": "ਡੈਲੀਗੇਟ (ਰਜਿਸਟਰ ਹੋਣ ਵਾਲਾ ਅਤੇ ਕਾਨਫਰੰਸ ਦਾ ਦੌਰਾ ਕਰਨ ਵਾਲਾ ਵਿਅਕਤੀ)",
+    "term_roman": "pratinidh",
+    "base_score": 0.75,
+    "llm_score": 0.76,
+    "final_score": 0.753,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.7,
+      "structure": 0.9,
+      "final": 0.76,
+      "error": "meaning slightly lost, 'delegate' implies conference participation"
+    }
+  },
+  {
+    "term_en": "references",
+    "term_pa": "ਹਵਾਲੇ",
+    "term_roman": "havaale",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "bank transfer",
+    "term_pa": "ਬੈਂਕ ਟ੍ਰਾਂਸਫਰ",
+    "term_roman": "bank transfer",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "industrial organization",
+    "term_pa": "ਉਦਯੋਗਿਕ ਸੰਗਠਨ",
+    "term_roman": "Udyogik Sangathan",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "has id",
+    "term_pa": "ਆਈਡੀ ਹੈ",
+    "term_roman": "aai dee hai",
+    "base_score": 0.6,
+    "llm_score": 0.7,
+    "final_score": 0.63,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "translation is a sentence, not an ontology style label"
+    }
+  },
+  {
+    "term_en": "industrial session",
+    "term_pa": "ਉਦਯੋਗਿਕ ਸੈਸ਼ਨ",
+    "term_roman": "Udyogik Session",
+    "base_score": 0.75,
+    "llm_score": 1.0,
+    "final_score": 0.825,
+    "judge_feedback": {
+      "semantic": 1.0,
+      "completeness": 1.0,
+      "structure": 1.0,
+      "final": 1.0,
+      "error": "none"
+    }
+  },
+  {
+    "term_en": "author who will receive proceedings as book",
+    "term_pa": "ਲੇਖਕ ਜਿਸਨੂੰ ਕਿਤਾਬ ਦੇ ਰੂਪ ਵਿੱਚ ਕਾਰਵਾਈ ਪ੍ਰਾਪਤ ਹੋਵੇਗੀ",
+    "term_roman": "lekhak jis nu kitab de taur 'te kaarvai praapt hovegi",
+    "base_score": 0.54,
+    "llm_score": 0.3,
+    "final_score": 0.468,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "set maximal number of assigned paper",
+    "term_pa": "ਨਿਰਧਾਰਤ ਪੇਪਰ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਿਣਤੀ ਨਿਰਧਾਰਤ ਕਰੋ",
+    "term_roman": "asain kite paperan di adhiktam ginti set karo",
+    "base_score": 0.54,
+    "llm_score": 0.8,
+    "final_score": 0.618,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is slightly sentence-like"
+    }
+  },
+  {
+    "term_en": "mailing list",
+    "term_pa": "ਮੇਲਿੰਗ ਸੂਚੀ",
+    "term_roman": "mail suchi",
+    "base_score": 0.75,
+    "llm_score": 0.87,
+    "final_score": 0.786,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.8,
+      "structure": 1.0,
+      "final": 0.87,
+      "error": "minor loss of meaning, 'mailing' is more specific than 'ਮੇਲ'"
+    }
+  },
+  {
+    "term_en": "is the first part of",
+    "term_pa": "ਦਾ ਪਹਿਲਾ ਹਿੱਸਾ ਹੈ",
+    "term_roman": "da pahila bhag hai",
+    "base_score": 0.57,
+    "llm_score": 0.4,
+    "final_score": 0.519,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.3,
+      "final": 0.4,
+      "error": "translation is a sentence instead of ontology style label"
+    }
+  },
+  {
+    "term_en": "accept-if-room rating",
+    "term_pa": "ਕਮਰੇ ਨੂੰ ਸਵੀਕਾਰ ਕਰਨ ਦੀ ਰੇਟਿੰਗ",
+    "term_roman": "kamra rating de naal svikaar karo",
+    "base_score": 0.54,
+    "llm_score": 0.3,
+    "final_score": 0.468,
+    "judge_feedback": {
+      "error": "parse_failed"
+    }
+  },
+  {
+    "term_en": "is used by",
+    "term_pa": "ਦੁਆਰਾ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ",
+    "term_roman": "duara vartia janda hai",
+    "base_score": 0.57,
+    "llm_score": 0.8,
+    "final_score": 0.639,
+    "judge_feedback": {
+      "semantic": 0.9,
+      "completeness": 0.9,
+      "structure": 0.7,
+      "final": 0.8,
+      "error": "translation is a sentence"
+    }
+  },
+  {
+    "term_en": "is paid by",
+    "term_pa": "ਦੁਆਰਾ ਭੁਗਤਾਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ",
+    "term_roman": "duara bhugtaan keeta janda hai",
+    "base_score": 0.57,
+    "llm_score": 0.65,
+    "final_score": 0.594,
+    "judge_feedback": {
+      "semantic": 0.8,
+      "completeness": 0.9,
+      "structure": 0.6,
+      "final": 0.65,
+      "error": "translation is a sentence instead of ontology style label"
+    }
+  },
+  {
+    "term_en": "is present in time or space",
+    "term_pa": "ਸਮੇਂ ਜਾਂ ਸਥਾਨ ਵਿੱਚ ਮੌਜੂਦ ਹੈ",
+    "term_roman": "Maujūda hai",
+    "base_score": 0.6,
+    "llm_score": 0.46,
+    "final_score": 0.558,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.4,
+      "structure": 0.7,
+      "final": 0.46,
+      "error": "missing words 'in time or space'"
+    }
+  },
+  {
+    "term_en": "regular participant of conference",
+    "term_pa": "ਕਾਨਫਰੰਸ ਦੇ ਨਿਯਮਤ ਭਾਗੀਦਾਰ",
+    "term_roman": "niyamit bhaagidaar",
+    "base_score": 0.75,
+    "llm_score": 0.7,
+    "final_score": 0.735,
+    "judge_feedback": {
+      "semantic": 0.7,
+      "completeness": 0.7,
+      "structure": 0.7,
+      "final": 0.7,
+      "error": "missing word 'conference'"
+    }
+  }
+]

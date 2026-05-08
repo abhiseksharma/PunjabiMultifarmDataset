@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ekaw_cz#"
+     xml:base="http://ekaw_cz"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ekaw_cz="http://ekaw_cz#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ekaw_cz"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_cz#op-0092312-4613202 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-0092312-4613202">
+        <rdfs:label xml:lang="cs">recenze napsána kým</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-3900205-7551278"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-2853812-3951030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-0186892-2566835 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-0186892-2566835">
+        <rdfs:label xml:lang="cs">technicky organizováno kým</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-0759880-3231790"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-3104859-7603247"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-0759880-3231790 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-0759880-3231790">
+        <rdfs:label xml:lang="cs">technicky organizuje</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-2169369-6288696"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-6658501-6146080"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-0891090-2273238 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-0891090-2273238">
+        <rdfs:label xml:lang="cs">recenzent příspěvku</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-3900205-7551278"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-5148932-2756554"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-1353500-7681315 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-1353500-7681315">
+        <rdfs:label xml:lang="cs">je aktualizací</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-1419585-0288086 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-1419585-0288086">
+        <rdfs:label xml:lang="cs">obsahuje událost</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-9979859-5013148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2072552-4761122 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2072552-4761122">
+        <rdfs:label xml:lang="cs">odkazuje na</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-6325565-0605705"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2118226-9658237 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2118226-9658237">
+        <rdfs:label xml:lang="cs">referuje o události</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-3792075-3931744"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-8450382-5760290"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2729556-2969564 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2729556-2969564">
+        <rdfs:label xml:lang="cs">recenze příspěvku</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2740358-2966367 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2740358-2966367">
+        <rdfs:label xml:lang="cs">má aktualizaci</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-1353500-7681315"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2853812-3951030 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2853812-3951030">
+        <rdfs:label xml:lang="cs">napsáno kým</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-8519604-5673885"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-2868946-3877569 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-2868946-3877569">
+        <rdfs:label xml:lang="cs">inverse of partof 7</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-9979859-5013148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-3104859-7603247 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-3104859-7603247">
+        <rdfs:label xml:lang="cs">organizováno kým</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-6658501-6146080"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-2169369-6288696"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-6555588-1363937"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-3640965-2423593 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-3640965-2423593">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="cs">je součástí události</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-1419585-0288086"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-4684752-1300582"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-4057992-1181030 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-4057992-1181030">
+        <rdfs:label xml:lang="cs">je vydavatelem</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-2169369-6288696"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-3792075-3931744"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-4382003-7855597"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-6101084-7691237"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-8450382-5760290"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-4607966-6397580 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-4607966-6397580">
+        <rdfs:label xml:lang="cs">svazek obsahuje příspěvek</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-9665809-3247902"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-4666745-2660779 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-4666745-2660779">
+        <rdfs:label xml:lang="cs">odborně organizováno kým</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-0576687-8350954"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-3104859-7603247"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-4684752-1300582 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-4684752-1300582">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="cs">je součástí</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-5148932-2756554 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-5148932-2756554">
+        <rdfs:label xml:lang="cs">má recenzenta</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-3900205-7551278"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-5264631-7232090 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-5264631-7232090">
+        <rdfs:label xml:lang="cs">příspěvek prezentován jako</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-0905574-4672721"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-4791912-0041650"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6063604-6969555 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6063604-6969555">
+        <rdfs:label xml:lang="cs">téma pokryto čím</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-2151984-4021671"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-0905574-4672721"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-7193962-3296128"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6147817-3926614 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6147817-3926614">
+        <rdfs:label xml:lang="cs">odborně organizuje</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-0576687-8350954"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-4666745-2660779"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cz#op-6658501-6146080"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6325565-0605705 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6325565-0605705">
+        <rdfs:label xml:lang="cs">odkazován v</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6545005-7068809 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6545005-7068809">
+        <rdfs:label xml:lang="cs">konáse v</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7760490-2348126"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6658501-6146080 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6658501-6146080">
+        <rdfs:label xml:lang="cs">organizuje</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-2169369-6288696"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-6555588-1363937"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6662668-2065044 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6662668-2065044">
+        <rdfs:label xml:lang="cs">prezentace příspěvku</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-5264631-7232090"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-0905574-4672721"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-4791912-0041650"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6786737-8277015 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6786737-8277015">
+        <rdfs:label xml:lang="cs">má recenzi</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-2729556-2969564"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-6789674-5030035 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-6789674-5030035">
+        <rdfs:label xml:lang="cs">pokrývá téma</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-2151984-4021671"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-6063604-6969555"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-0905574-4672721"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-7193962-3296128"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-7965043-4913629 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-7965043-4913629">
+        <rdfs:label xml:lang="cs">je místem konání</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7760490-2348126"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-6545005-7068809"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-8519604-5673885 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-8519604-5673885">
+        <rdfs:label xml:lang="cs">je autorem</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+        <rdfs:range rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-9571011-2905950 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-9571011-2905950">
+        <rdfs:label xml:lang="cs">událost uvedena na</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-2118226-9658237"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cz#c-3792075-3931744"/>
+                    <rdf:Description rdf:about="http://ekaw_cz#c-8450382-5760290"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-9665809-3247902 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-9665809-3247902">
+        <rdfs:label xml:lang="cs">příspěvek ve svazku</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cz#op-9979859-5013148 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cz#op-9979859-5013148">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="cs">má součást</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cz#op-4684752-1300582"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_cz#c-0054258-1146827 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0054258-1146827">
+        <rdfs:label xml:lang="cs">předseda programového výboru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2151213-3307207"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6920987-6450355"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-7442452-3593345"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0085298-6392668 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0085298-6392668">
+        <rdfs:label xml:lang="cs">účastník zaregistrovaný za pozdní vložné</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5565913-9156641"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0268449-4948308 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0268449-4948308">
+        <rdfs:label xml:lang="cs">společenský program</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-0382821-0064075"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-0747732-0825096"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1215626-0158679"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1741117-9751718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3893031-8110902"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0382821-0064075 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0382821-0064075">
+        <rdfs:label xml:lang="cs">workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4542174-8555128"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-0747732-0825096"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1215626-0158679"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3893031-8110902"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0486087-3762035 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0486087-3762035">
+        <rdfs:label xml:lang="cs">neutrální recenze</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5507290-9596281"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6498218-7644652"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0548707-8687184 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0548707-8687184">
+        <rdfs:label xml:lang="cs">příspěvek na workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-2806645-8438741"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8491576-8349747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0576687-8350954 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0576687-8350954">
+        <rdfs:label xml:lang="cs">akademická instituce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2169369-6288696"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-7799678-8693902"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0622026-0556700 -->
+    <!--v2
+    <owl:Class rdf:about="http://ekaw_cz#c-0622026-0556700">
+        <rdfs:label xml:lang="cs">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://ekaw_cz#c-0739378-2703329 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0739378-2703329">
+        <rdfs:label xml:lang="cs">sekce demonstrací</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5127131-9997383"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9143524-2089218"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0747732-0825096 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0747732-0825096">
+        <rdfs:label xml:lang="cs">konference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4542174-8555128"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1215626-0158679"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1741117-9751718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3893031-8110902"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-0905574-4672721 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-0905574-4672721">
+        <rdfs:label xml:lang="cs">příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3425612-9627860"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3792075-3931744"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-4382003-7855597"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6101084-7691237"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1215626-0158679 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1215626-0158679">
+        <rdfs:label xml:lang="cs">sekce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4542174-8555128"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-1741117-9751718"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3893031-8110902"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1570536-8733609 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1570536-8733609">
+        <rdfs:label xml:lang="cs">ohodnocený příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2315788-2569970"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-6786737-8277015"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cz#c-0622026-0556700"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9980976-7802159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1660488-8360670 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1660488-8360670">
+        <rdfs:label xml:lang="cs">jednotlivá prezentace</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4542174-8555128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1680758-7734266 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1680758-7734266">
+        <rdfs:label xml:lang="cs">standardní příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6032616-5927486"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8491576-8349747"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9921910-6642727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1715669-7173527 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1715669-7173527">
+        <rdfs:label xml:lang="cs">přednášející</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-1741117-9751718 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-1741117-9751718">
+        <rdfs:label xml:lang="cs">vybraný příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-6662668-2065044"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-9980976-7802159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-6662668-2065044"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cz#c-0622026-0556700"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3893031-8110902"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2012884-8566751 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2012884-8566751">
+        <rdfs:label xml:lang="cs">předseda sekce demonstrací</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2151213-3307207 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2151213-3307207">
+        <rdfs:label xml:lang="cs">člen programového výboru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-3900205-7551278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2151984-4021671 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2151984-4021671">
+        <rdfs:label xml:lang="cs">výzkumné téma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2169369-6288696 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2169369-6288696">
+        <rdfs:label xml:lang="cs">organizace</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2209209-7103917 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2209209-7103917">
+        <rdfs:label xml:lang="cs">sborník konference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-3425612-9627860"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-4607966-6397580"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cz#c-2806645-8438741"/>
+                            <rdf:Description rdf:about="http://ekaw_cz#c-8137581-0359327"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2315788-2569970 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2315788-2569970">
+        <rdfs:label xml:lang="cs">přiřazený příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-3237838-7604317"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-5148932-2756554"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cz#c-0622026-0556700"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2451931-3213112 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2451931-3213112">
+        <rdfs:label xml:lang="cs">industriální sekce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6951767-7231830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2619030-7256212 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2619030-7256212">
+        <rdfs:label xml:lang="cs">sekce workshopu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6951767-7231830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2646971-3461091 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2646971-3461091">
+        <rdfs:label xml:lang="cs">vysoká škola</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0576687-8350954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-2806645-8438741 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-2806645-8438741">
+        <rdfs:label xml:lang="cs">příspěvek na konferenci</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3050621-8430646 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3050621-8430646">
+        <rdfs:label xml:lang="cs">zamítnutý příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1570536-8733609"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-7292711-4159960"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3228504-9673471 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3228504-9673471">
+        <rdfs:label xml:lang="cs">výzkumný ústav</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0576687-8350954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3237838-7604317 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3237838-7604317">
+        <rdfs:label xml:lang="cs">podaný příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9980976-7802159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3344322-4267475 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3344322-4267475">
+        <rdfs:label xml:lang="cs">konferenční výlet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0268449-4948308"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3425612-9627860 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3425612-9627860">
+        <rdfs:label xml:lang="cs">sborník</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6101084-7691237"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-4607966-6397580"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cz#c-0622026-0556700"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-4607966-6397580"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cz#c-7292711-4159960"/>
+                            <rdf:Description rdf:about="http://ekaw_cz#c-8137581-0359327"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-3792075-3931744"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-4382003-7855597"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3792075-3931744 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3792075-3931744">
+        <rdfs:label xml:lang="cs">webová stránka</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-4382003-7855597"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6101084-7691237"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3799037-8084055 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3799037-8084055">
+        <rdfs:label xml:lang="cs">člen organizačního výboru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3893031-8110902 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3893031-8110902">
+        <rdfs:label xml:lang="cs">zvaná přednáška</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-3900205-7551278 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-3900205-7551278">
+        <rdfs:label xml:lang="cs">možný recenzent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4038271-7478197 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4038271-7478197">
+        <rdfs:label xml:lang="cs">konferenční večeře</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0268449-4948308"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4083773-9662431 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4083773-9662431">
+        <rdfs:label xml:lang="cs">předsedající sekce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2151213-3307207"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4128357-3639478 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4128357-3639478">
+        <rdfs:label xml:lang="cs">abstrakt tutoriálu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4791912-0041650"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4382003-7855597 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4382003-7855597">
+        <rdfs:label xml:lang="cs">leták</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6101084-7691237"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4542174-8555128 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4542174-8555128">
+        <rdfs:label xml:lang="cs">odborná událost</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4616376-5203104 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4616376-5203104">
+        <rdfs:label xml:lang="cs">předseda organizačního výboru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-3799037-8084055"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4707581-2818617 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4707581-2818617">
+        <rdfs:label xml:lang="cs">člen řídícího výboru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2151213-3307207"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4735840-8345394 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4735840-8345394">
+        <rdfs:label xml:lang="cs">autor příspěvku</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4791912-0041650 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4791912-0041650">
+        <rdfs:label xml:lang="cs">abstrakt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-4799645-8733028 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-4799645-8733028">
+        <rdfs:label xml:lang="cs">vydavatel sborníku</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2169369-6288696"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-5127131-9997383 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-5127131-9997383">
+        <rdfs:label xml:lang="cs">sekce posterů</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9143524-2089218"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-5484161-4322039 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-5484161-4322039">
+        <rdfs:label xml:lang="cs">sekce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4542174-8555128"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-1419585-0288086"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-3640965-2423593"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cz#c-0382821-0064075"/>
+                            <rdf:Description rdf:about="http://ekaw_cz#c-0747732-0825096"/>
+                            <rdf:Description rdf:about="http://ekaw_cz#c-1215626-0158679"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-3640965-2423593"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cz#c-0382821-0064075"/>
+                            <rdf:Description rdf:about="http://ekaw_cz#c-0747732-0825096"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6428332-1768574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-5507290-9596281 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-5507290-9596281">
+        <rdfs:label xml:lang="cs">pozitivní recenze</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6498218-7644652"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-5565913-9156641 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-5565913-9156641">
+        <rdfs:label xml:lang="cs">účastník zaregistrovaný za časné vložné</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-5799407-3136235 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-5799407-3136235">
+        <rdfs:label xml:lang="cs">student</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6032616-5927486 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6032616-5927486">
+        <rdfs:label xml:lang="cs">příspěvek k posteru</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8491576-8349747"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9921910-6642727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6101084-7691237 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6101084-7691237">
+        <rdfs:label xml:lang="cs">víceautorský svazek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6396489-3033303 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6396489-3033303">
+        <rdfs:label xml:lang="cs">recenze</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-8450382-5760290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6428332-1768574 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6428332-1768574">
+        <rdfs:label xml:lang="cs">tutoriál</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1660488-8360670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6498218-7644652 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6498218-7644652">
+        <rdfs:label xml:lang="cs">negativní recenze</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6396489-3033303"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6555588-1363937 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6555588-1363937">
+        <rdfs:label xml:lang="cs">osoba</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-7193962-3296128"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-7760490-2348126"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6920987-6450355 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6920987-6450355">
+        <rdfs:label xml:lang="cs">předseda workshopů</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2151213-3307207"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-6951767-7231830 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-6951767-7231830">
+        <rdfs:label xml:lang="cs">sekce konference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-3640965-2423593"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-0747732-0825096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-7193962-3296128 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-7193962-3296128">
+        <rdfs:label xml:lang="cs">událost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-7292711-4159960 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-7292711-4159960">
+        <rdfs:label xml:lang="cs">přijatý příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1570536-8733609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-6786737-8277015"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-5507290-9596281"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9980976-7802159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-7442452-3593345 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-7442452-3593345">
+        <rdfs:label xml:lang="cs">předseda tutoriálů</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2151213-3307207"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-7760490-2348126 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-7760490-2348126">
+        <rdfs:label xml:lang="cs">místo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-7799678-8693902 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-7799678-8693902">
+        <rdfs:label xml:lang="cs">pořádající agentura</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-2169369-6288696"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-8137581-0359327 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-8137581-0359327">
+        <rdfs:label xml:lang="cs">abstrakt zvané přednášky</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-4791912-0041650"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-8450382-5760290 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-8450382-5760290">
+        <rdfs:label xml:lang="cs">brožura s programem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-9483283-7496180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-8491576-8349747 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-8491576-8349747">
+        <rdfs:label xml:lang="cs">industriální příspěvek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cz#c-9921910-6642727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9070423-2638032 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9070423-2638032">
+        <rdfs:label xml:lang="cs">zvaný řečník</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-1715669-7173527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9143524-2089218 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9143524-2089218">
+        <rdfs:label xml:lang="cs">standardní sekce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-5484161-4322039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9483283-7496180 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9483283-7496180">
+        <rdfs:label xml:lang="cs">dokument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9564146-6431894 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9564146-6431894">
+        <rdfs:label xml:lang="cs">pracovník pořádající agentury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9889732-5768675 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9889732-5768675">
+        <rdfs:label xml:lang="cs">účastník konference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-6555588-1363937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9921910-6642727 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9921910-6642727">
+        <rdfs:label xml:lang="cs">příspěvek k demonstraci</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cz#c-9980976-7802159 -->
+
+    <owl:Class rdf:about="http://ekaw_cz#c-9980976-7802159">
+        <rdfs:label xml:lang="cs">finální verze příspěvku</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cz#c-0905574-4672721"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-2853812-3951030"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-9889732-5768675"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cz#op-1353500-7681315"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cz#c-7292711-4159960"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ekaw_cn#"
+     xml:base="http://ekaw_cn"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ekaw_cn="http://ekaw_cn#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ekaw_cn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_cn#op-0172901-2457875 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0172901-2457875">
+        <rdfs:label xml:lang="zh">学术上由之组织</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-2563962-5316183"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0349898-7481681 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0349898-7481681">
+        <rdfs:label xml:lang="zh">撰写自</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-4902116-2847871"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0365241-9947475 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0365241-9947475">
+        <rdfs:label xml:lang="zh">位于</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-7178947-4732893"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-1924649-3386088"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0427000-0007037 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0427000-0007037">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="zh">是部分于</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0872940-0239112 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0872940-0239112">
+        <rdfs:label xml:lang="zh">技术上组织</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-6623858-4524910"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0943388-6814256 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0943388-6814256">
+        <rdfs:label xml:lang="zh">是出版商</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-0748338-5250127"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-0973690-3996380"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2052598-8435556"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-7968677-5037034"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-0997722-7053840 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-0997722-7053840">
+        <rdfs:label xml:lang="zh">技术上由之组织</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-0872940-0239112"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-2563962-5316183"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-1791778-8438105 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-1791778-8438105">
+        <rdfs:label xml:lang="zh">有审稿人</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-1276156-6975432"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-1924649-3386088 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-1924649-3386088">
+        <rdfs:label xml:lang="zh">举办于</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-7178947-4732893"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-2563962-5316183 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-2563962-5316183">
+        <rdfs:label xml:lang="zh">由之组织</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-6623858-4524910"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2102800-8581060"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-3778238-4283327"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-2581350-4795913 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-2581350-4795913">
+        <rdfs:label xml:lang="zh">论文审稿意见</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-2777967-7589393 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-2777967-7589393">
+        <rdfs:label xml:lang="zh">有更新版本</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-9873773-5331104"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-3052184-2698774 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-3052184-2698774">
+        <rdfs:label xml:lang="zh">卷册包括论文</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-9690182-7458535"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-3125620-8997050 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-3125620-8997050">
+        <rdfs:label xml:lang="zh">是论文审稿人</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-1276156-6975432"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-1791778-8438105"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-3136556-6498483 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-3136556-6498483">
+        <rdfs:label xml:lang="zh">活动列表于</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-7930223-6431551"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-0748338-5250127"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2052598-8435556"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-3412751-8630237 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-3412751-8630237">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="zh">有部分</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-0427000-0007037"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-4038980-1205652 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-4038980-1205652">
+        <rdfs:label xml:lang="zh">审稿意见撰写于</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-1276156-6975432"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-0349898-7481681"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-4902116-2847871 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-4902116-2847871">
+        <rdfs:label xml:lang="zh">是作者</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-5359557-9990246 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-5359557-9990246">
+        <rdfs:label xml:lang="zh">是之一部分</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-3412751-8630237"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-6623858-4524910 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-6623858-4524910">
+        <rdfs:label xml:lang="zh">组织</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2102800-8581060"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-3778238-4283327"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-6839537-5326595 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-6839537-5326595">
+        <rdfs:label xml:lang="zh">有活动</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-3412751-8630237"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7245823-3920928 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7245823-3920928">
+        <rdfs:label xml:lang="zh">学术上组织</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-0172901-2457875"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-6623858-4524910"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7327817-6394016 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7327817-6394016">
+        <rdfs:label xml:lang="zh">包括主题</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2695903-7464206"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-8175214-7212425"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2328736-3155568"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2837944-5866377"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7730220-7233369 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7730220-7233369">
+        <rdfs:label xml:lang="zh">所报告论文</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-8201776-0075233"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2837944-5866377"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-5533710-3987480"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7802572-5255002 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7802572-5255002">
+        <rdfs:label xml:lang="zh">参考</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-8279247-7574510"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7873235-2334527 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7873235-2334527">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="zh">是子活动于</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_cn#op-0427000-0007037"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-6839537-5326595"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-7930223-6431551 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-7930223-6431551">
+        <rdfs:label xml:lang="zh">列表活动</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-0748338-5250127"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2052598-8435556"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-8175214-7212425 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-8175214-7212425">
+        <rdfs:label xml:lang="zh">主题被包括于</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2695903-7464206"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2328736-3155568"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2837944-5866377"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-8201776-0075233 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-8201776-0075233">
+        <rdfs:label xml:lang="zh">论文报告形式</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_cn#c-2837944-5866377"/>
+                    <rdf:Description rdf:about="http://ekaw_cn#c-5533710-3987480"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-8279247-7574510 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-8279247-7574510">
+        <rdfs:label xml:lang="zh">参考于</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-9690182-7458535 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-9690182-7458535">
+        <rdfs:label xml:lang="zh">论文位于卷</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-9873773-5331104 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-9873773-5331104">
+        <rdfs:label xml:lang="zh">是更新版本</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_cn#op-9936291-8136368 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_cn#op-9936291-8136368">
+        <rdfs:label xml:lang="zh">有审稿意见</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <rdfs:range rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:inverseOf rdf:resource="http://ekaw_cn#op-2581350-4795913"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_cn#c-0294156-4784104 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-0294156-4784104">
+        <rdfs:label xml:lang="zh">会议旅游</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-1354892-5847832"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-0487560-1829353 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-0487560-1829353">
+        <rdfs:label xml:lang="zh">分配的论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2800442-7627196"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-1791778-8438105"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cn#c-6726527-0901575"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-0748338-5250127 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-0748338-5250127">
+        <rdfs:label xml:lang="zh">网站</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-0973690-3996380"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2052598-8435556"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-0973690-3996380 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-0973690-3996380">
+        <rdfs:label xml:lang="zh">传单</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2052598-8435556"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1222189-1484036 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1222189-1484036">
+        <rdfs:label xml:lang="zh">研讨会</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-1354892-5847832"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-4599334-8636265"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-5124178-2732910"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1276156-6975432 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1276156-6975432">
+        <rdfs:label xml:lang="zh">合适的审稿人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1354892-5847832 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1354892-5847832">
+        <rdfs:label xml:lang="zh">社交活动</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-4599334-8636265"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-5124178-2732910"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1456925-6588497 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1456925-6588497">
+        <rdfs:label xml:lang="zh">实用型论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-3383169-7928795"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-3506522-7769104"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-5710606-9253523"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6838819-0331054"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1712723-7727455 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1712723-7727455">
+        <rdfs:label xml:lang="zh">代理工作人员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-1778487-9274927 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-1778487-9274927">
+        <rdfs:label xml:lang="zh">会议论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-3506522-7769104"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2052598-8435556 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2052598-8435556">
+        <rdfs:label xml:lang="zh">程序手册</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2071589-0934775 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2071589-0934775">
+        <rdfs:label xml:lang="zh">与会者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2102800-8581060 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2102800-8581060">
+        <rdfs:label xml:lang="zh">组织</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2128616-7723697 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2128616-7723697">
+        <rdfs:label xml:lang="zh">个人报告</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2328736-3155568 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2328736-3155568">
+        <rdfs:label xml:lang="zh">活动</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2355225-8975405 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2355225-8975405">
+        <rdfs:label xml:lang="zh">否定意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-4273361-4141745"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8277788-1262699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2414258-9368217 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2414258-9368217">
+        <rdfs:label xml:lang="zh">提前注册与会者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2561282-6159732"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2561282-6159732 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2561282-6159732">
+        <rdfs:label xml:lang="zh">完注册与会者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2640974-5040788 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2640974-5040788">
+        <rdfs:label xml:lang="zh">会议宴会</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-1354892-5847832"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2695903-7464206 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2695903-7464206">
+        <rdfs:label xml:lang="zh">研究主题</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2800442-7627196 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2800442-7627196">
+        <rdfs:label xml:lang="zh">投稿论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8127710-5357923"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2837944-5866377 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2837944-5866377">
+        <rdfs:label xml:lang="zh">论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2912535-0493034 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2912535-0493034">
+        <rdfs:label xml:lang="zh">论文集出版商</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2921621-6084779 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2921621-6084779">
+        <rdfs:label xml:lang="zh">审稿意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2968310-9801510 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2968310-9801510">
+        <rdfs:label xml:lang="zh">分场会议主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-2987100-3755272 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-2987100-3755272">
+        <rdfs:label xml:lang="zh">科学活动</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2328736-3155568"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3200444-3897215 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3200444-3897215">
+        <rdfs:label xml:lang="zh">赞助者主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3238532-5788397 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3238532-5788397">
+        <rdfs:label xml:lang="zh">组织代理</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3383169-7928795 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3383169-7928795">
+        <rdfs:label xml:lang="zh">演示论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-5710606-9253523"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6838819-0331054"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3506522-7769104 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3506522-7769104">
+        <rdfs:label xml:lang="zh">研讨会论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3778238-4283327 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3778238-4283327">
+        <rdfs:label xml:lang="zh">人员</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7178947-4732893"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-3839680-1294078 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-3839680-1294078">
+        <rdfs:label xml:lang="zh">拒收论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9429811-2452520"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6804923-6973587"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4146887-2470120 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4146887-2470120">
+        <rdfs:label xml:lang="zh">研讨会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-4706337-3701314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4273361-4141745 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4273361-4141745">
+        <rdfs:label xml:lang="zh">肯定意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8277788-1262699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4385096-5418332 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4385096-5418332">
+        <rdfs:label xml:lang="zh">文件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4495520-4780704 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4495520-4780704">
+        <rdfs:label xml:lang="zh">演示会</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-7313374-0270883"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8281570-3674623"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4558647-2906816 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4558647-2906816">
+        <rdfs:label xml:lang="zh">会议论文集</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-6082009-1706766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-3052184-2698774"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cn#c-1778487-9274927"/>
+                            <rdf:Description rdf:about="http://ekaw_cn#c-6011902-3603664"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4599334-8636265 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4599334-8636265">
+        <rdfs:label xml:lang="zh">轨道</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-5124178-2732910"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4692004-0788483 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4692004-0788483">
+        <rdfs:label xml:lang="zh">研究所</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4706337-3701314 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4706337-3701314">
+        <rdfs:label xml:lang="zh">程序委员会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9707149-7896120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4797179-2179489 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4797179-2179489">
+        <rdfs:label xml:lang="zh">教程摘要</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5533710-3987480"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-4834126-7530940 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-4834126-7530940">
+        <rdfs:label xml:lang="zh">组织委员会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9489866-2755365"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-5105629-2085024 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-5105629-2085024">
+        <rdfs:label xml:lang="zh">程序委员会成员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-1276156-6975432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-5124178-2732910 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-5124178-2732910">
+        <rdfs:label xml:lang="zh">教程</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-5533710-3987480 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-5533710-3987480">
+        <rdfs:label xml:lang="zh">摘要</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-5688456-7221671 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-5688456-7221671">
+        <rdfs:label xml:lang="zh">大学</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-7482249-9162647"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-5710606-9253523 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-5710606-9253523">
+        <rdfs:label xml:lang="zh">正规论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6838819-0331054"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6011902-3603664 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6011902-3603664">
+        <rdfs:label xml:lang="zh">特邀报告摘要</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5533710-3987480"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6082009-1706766 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6082009-1706766">
+        <rdfs:label xml:lang="zh">记录集</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-7968677-5037034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-3052184-2698774"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cn#c-6011902-3603664"/>
+                            <rdf:Description rdf:about="http://ekaw_cn#c-6804923-6973587"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-3052184-2698774"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cn#c-6726527-0901575"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6387335-3072023 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6387335-3072023">
+        <rdfs:label xml:lang="zh">会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-6447385-7041606"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6447385-7041606 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6447385-7041606">
+        <rdfs:label xml:lang="zh">特邀报告</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8648881-2561617"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6726527-0901575 -->
+    <!--v2
+    <owl:Class rdf:about="http://ekaw_cn#c-6726527-0901575">
+        <rdfs:label xml:lang="zh">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://ekaw_cn#c-6804923-6973587 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6804923-6973587">
+        <rdfs:label xml:lang="zh">录用论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9429811-2452520"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-9936291-8136368"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-4273361-4141745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8127710-5357923"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6838819-0331054 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6838819-0331054">
+        <rdfs:label xml:lang="zh">海报论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-6989938-5788421 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-6989938-5788421">
+        <rdfs:label xml:lang="zh">实用性主题分场会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9886460-5529984"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7178947-4732893 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7178947-4732893">
+        <rdfs:label xml:lang="zh">位置</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7212230-9253710 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7212230-9253710">
+        <rdfs:label xml:lang="zh">研讨会分场会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9886460-5529984"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7313374-0270883 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7313374-0270883">
+        <rdfs:label xml:lang="zh">海报展示会</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-8281570-3674623"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7398366-0455327 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7398366-0455327">
+        <rdfs:label xml:lang="zh">特邀报告人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9181525-7360877"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7482249-9162647 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7482249-9162647">
+        <rdfs:label xml:lang="zh">学术机构</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2102800-8581060"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-7968677-5037034 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-7968677-5037034">
+        <rdfs:label xml:lang="zh">多作者卷册</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-4385096-5418332"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-8127710-5357923 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-8127710-5357923">
+        <rdfs:label xml:lang="zh">照相制版论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2837944-5866377"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-0349898-7481681"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-9873773-5331104"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-6804923-6973587"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9429811-2452520"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-8277788-1262699 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-8277788-1262699">
+        <rdfs:label xml:lang="zh">中性意见</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2921621-6084779"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-8281570-3674623 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-8281570-3674623">
+        <rdfs:label xml:lang="zh">正规分场会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-8648881-2561617 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-8648881-2561617">
+        <rdfs:label xml:lang="zh">录用文章报告</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-7730220-7233369"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cn#c-6726527-0901575"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-7730220-7233369"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-8127710-5357923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9181525-7360877 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9181525-7360877">
+        <rdfs:label xml:lang="zh">报告人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9241817-5016300 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9241817-5016300">
+        <rdfs:label xml:lang="zh">演示会主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9429811-2452520 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9429811-2452520">
+        <rdfs:label xml:lang="zh">被审论文</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-0487560-1829353"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-9936291-8136368"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_cn#c-6726527-0901575"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9470544-5616605 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9470544-5616605">
+        <rdfs:label xml:lang="zh">分场会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2987100-3755272"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-7873235-2334527"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cn#c-1222189-1484036"/>
+                            <rdf:Description rdf:about="http://ekaw_cn#c-4599334-8636265"/>
+                            <rdf:Description rdf:about="http://ekaw_cn#c-6387335-3072023"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-7873235-2334527"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_cn#c-1222189-1484036"/>
+                            <rdf:Description rdf:about="http://ekaw_cn#c-6387335-3072023"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-6839537-5326595"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-2128616-7723697"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9489866-2755365 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9489866-2755365">
+        <rdfs:label xml:lang="zh">组织委员会成员</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9527504-1154558 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9527504-1154558">
+        <rdfs:label xml:lang="zh">论文作者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9707149-7896120 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9707149-7896120">
+        <rdfs:label xml:lang="zh">教程主席</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-2071589-0934775"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-5105629-2085024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9783695-4968549 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9783695-4968549">
+        <rdfs:label xml:lang="zh">学生</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-3778238-4283327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_cn#c-9886460-5529984 -->
+
+    <owl:Class rdf:about="http://ekaw_cn#c-9886460-5529984">
+        <rdfs:label xml:lang="zh">大会分场会议</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_cn#c-9470544-5616605"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_cn#op-7873235-2334527"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_cn#c-6387335-3072023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

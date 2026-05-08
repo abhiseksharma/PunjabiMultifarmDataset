@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cmt_it#"
+     xml:base="http://cmt_it"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cmt_it="http://cmt_it#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://cmt_it"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_it#op-7127168-8653630 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7127168-8653630">
+        <rdfs:label xml:lang="it">ha un membro del comitato di programma</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-6189953-4471928"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-6508172-8171752"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2956668-3215904 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2956668-3215904">
+        <rdfs:label xml:lang="it">ha un membro del comitato di programma</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5733983-6602507"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-6907552-1485970"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-3585153-6604071"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8127070-1150589 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8127070-1150589">
+        <rdfs:label xml:lang="it">impostare il numero massimo di articoli</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-5733983-6602507"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-9694282-6418370 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-9694282-6418370">
+        <rdfs:label xml:lang="it">posta diretta</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-3162319-7780767"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-1471391-5179819 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-1471391-5179819">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">accettato da</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8330411-9994758 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8330411-9994758">
+        <rdfs:label xml:lang="it">ha conflitto di interessi</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8721269-9685985 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8721269-9685985">
+        <rdfs:label xml:lang="it">eseguire strumenti di assegnazione di articoli</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-5378823-8834175"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7397971-2954442 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7397971-2954442">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha richiesta di revisione</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-4483401-4590133"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2592909-1753288 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2592909-1753288">
+        <rdfs:label xml:lang="it">inserire i criteri di revisione</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3585153-6604071 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3585153-6604071">
+        <rdfs:label xml:lang="it">membro del comitato di programma</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5733983-6602507"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-6907552-1485970"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7164272-1542543 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7164272-1542543">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">lettura fatta da un meta-revisore</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5912351-8501893"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-9080272-1148243 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-9080272-1148243">
+        <rdfs:label xml:lang="it">inserire i dettagli</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8055749-4847247 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8055749-4847247">
+        <rdfs:label xml:lang="it">assegnare un revisore</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-5078296-9086308"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-1825191-2735043 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-1825191-2735043">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">articolo scritto</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-4241085-1947990"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2092197-2590048 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2092197-2590048">
+        <rdfs:label xml:lang="it">lettura di articolo</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-2285312-3799160"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2884035-1300593 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2884035-1300593">
+        <rdfs:label xml:lang="it">richieste di revisione avviate da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8938673-4357388 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8938673-4357388">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">assegnare un revisore</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-3773121-4486444"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2635592-9685879 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2635592-9685879">
+        <rdfs:label xml:lang="it">ha un'area</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5558510-1739654"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-4531138-6402084 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-4531138-6402084">
+        <rdfs:label xml:lang="it">assegnato a</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5157617-1201354 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5157617-1201354">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">scritto da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-8858776-6109926"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-3851792-2300745"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8992935-4763615 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8992935-4763615">
+        <rdfs:label xml:lang="it">abilitare riunioni virtuale</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-4184313-3547584"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-6508172-8171752 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-6508172-8171752">
+        <rdfs:label xml:lang="it">membro della conferenza</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-6189953-4471928"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-9731486-9083701 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-9731486-9083701">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">rettificato per</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-4483401-4590133"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5378823-8834175 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5378823-8834175">
+        <rdfs:label xml:lang="it">strumenti di assegnazione di articoli eseguita da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5308795-4586109 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5308795-4586109">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">inserito da</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5733983-6602507"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-4131036-5447325"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3524270-6566265 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3524270-6566265">
+        <rdfs:label xml:lang="it">sottomissione articoli</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-4241085-1947990"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3162319-7780767 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3162319-7780767">
+        <rdfs:label xml:lang="it">stampa di documenti di spedizione di volume via posta</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5675692-3129619 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5675692-3129619">
+        <rdfs:label xml:lang="it">scrivere un articolo con</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-2928460-7513906"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7391853-9138986 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7391853-9138986">
+        <rdfs:label xml:lang="it">revisione finale</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-8858776-6109926"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-4973802-3295294"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-4131036-5447325 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-4131036-5447325">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">aggiungere un membro del comitato di programma</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-5733983-6602507"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3067213-3152431 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3067213-3152431">
+        <rdfs:label xml:lang="it">segna un conflitto di interessi</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_it#c-4241085-1947990"/>
+                    <rdf:Description rdf:about="http://cmt_it#c-1595590-1150352"/>
+                    <rdf:Description rdf:about="http://cmt_it#c-1295246-2357358"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2997698-5860889 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2997698-5860889">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">articolo respinto da</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2918542-8304698 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2918542-8304698">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">rifiutare articolo</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-2997698-5860889"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3399149-7402752 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3399149-7402752">
+        <rdfs:label xml:lang="it">assegnazione di un articolo finito da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-4184313-3547584 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-4184313-3547584">
+        <rdfs:label xml:lang="it">riunioni virtuale abilitato da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-6426705-6898445 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-6426705-6898445">
+        <rdfs:label xml:lang="it">avviare le richieste di revisione</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-2884035-1300593"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3851792-2300745 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3851792-2300745">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">revisione effettuata</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-8858776-6109926"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-3292808-4164280 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-3292808-4164280">
+        <rdfs:label xml:lang="it">finalizzare l'assegnazione degli articoli</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-3399149-7402752"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-6198234-1563354 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-6198234-1563354">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">scritto da</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-4241085-1947990"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-1825191-2735043"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8633030-6128035 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8633030-6128035">
+        <rdfs:label xml:lang="it">co-scritto da</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-2928460-7513906"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-5675692-3129619"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5078296-9086308 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5078296-9086308">
+        <rdfs:label xml:lang="it">assegnata dall'amministratore</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7186272-7651962 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7186272-7651962">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">articolo accettato</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-1471391-5179819"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2237231-2303123 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2237231-2303123">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha decisione</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-6416220-4497726"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-5888678-8918442 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-5888678-8918442">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">assegnato dal revisore</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-3773121-4486444"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-8938673-4357388"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-6090373-3921557 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-6090373-3921557">
+        <rdfs:label xml:lang="it">ha assegnazione</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-4531138-6402084"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-8853314-6823168 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-8853314-6823168">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="it">regolare la richiesta di revisione</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-4483401-4590133"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1295246-2357358"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-9731486-9083701"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7975886-3654733 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7975886-3654733">
+        <rdfs:label xml:lang="it">criteri di revisione inseriti da</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-2592909-1753288"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-7271480-8215938 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-7271480-8215938">
+        <rdfs:label xml:lang="it">inserire i dettagli della conferenza</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1951598-6750149"/>
+        <owl:inverseOf rdf:resource="http://cmt_it#op-9080272-1148243"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_it#op-2285312-3799160 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_it#op-2285312-3799160">
+        <rdfs:label xml:lang="it">lettura fatta da un revisore</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:range rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_it#ent-9174914-6947430 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-9174914-6947430">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">numero massimo di articoli assegnati</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5733983-6602507"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-4417252-4460088 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-4417252-4460088">
+        <rdfs:label xml:lang="it">ha email</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-6594700-9263777"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-8038679-3910908 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-8038679-3910908">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha sito</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-7812420-9538607 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-7812420-9538607">
+        <rdfs:label xml:lang="it">ha data</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-8391392-2138898 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-8391392-2138898">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">revisione per articolo</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-1487570-6402034 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-1487570-6402034">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha id</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-5360390-6485032 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-5360390-6485032">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha URL</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-5774036-7995353 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-5774036-7995353">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">accetta sottomissione cartacea</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-3214227-6915860 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-3214227-6915860">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha titolo</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_it#c-1772912-8161993"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_it#ent-1284341-7871351 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_it#ent-1284341-7871351">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="it">ha nome</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_it#c-5833888-4564337"/>
+                    <rdf:Description rdf:about="http://cmt_it#c-6594700-9263777"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_it#c-4069911-1987217 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-4069911-1987217">
+        <rdfs:label xml:lang="it">sommario dell'articolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-7850073-9334297 -->
+    <!--v2
+    <owl:Class rdf:about="http://cmt_it#c-7850073-9334297">
+        <rdfs:label xml:lang="it">null</rdfs:label>
+    </owl:Class>
+    -->
+    
+
+
+    <!-- http://cmt_it#c-7520405-3564306 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-7520405-3564306">
+        <rdfs:label xml:lang="it">preferenza</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-4483401-4590133"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6907552-1485970"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6416220-4497726"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-2928460-7513906 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-2928460-7513906">
+        <rdfs:label xml:lang="it">co-autore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-4241085-1947990"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-5912351-8501893 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-5912351-8501893">
+        <rdfs:label xml:lang="it">meta-revisore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-4241085-1947990 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-4241085-1947990">
+        <rdfs:label xml:lang="it">autore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-4126271-1455720"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6189953-4471928"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-7573354-6063010 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-7573354-6063010">
+        <rdfs:label xml:lang="it">presidente della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6189953-4471928"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-8374162-5370869"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-9304350-6173229 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-9304350-6173229">
+        <rdfs:label xml:lang="it">meta-revisione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-8858776-6109926"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-4483401-4590133 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-4483401-4590133">
+        <rdfs:label xml:lang="it">proposte</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-5833888-4564337"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6907552-1485970"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6416220-4497726"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-5833888-4564337 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-5833888-4564337">
+        <rdfs:label xml:lang="it">conferenza</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://cmt_it#c-7850073-9334297"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#ent-1284341-7871351"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#ent-7812420-9538607"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#ent-8391392-2138898"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6907552-1485970"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6416220-4497726"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-1951598-6750149 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-1951598-6750149">
+        <rdfs:label xml:lang="it">amministratore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-4126271-1455720"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-1595590-1150352 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-1595590-1150352">
+        <rdfs:label xml:lang="it">coordinatore generale dell'evento</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_it#c-7573354-6063010"/>
+                    <rdf:Description rdf:about="http://cmt_it#c-8374162-5370869"/>
+                    <rdf:Description rdf:about="http://cmt_it#c-4973802-3295294"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-8374162-5370869 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-8374162-5370869">
+        <rdfs:label xml:lang="it">presidente associato</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6189953-4471928"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-7407232-8553735 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-7407232-8553735">
+        <rdfs:label xml:lang="it">accettazione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6416220-4497726"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-1859593-5764293"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-5558510-1739654 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-5558510-1739654">
+        <rdfs:label xml:lang="it">area tematica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-5733983-6602507 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-5733983-6602507">
+        <rdfs:label xml:lang="it">membro del comitato di programma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6189953-4471928"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6594700-9263777"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-7612362-7992834"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-9628636-9913039 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-9628636-9913039">
+        <rdfs:label xml:lang="it">versione completa di articolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-1772912-8161993"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-7612362-7992834 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-7612362-7992834">
+        <rdfs:label xml:lang="it">autore che non è revisore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-4241085-1947990"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-6907552-1485970 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-6907552-1485970">
+        <rdfs:label xml:lang="it">comitato di programma</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6416220-4497726"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-1772912-8161993 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-1772912-8161993">
+        <rdfs:label xml:lang="it">articolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#op-2237231-2303123"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_it#c-7850073-9334297"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>-->
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#op-2285312-3799160"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_it#c-7850073-9334297"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#op-2237231-2303123"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_it#c-7850073-9334297"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#op-7164272-1542543"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_it#c-7850073-9334297"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>-->          
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-8858776-6109926"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-1859593-5764293 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-1859593-5764293">
+        <rdfs:label xml:lang="it">rifiuto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6416220-4497726"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-8858776-6109926 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-8858776-6109926">
+        <rdfs:label xml:lang="it">revisione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-2765350-7755606"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-4973802-3295294 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-4973802-3295294">
+        <rdfs:label xml:lang="it">presidente del comitato di programma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-5733983-6602507"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-4126271-1455720 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-4126271-1455720">
+        <rdfs:label xml:lang="it">utente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-3773121-4486444 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-3773121-4486444">
+        <rdfs:label xml:lang="it">revisore esterno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6594700-9263777"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_it#op-5888678-8918442"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_it#c-7850073-9334297"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-1295246-2357358"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-6189953-4471928 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-6189953-4471928">
+        <rdfs:label xml:lang="it">membro della conferenza</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-6416220-4497726 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-6416220-4497726">
+        <rdfs:label xml:lang="it">decisione</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-2765350-7755606"/>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-2765350-7755606 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-2765350-7755606">
+        <rdfs:label xml:lang="it">documento</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_it#c-6594700-9263777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-1295246-2357358 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-1295246-2357358">
+        <rdfs:label xml:lang="it">revisore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-4126271-1455720"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_it#c-6189953-4471928"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_it#c-6594700-9263777 -->
+
+    <owl:Class rdf:about="http://cmt_it#c-6594700-9263777">
+        <rdfs:label xml:lang="it">persona</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+
