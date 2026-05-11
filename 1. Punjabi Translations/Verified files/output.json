@@ -1,5 +1,20 @@
 [
     {
+        "term_en": "",
+        "term_pa": "",
+        "term_roman": "",
+        "base_score": null,
+        "llm_score": null,
+        "final_score": null,
+        "judge_feedback": {
+            "semantic": null,
+            "completeness": null,
+            "structure": null,
+            "final": null,
+            "error": ""
+        }
+    },
+    {
         "term_en": "accepted by",
         "term_pa": "ਦੁਆਰਾ ਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ",
         "term_roman": "duara sweekaar keeta gia",
@@ -147,6 +162,21 @@
             "structure": 0.7,
             "final": 0.7,
             "error": "none"
+        }
+    },
+    {
+        "term_en": "",
+        "term_pa": "",
+        "term_roman": "",
+        "base_score": null,
+        "llm_score": null,
+        "final_score": null,
+        "judge_feedback": {
+            "semantic": null,
+            "completeness": null,
+            "structure": null,
+            "final": null,
+            "error": ""
         }
     },
     {
@@ -901,7 +931,7 @@
     },
     {
         "term_en": "conference announcement",
-        "term_pa": "ਕਾਨਫਰੰਸ ਦਾ ਐਲਾਨ",
+        "term_pa": "",
         "term_roman": "conference elaanan",
         "base_score": 0.75,
         "llm_score": 1.0,
@@ -1230,7 +1260,7 @@
         }
     },
     {
-        "term_en": "scientific event",
+        "term_en": "",
         "term_pa": "ਵਿਗਿਆਨਕ ਘਟਨਾ",
         "term_roman": "Vigyaanik Ghatna",
         "base_score": 0.75,
@@ -1377,6 +1407,21 @@
             "structure": 1.0,
             "final": 1.0,
             "error": "none"
+        }
+    },
+    {
+        "term_en": "",
+        "term_pa": "",
+        "term_roman": "",
+        "base_score": null,
+        "llm_score": null,
+        "final_score": null,
+        "judge_feedback": {
+            "semantic": null,
+            "completeness": null,
+            "structure": null,
+            "final": null,
+            "error": ""
         }
     },
     {
@@ -2056,7 +2101,7 @@
     },
     {
         "term_en": "has remark",
-        "term_pa": "ਟਿੱਪਣੀ ਹੈ",
+        "term_pa": "",
         "term_roman": "Tipni hai",
         "base_score": 0.6,
         "llm_score": 0.7,
@@ -2502,6 +2547,21 @@
             "structure": 1.0,
             "final": 1.0,
             "error": "none"
+        }
+    },
+    {
+        "term_en": "",
+        "term_pa": "",
+        "term_roman": "",
+        "base_score": null,
+        "llm_score": null,
+        "final_score": null,
+        "judge_feedback": {
+            "semantic": null,
+            "completeness": null,
+            "structure": null,
+            "final": null,
+            "error": ""
         }
     },
     {

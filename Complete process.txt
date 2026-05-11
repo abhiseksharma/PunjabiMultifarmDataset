@@ -1,13 +1,13 @@
 1. (extractingClassnamesForTranslations.py)Fetched every label inside the english ontologies
 2. Got initial tranlation from google.
 3. Varified those translations manually.
-4. (populating.py)Used the varified translations to create hindi ontologies by replacing the terms in the english ontologies. Along with replacing the terms random IRI are also generated and assigned along the way.
+4. (populating.py)Used the varified translations to create punjabi ontologies by replacing the terms in the english ontologies. Along with replacing the terms random IRI are also generated and assigned along the way.
 5. For generating reference allignment
-	5.1. First list of IRI in en and its counterpart IRI in hindi are fetched and kept as an dictionary.
-	5.2. Used the existing reference alignment of english created the hi alingments by just replacing the english IRI with its counterpart hindi IRI's.
-6. The above process left english-hindi reference alignments so for that created a subscript as followd
-	6.1. Used german-english alignments to create a list of IRI pairs or hindi and german.
-	6.2. Then using the same set of reference alignments files created the enligh-hindi alignements by replacig the german IRI's with mapped hindi once.
+	5.1. First list of IRI in en and its counterpart IRI in punjabi are fetched and kept as an dictionary.
+	5.2. Used the existing reference alignment of english created the hi alingments by just replacing the english IRI with its counterpart punjabi IRI's.
+6. The above process left english-punjabi reference alignments so for that created a subscript as followd
+	6.1. Used german-english alignments to create a list of IRI pairs or punjabi and german.
+	6.2. Then using the same set of reference alignments files created the enligh-punjabi alignements by replacig the german IRI's with mapped punjabi once.
 
 
 
@@ -15,9 +15,9 @@
 
 
 
-Steps to for ADOM like hindi dataset
-1. Hindi ontology
-	a. Translations of terms in the ontologies in hindi.
+Steps to for ADOM like punjabi dataset
+1. punjabi ontology
+	a. Translations of terms in the ontologies in punjabi.
 	b. Validating the translations.
 	c. Ontology creation.
 

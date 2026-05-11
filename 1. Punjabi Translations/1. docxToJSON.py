@@ -4,7 +4,7 @@ import json
 from docx import Document
 
 # Folder containing .docx files
-folder_path = "C:/Files/Punjabi Multifarm dataset/1. Punjabi"
+folder_path = "Verified files"
 
 # Output JSON file
 output_json = "output.json"

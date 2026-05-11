@@ -115,6 +115,8 @@ translations.drop([0], axis=1, inplace = True)
 #    return words
 
 
+lang_iden = 'pa'
+
 for (dirpath, dirnames, filenames) in os.walk(path):
     # if dirpath==path:
     #     continue
@@ -122,7 +124,7 @@ for (dirpath, dirnames, filenames) in os.walk(path):
     for j in filenames:
         filePath = dirpath + "\\" +j
         
-        outputFile = "C:/Users/user/OneDrive/PhD (document or files other than dropbox)/Hindi Dataset for Ontology Matching/3. Ontology creation and population/hindi ontologies using multifarm/" + j[:-6] + "hi.owl"
+        outputFile = "Punjabi ontologies using multifarm/" + j[:-6] + lang_iden + ".owl"
         
         graph = Graph()
         graph.parse(filePath)
@@ -153,8 +155,8 @@ for (dirpath, dirnames, filenames) in os.walk(path):
                         except(TypeError):
                             data = data.replace('>' + label + '<', '>' + translations.loc[label][1].iloc[0] + '<')
 #                            data = data.replace('\"#' + label + '\"', '\"#' + translations.loc[label][1].iloc[0] + '\"')
-#                        except:
-#                            pass
+                        except:
+                            pass
                         done.append(label)
                 
         '''  Changing IRI '''
@@ -169,13 +171,13 @@ for (dirpath, dirnames, filenames) in os.walk(path):
                  two = random.randrange(1000000, 9999999)
                  prevIri = str(sub)
                  iri = prevIri[:-15] + str(one) + "-" + str(two)
-                 iri = iri.replace('_en', '_hi')
+                 iri = iri.replace('_en', '_'+lang_iden)
                  if iri not in usedIRIID:
                      data = data.replace(prevIri, iri)
                  usedIRIID.append(iri)
                  
-        data = data.replace("""xml:lang=\"en\"""", """xml:lang=\"hi\"""")       # xml:lang="en"
-        data = data.replace(j[:-7] + "_en", j[:-7] + "_hi")                     # cmt_en
+        data = data.replace("""xml:lang=\"en\"""", """xml:lang=\""""+lang_iden+"""\"""")       # xml:lang="en"
+        data = data.replace(j[:-7] + "_en", j[:-7] + "_"+lang_iden)                     # cmt_en
 
                 # if classCount == 0:
                 #     for classLabel in graph.objects(subject = rdflib.term.URIRef(sub), predicate = rdflib.term.URIRef('http://data.bioontology.org/metadata/prefixIRI')):

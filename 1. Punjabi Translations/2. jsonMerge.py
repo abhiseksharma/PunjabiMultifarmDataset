@@ -2,10 +2,10 @@ import os
 import json
 
 # Folder containing JSON files
-folder_path = "C:/Files/Punjabi Multifarm dataset/1. Punjabi"
+folder_path = "Verified files"
 
 # Output merged JSON file
-output_json = "merged_json.json"
+output_json = folder_path + "/merged_json.json"
 
 # Store merged data
 merged_data = []

@@ -11,12 +11,15 @@ from rdflib import Graph
 import rdflib
 #import requests
 import pandas as pd
+from pathlib import Path
 
 # [x[0] for x in os.walk("ont")]
 
 #translations = dict()
 
 path = "1. ref al"
+
+lang_iden = 'pa'
 
 translations = pd.read_csv("Translations (multifarm).csv", header=None)
 #translations.drop([0, 3, 4, 5], axis=1, inplace = True)
@@ -32,7 +35,7 @@ for (dirpath, dirnames, filenames) in os.walk(path):
         filePath = dirpath + "\\" +j
 #        print(filePath)
         
-        outputFile = "3. hindi ref al" + dirpath.replace(path, "").replace("en", "hi") +  "\\"  + j.replace("-en", "-hi")
+        outputFile = "3. Punjabi ref al" + dirpath.replace(path, "").replace("en", ""+lang_iden) +  "\\"  + j.replace("-en", "-"+lang_iden)
 #        f = open(filePath, 'r')
 #        for line in f.readlines():
 #            if j[:-6] + "_en" in line:
@@ -44,13 +47,15 @@ for (dirpath, dirnames, filenames) in os.walk(path):
         data = f.read()
         f.close()
         
-        for ind in engHindiAlign.index:
+        for ind in engPunjabiAlign.index:
 #            print(type(ind))
 #            break
-            data = data.replace(ind, engHindiAlign.loc[ind][0])
+            data = data.replace(ind, engPunjabiAlign.loc[ind][0])
         
 
-        f = open(outputFile, "w", encoding = "UTF-8")
-        f.close()
+        # f = open(outputFile, "w", encoding = "UTF-8")
+        # f.close()
+        subPath = Path(outputFile)
+        subPath.parent.mkdir(parents=True, exist_ok=True)
         with open(outputFile, "w", encoding = "UTF-8") as text_file:
             text_file.write(data)
